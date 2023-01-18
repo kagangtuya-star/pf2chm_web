@@ -1,0 +1,603 @@
+
+<html>
+
+<head>
+<title>03运行探索模式.htm</title>
+
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:等线;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:"\@微软雅黑";}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@等线";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.a, li.a, div.a
+	{mso-style-name:前言文本;
+	mso-style-link:"前言文本 字符";
+	margin:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:9.0pt;
+	font-family:"微软雅黑",sans-serif;
+	color:#5E0000;
+	font-style:italic;}
+span.a0
+	{mso-style-name:"前言文本 字符";
+	mso-style-link:前言文本;
+	font-family:"微软雅黑",sans-serif;
+	color:#5E0000;
+	font-style:italic;}
+p.a1, li.a1, div.a1
+	{mso-style-name:默认文本;
+	mso-style-link:"默认文本 字符";
+	margin:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:9.0pt;
+	font-family:"微软雅黑",sans-serif;}
+span.a2
+	{mso-style-name:"默认文本 字符";
+	mso-style-link:默认文本;
+	font-family:"微软雅黑",sans-serif;}
+p.a3, li.a3, div.a3
+	{mso-style-name:一级标题;
+	mso-style-link:"一级标题 字符";
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:22.0pt;
+	font-family:"微软雅黑",sans-serif;
+	color:#5E0000;
+	font-weight:bold;}
+span.a4
+	{mso-style-name:"一级标题 字符";
+	mso-style-link:一级标题;
+	font-family:"微软雅黑",sans-serif;
+	color:#5E0000;
+	font-weight:bold;}
+p.a5, li.a5, div.a5
+	{mso-style-name:二级标题;
+	mso-style-link:"二级标题 字符";
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:16.0pt;
+	font-family:"微软雅黑",sans-serif;
+	color:#002664;
+	font-weight:bold;}
+span.a6
+	{mso-style-name:"二级标题 字符";
+	mso-style-link:二级标题;
+	font-family:"微软雅黑",sans-serif;
+	color:#002664;
+	font-weight:bold;}
+p.a7, li.a7, div.a7
+	{mso-style-name:三级标题;
+	mso-style-link:"三级标题 字符";
+	margin-top:7.5pt;
+	margin-right:0cm;
+	margin-bottom:7.5pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:14.0pt;
+	font-family:"微软雅黑",sans-serif;
+	color:#5E0000;
+	font-weight:bold;}
+span.a8
+	{mso-style-name:"三级标题 字符";
+	mso-style-link:三级标题;
+	font-family:"微软雅黑",sans-serif;
+	color:#5E0000;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-family:等线;}
+.MsoPapDefault
+	{text-align:justify;
+	text-justify:inter-ideograph;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="02运行遭遇模式.htm" title="Previous topic"><img id="winchm_template_prev" alt="Previous topic" src="../template2/btn_prev_n.gif" border="0"></a><A href="04运行休整期.htm" title="Next topic"><img id="winchm_template_next" alt="Next topic" src="../template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation">Help &gt; 
+<A href="../游戏主持人指南.htm">游戏主持人指南</A> &gt; <A href="../1.htm">第1章 游戏主持基础</A> &gt; </div>
+	<div id="winchm_template_title">03运行探索模式.htm</div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content">
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=a3>运行探索模式 <span lang=EN-US>Running Exploration</span></p>
+
+<p class=a>探索涵盖了各种各样的情况，能让团队的创造力和讲故事能力有机会尽情展现。你还可以用它来控制游戏的节奏，让正在探索的区域中有趣地点和事件的数量以及你想要深入的详细程度指引你。</p>
+
+<div class=a1 align=center style='text-align:center'><span lang=EN-US>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<p class=a1>核心规则书从<span lang=EN-US>496</span>页开始讨论运行探索模式，本节补充了那些信息。如果想运行专注于探索和绘制未知荒野地图的团期或冒险，请考虑<span
+lang=EN-US>170</span>页的六角格探索子系统。如果正在寻找有关进行先攻的指导，请参阅<span lang=EN-US>11</span>页的运行遭遇部分。</p>
+
+<p class=a1 style='text-indent:21.0pt'>在运行探索时，请牢记以下基本目标。你将在前面几节中找到其中许多要点的更多建议。</p>
+
+<p class=a1 style='margin-left:21.0pt;text-indent:-21.0pt'><span lang=EN-US
+style='font-family:Wingdings'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span>用感官细节唤起环境的印象。</p>
+
+<p class=a1 style='margin-left:21.0pt;text-indent:-21.0pt'><span lang=EN-US
+style='font-family:Wingdings'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span>改变时间的流逝以强调紧张和不确定性，并加速经过没有事件的时间段。</p>
+
+<p class=a1 style='margin-left:21.0pt;text-indent:-21.0pt'><span lang=EN-US
+style='font-family:Wingdings'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span>让玩家做出反应，来补充细节。</p>
+
+<p class=a1 style='margin-left:21.0pt;text-indent:-21.0pt'><span lang=EN-US
+style='font-family:Wingdings'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span>呈现小规模的谜团以吸引玩家并刺激调查。</p>
+
+<p class=a1 style='margin-left:21.0pt;text-indent:-21.0pt'><span lang=EN-US
+style='font-family:Wingdings'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span>当需要扔骰时，寻找方法让行动进展或失败时增加有趣的波折。</p>
+
+<p class=a1 style='margin-left:21.0pt;text-indent:-21.0pt'><span lang=EN-US
+style='font-family:Wingdings'>l<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span>计划有效过渡到遭遇。</p>
+
+<p class=a5>令人回味的环境 <span lang=EN-US>Evocative Environments</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=a1 style='border:none;padding:0cm'>随着<span lang=EN-US>PC</span>的探索，通过吸引玩家的感官来传达他们周围的环境。这会设置好场景，让他们更好地了解周围的环境，并且可以用来预示他们可能会发现什么。在确定要涵盖哪些细节时，请考虑哪些玩家熟悉，哪些是新颖的。新的地城可能与以前的地城具有相似的建筑，但具有使其与众不同的古老结构。你可以根据<span
+lang=EN-US>PC</span>熟悉程度来选择描述什么新东西。在准备游戏时，想象自己在环境中，记下你能感觉到什么。传达这些细节可以让玩家的感觉保持一致，即使每个角色的反应不同。</p>
+
+<p class=a1 style='text-indent:21.0pt;border:none;padding:0cm'>请记住，你解释什么越多，它看起来就越重要。这对你激发兴趣很有价值，但也可能是喜忧参半，因为描述一些无关紧要的东西会导致玩家偏离正题。有时，最好的解决方案是找到一种方法，把不重要的事情改成玩家认为的那样重要！</p>
+
+</div>
+
+<p class=a5>时间流逝 <span lang=EN-US>Flow of Time</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=a1 style='border:none;padding:0cm'>正如核心规则书中所述，你很少在探索模式中以秒或分钟来度量。如果有人问某件事需要多长时间，通常以<span
+lang=EN-US>10</span>分钟为单位最接近的时间就可完成这项工作。（对于长途航行，可能<span lang=EN-US>1</span>小时为单位最接近的时间更合适。）你通过描述传达时间的流逝，而不仅仅是直截了当地说明。在角色扮演游戏中，信息和时间是联系起来的。当你提供更多信息时，时间就好像变慢了。从电影的角度思考！长途航行中像蒙太奇一样穿越一系列隧道效果很好，而搜查雕像来寻找陷阱的过程可能会被快速连续地转播为一系列痛苦的细节，并且由于这种精确，会让人感觉更加紧张。</p>
+
+<p class=a1 style='text-indent:21.0pt;border:none;padding:0cm'>考虑到上面那些，什么时候加快或减慢游戏时间的流逝最好？通常，当你建立关于某样物品的印象或推进故事时，你放慢速度并提供更多描述。当<span
+lang=EN-US> PC </span>进入地城或新区域时，描述<span lang=EN-US>PC</span>的感觉，放慢速度让玩家了解前方的情况。当<span
+lang=EN-US>PC</span>停下来做一些重要的事情或做出关键决定时，放慢速度给这个时刻应有的分量。你还可以调整时间流逝以反映<span
+lang=EN-US>PC</span>的精神状态。当<span lang=EN-US>PC</span>在几十年后返回家中时，你可以停下来询问玩家他们的<span
+lang=EN-US>PC</span>的感受，将时间与<span lang=EN-US>PC</span>脑海中涌现的回忆和情感相匹配。</p>
+
+</div>
+
+<p class=a5>探索模式行动 <span lang=EN-US>Exploration Activities</span></p>
+
+<p class=a1>如《核心规则书》<span lang=EN-US>479</span>页所述，<span lang=EN-US>PC</span>将在探索时进行探索模式行动（<span
+lang=EN-US>exploration activities</span>）。游戏中这些行动的目的是阐明<span lang=EN-US>PC</span>在探索时关注什么，而不是去不切实际地同时做所有事情。这让团队的行动更多元，并可以反映玩家希望故事怎么发展。例如，一位玩家的<span
+lang=EN-US>PC</span>正在调查墙上的雕刻，表明该玩家希望这些雕刻能够提供信息。</p>
+
+<p class=a1 style='text-indent:21.0pt'>团队探索时不断发生的探索行动首先是叙述性的，玩家向你描述自己在做什么，然后你决定使用哪个行动，以及任何细节或情况变化。如果玩家说“我要避人耳目”，询问他们采取哪些预防措施或告诉他们哪条通道防卫最少的通道来加入更多细节。同样，如果玩家说他们正在寻找陷阱并保持举起盾牌并掩盖团队的足迹，为了确认用哪种行动，询问他们哪个最重要。在当前情况下考虑行动的有利因素和不利因素。例如，有人侦察（<span
+lang=EN-US>Scout</span>）可能会遇到薄冰并在团队过来前掉下去，或者有人调查（<span lang=EN-US>Investigate</span>）古代象形文字可能会大失败并带领团队走向错误的方向。这不适用于在小组短暂停歇或小到特定动作（例如治疗伤口）时发生的单独的探索行动。角色总是可以退出持续的探索活动以执行单独的探索行动（即使他们在旅行时感到疲劳因而无法维持探索行动），并且他们可以随时改变行动。核心规则手册在<span
+lang=EN-US>496</span>页上介绍了如何裁定特定行动<span lang=EN-US>——</span>侦测魔法<span
+lang=EN-US>Detect Magic</span>、跟随专家<span lang=EN-US>Follow the Expert</span>、调查<span
+lang=EN-US>Investigate</span>和搜索<span lang=EN-US>Search</span>。</p>
+
+<p class=a7>搜索的补充 <span lang=EN-US>More on Searching</span></p>
+
+<p class=a1>搜索规则有意避免提及搜索所需时间的复杂细节。花费多长时间取决于你，因为所面临的情况不能一概而论。如果团队不处于险境且有时间进行非常彻底的搜索，那么这时是个让他们自动成功的机会，而不是麻烦的扔骰，或者可以让他们扔骰看看需要多长时间才能找到他们正在寻找的东西，但无论结果如何，他们最终都会找到。相反，如果他们在地城中停下来进行彻底的搜索，那么这时他们的努力就会引起不想要的注意！</p>
+
+<p class=a1 style='text-indent:21.0pt'>如果首次搜索失败，<span lang=EN-US>PC</span>可能会尝试再次检定。但是什么时候允许他们再试一次？最好与他们采取不同策略时有关。仅仅说<span
+lang=EN-US>“</span>我再次搜索它<span lang=EN-US>”</span>是不够的，但如果<span lang=EN-US>PC</span>尝试不同的方法或有其他工具可供使用，这就够了。只要玩家付出思考，就大方一点允许！如果你知道搜索不会找到任何有用的信息，请尽早说明，这样团队就不会在这浪费太多时间。如果他们下定决心继续搜索<span
+lang=EN-US>——</span>他们通常会这样<span lang=EN-US>——</span>你可能会让他们在搜索中找到有用但不那么重要的东西。</p>
+
+<p class=a7>跟随专家的补充 <span lang=EN-US>More on Follow the Expert</span></p>
+
+<p class=a1>跟随专家是一项非常多用途的行动，能让缺乏技能或探索行动的<span lang=EN-US>PC</span>有更高的成功率。不要太机械化。让玩家决定其中一个怎么帮助另一个。他们的描述可以给你更多可以处理的东西，并为探索添加有趣的色彩，而不仅仅是机械式地使用。此外，如果<span
+lang=EN-US>PC</span>一遍又一遍地以相同方式帮助另一位<span lang=EN-US>PC</span>，这可能表明角色正在以特定的方式成长。如果盗贼一遍又一遍地帮助战士掩人耳目<span
+lang=EN-US>Avoid Notice</span>，那么战士此时基本上正在接受隐秘<span lang=EN-US>stealth</span>训练，并且需要考虑获得技能提升或重训技能提升以实现。像这样的联系可以为角色及其关系注入活力，并有助于促进角色之间的友情和互动。</p>
+
+<p class=a7>创作新行动 <span lang=EN-US>Improvising New Activities</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=a1 style='border:none;padding:0cm'>探索行动列表并不详尽。更多细节出现在特殊子系统和模组中，你经常需要创建自己的子系统。在创作时，通常只需考虑<span
+lang=EN-US>PC</span>必须投入的精力是否与其他探索行动相等，然后从那里开始。如果你遇到困难，请尝试寻找类似的活动。例如，如果<span
+lang=EN-US>PC</span>在探索时正在游泳<span lang=EN-US>Swimming</span>，请考虑旅行速度基于每<span
+lang=EN-US>6</span>秒<span lang=EN-US>1</span>个动作的等效，而<span lang=EN-US>PC</span>可以持续而不会疲倦的其他探索行动通常等效于交替两个动作<span
+lang=EN-US>12</span>秒，平均每<span lang=EN-US>6</span>秒执行<span lang=EN-US>1</span>个动作。（例如，防卫<span
+lang=EN-US>Defend</span>是基于<span lang=EN-US>1</span>个动作行走然后使用<span lang=EN-US>1</span>个动作来举起你的盾牌，这就是<span
+lang=EN-US>PC</span>以半速移动的原因。）强行军<span lang=EN-US>Hustle</span>作为一个不能无限进行的行动是个很好的例子，所以你可以将其用作剧烈运动的模型，其中<span
+lang=EN-US>PC</span>每<span lang=EN-US>6</span>秒使用相当于<span lang=EN-US>2</span>个动作。</p>
+
+<p class=a1 style='text-indent:21.0pt;border:none;padding:0cm'>在即兴创作探索行动时，请考虑该行动的优点和缺点以激发你的灵感。在进行这项行动时，<span
+lang=EN-US>PC</span>还会忽略什么？它与队伍内其他成员使用的行动如何互动？如果似乎新行动始终或几乎所有时间都比其他行动更好用，那么你可能需要调整以使其更加平衡。最终，你将开始发现你的团队最喜欢哪些探索行动。</p>
+
+</div>
+
+<p class=a5>探索中的场景 <span lang=EN-US>Scenes within Exploration</span></p>
+
+<p class=a1>将探索视为一系列场景将对你有所帮助，这时遭遇不会打破探索，而且作为其中的一部分发挥作用。这其中许多是基于地理位置，例如，探索一系列地牢走廊作为一个场景，进入地牢的大厅是另一个场景。其他时候，你会在重要地点跳出一个场景。如果<span
+lang=EN-US>PC</span>决定停止旅行并调查雕像，请将其视为一个新场景。</p>
+
+<p class=a1 style='text-indent:21.0pt'>这么做让你更好描述场景之间的过渡。描述正在发生的事情来强调团队所处的位置，然后描述他们现在面临的情况以显示变化。例如，“你们一直沿着这条长长的走廊前进，但经过片刻的争论后，你们停了下来，你们的脚步声和说话声仍然在走廊里回荡。你们面前的石像有七英尺高，装饰着红宝石。它代表着……也许是一个神？它的脸被毁坏了。你们怎么做？”</p>
+
+<p class=a1 style='text-indent:21.0pt'>在描述场景时，开始时描述应该为详细描述的细节设下期待，你和玩家可以根据需要进行调整。此外，从一名<span
+lang=EN-US>PC</span>转到另一名<span lang=EN-US>PC</span>以避免所有人同时交谈。如果可能的话，从推动场景变化的人开始，或者使用最相关探索行动的<span
+lang=EN-US>PC</span>开始，例如上面示例中某个调查（<span lang=EN-US>Investigating</span>）艺术品或搜索（<span
+lang=EN-US>Searching</span>）秘密的<span lang=EN-US>PC</span>。</p>
+
+<p class=a7>危害 <span lang=EN-US>Hazards</span></p>
+
+<p class=a1>寻找和解除危害的任务在探索中经常出现，是一种探索中场景的范例。危害通常不会凭空出现。陷阱可能在门锁上，可能在走廊的某个转角处，等等。你可以在大房间的中间设置一个深坑陷阱，但一个完全出乎意料的惊喜可能会让人非常不满意。相同的陷阱出现在<span
+lang=EN-US>10</span>英尺宽、毫无特色到可疑的走廊中间可以让玩家说，<span lang=EN-US>“</span>好吧，我们应该看到它的到来<span
+lang=EN-US>”</span>，即使是最少量的伏笔。</p>
+
+<p class=a1 style='text-indent:21.0pt'>当复杂的危害触发时，转到遭遇模式。简单危害通常在探索模式中处理，但并不意味着应该被敷衍地带过。清楚地说明<span
+lang=EN-US>PC</span>的哪些操作会引发危害、危害激活时发生了什么以及任何后果。<span lang=EN-US>PC</span>有很多方法治疗自己，因此请记住，有伤害的危害并不总是会产生巨大的影响。如果激活可能会警告该区域的生物、将<span
+lang=EN-US>PC</span>锁在一个区域之外，或者导致类似的挫折，而不仅仅是造成伤害，这样往往效果最佳。</p>
+
+<p class=a1 style='text-indent:21.0pt'>如果<span lang=EN-US>PC</span>侦测到危害并想要解除危害，请放慢速度。让玩家描述<span
+lang=EN-US>PC</span>正在做什么，并给出具体细节，说明他们如何努力让感觉更真实。玩家稍微出点汗就更好了！毕竟，这是一个紧张的情景。如果危害需要多次检定才能解除，最好描述每次成功后发生的情况以显示进展。</p>
+
+<p class=a7>调查 <span lang=EN-US>Investigations</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=a1 style='border:none;padding:0cm'>调查这个探索行动非常广泛，可以导入更彻底的调查场景。以一个有细节但显然不是全貌的明确线索开始：“这些符文看起来像用于奥术，但属于某种变种，”“当你评估房间的建筑设计时，你会看到柱帽全部用花岗岩制成，除了有个似乎是用石膏刷的”，或者“每一块彩色玻璃都显示了诺格巴<span
+lang=EN-US>Norgorber</span>的一个面相的场景，但只有三个窗户，而诺格巴<span lang=EN-US>Norgorber</span>有四个面相。<span
+lang=EN-US>”</span></p>
+
+<p class=a1 style='text-indent:21.0pt;border:none;padding:0cm'>然后，如果这激起了玩家的兴趣，你可以进行更细致的调查。他们可能会更仔细地观察符文，切掉石膏或者四处寻找诺格巴<span
+lang=EN-US>Norgorber</span>第四面相的代表。如果没有必要，就避免要求检定。在最后一个例子中，你可以在没有宗教知识检定得情况下告知他们哪个面相不见了，如果房间里的雕像代表这个面相，要求进行察觉检定抄近路调查来找是种很无趣的方式。</p>
+
+<p class=a1 style='text-indent:21.0pt;border:none;padding:0cm'>为了让调查更具真实感，通过讨论说出是什么线索激发他们思考某个重要细节的思维过程，解释细节是什么，并可能提到细节引发的进一步问题。然后让玩家推断而不是你告诉他们得出什么结论。即使调查没有得出明确的结论，玩家也应该觉得比开始时更了解情况。</p>
+
+<p class=a1 style='text-indent:21.0pt;border:none;padding:0cm'>虽然调查是一个人开始，但让其他人参与可以提高他们的兴致，并用不同的技能来获取其他类型的信息。应挡奖励合作和聪明的想法。</p>
+
+</div>
+
+<p class=a5>迷路 <span lang=EN-US>Getting Lost</span></p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=a1 style='border:none;padding:0cm'>当<span lang=EN-US>PC</span>探索荒野或地城的曲折走廊时，他们可能会迷路。迷路可能发生他们无法使用生存技能来辨别方向<span
+lang=EN-US>Sense their Direction</span>，但也可能随着故事发生，例如，如果他们离开传送门<span
+lang=EN-US>portal</span>来到陌生的土地上，或者从地下通道进入森林。把荒野漫步进行到底并尝试找到路的过程对于团队来说可能很有趣，只要间隔时间够短。如果团队在团期开始时迷路，他们通常在结束时应该已经找到了自己的路并到达了一个重要的目的地。</p>
+
+<p class=a1 style='text-indent:21.0pt;border:none;padding:0cm'>辨别方向（<span
+lang=EN-US>Sense Direction</span>）行动使用生存技能来寻找北方。你可以将其与回忆有关该地区的知识（通常使用自然或社会）结合起来，让<span
+lang=EN-US>PC</span>获得最初的方向。如果该团队仍然相当接近定居点或已确认的国家，则检定的<span lang=EN-US>DC</span>通常是受训或专家，但在荒野深处可能更高。当<span
+lang=EN-US>PC</span>试图找到路时，想办法包括他们可以寻找或偶然发现的显眼地标。一些地标可能很有用，例如他们可以爬到远处的一棵大树以获得更好的视野，或者山坡上飘出多股烟，表明有定居点。其他地标可能是神秘或危险的，例如闹鬼的林间空地或动物狩猎场。当<span
+lang=EN-US>PC</span>们第一次环顾四周或侦察<span lang=EN-US>scout</span>时，指出两三个地标。让团队以此决定他们的行程。如果长途跋涉需要多天，你可以加速度过每一天。如果他们吃光了食物，你可能需要让他们用求生<span
+lang=EN-US>Subsist</span>，如果他们在危险区域内，你可能希望加入一些遭遇。对于这些遭遇，挑选生活在当前环境中的生物。请记住，并非所有生物一见面就会攻击。友好或谨慎的生物可能会靠近，从而产生更多互动场景，甚至可能帮助<span
+lang=EN-US>PC</span>。</p>
+
+<p class=a1 style='text-indent:21.0pt;border:none;padding:0cm'>如果<span
+lang=EN-US>PC</span>运气不佳或者生存技能<span lang=EN-US>Survival</span>很低，你可能最终会陷入困境，无法让他们重新调整自己的方向。在这中情况下，让其它人来找他们！他们可能会被当地的类人生物或怪物捕获，或者偶然发现一个危险的地方。他们已经弄清楚了自己在哪里，即使这不是他们想在的地方！</p>
+
+</div>
+
+<p class=a5>突袭 <span lang=EN-US>Surprise Attacks</span></p>
+
+<p class=a1>核心规则手册的<span lang=EN-US>499</span>页介绍了<span lang=EN-US>PC</span>休息时突袭发生的机制。即使在危险地区，也应谨慎使用此类突袭。<span
+lang=EN-US>PC</span>结伴而行会吓跑大多数动物，而设置守卫可以阻止更多的攻击者。如果<span lang=EN-US>PC</span>事先做了一些会导致伏击的事情，则最有可能发生突袭。比如，他们在团期早些时候炫耀自己的财富或炫耀昂贵的物品，就可能会被土匪伏击，或者如果他们先攻击敌人，然后可能会被敌人反击，结果撤退休息。如果<span
+lang=EN-US>PC</span>们仓促地扎营并决定不设置守卫，如果他们受到攻击，可能会遇到麻烦。这应该只发生在极端草率的情况下，因为如果你利用小失误，你最终可能会遇到团队反复花费大量时间描述他们所有露营准备以防止再次发生。通常最好询问<span
+lang=EN-US>PC</span>是否正在设置守卫，而不是假定只要对这个问题没说就意味着没有设置。对或滥强能力的怪物），你更可能应该进行调整。</p>
+
+<p class=a1><span lang=EN-US>&nbsp;</span></p>
+
+<p class=a1 style='background:#D9E2F3'><b><span style='font-size:12.0pt;
+color:black'>边栏：快速环境细节</span></b></p>
+
+<p class=a1 style='background:#D9E2F3'><b><span style='font-size:10.5pt;
+color:black'>水</span></b></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>视觉：波涛汹涌，海浪翻滚，阳光闪烁，地平线的弯曲，浮木</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>听觉：海浪拍打着船、海鸟的叫声、飘动的风帆、生物跳出水面</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>嗅觉：海水，清新的空气，死鱼的臭味</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>质地：寒冷的水、黏糊糊的海藻、表面聚集的硬盐</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>天气：强风，即将来临的风暴</span></p>
+
+<p class=a1 style='background:#D9E2F3'><b><span style='font-size:10.5pt;
+color:black'>极地</span></b></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>视觉：眩目的反射阳光、白雪皑皑的平原、远处的冰川、深深的裂缝、岩石峭壁、浮冰和冰山、雪中的动物足迹</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>听觉：呼啸的风声，融化的冰滴下，彻底的安静</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>嗅觉：干净的空气，半冻沼泽，地衣、海藻的味道</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>质地：嘎吱嘎吱的雪，硬冰</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>天气：寒冷的强风，小雪，猛烈的暴风雪</span></p>
+
+<p class=a1 style='background:#D9E2F3'><b><span style='font-size:10.5pt;
+color:black'>森林</span></b></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>视觉：参天大树，茂密的灌木丛，翠绿的华盖，丰富多彩的野生动物，斑驳的阳光透过树木，长满苔藓的树干，扭曲的树根</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>听觉：树叶沙沙作响，树枝咔擦折断，动物的叫声</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>嗅觉：腐烂的植被、开花的植物、松树、带土的蘑菇</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>质地：树叶在脚下嘎吱作响，树枝的刮擦，水自上滴下，粗糙的树皮</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>天气：静止的空气，凉爽的树荫，零星的微风，雨下在华盖上，厚厚的雪复盖住树枝</span></p>
+
+<p class=a1 style='background:#D9E2F3'><b><span style='font-size:10.5pt;
+color:black'>山</span></b></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>视觉：光秃秃的悬崖、雪盖、耐寒的树木、布满碎石的斜坡、落下的岩石、飞翔的鸟儿、山峰间的雾气</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>听觉：呼啸的风声、落石声、清晰的回声、脚下石头的嘎吱声、远处的山崩</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>嗅觉：扬尘、松树、新雪的味道</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>质地：粗糙的石头、粉雪、不稳定的粗石</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>天气：漩涡浮云，高处的寒冷，阳光直射，强风大雨</span></p>
+
+<p class=a1 style='background:#D9E2F3'><b><span style='font-size:10.5pt;
+color:black'>平原</span></b></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>视觉：草轻轻摇曳，散落的野花，石头裸露或圆石，地平线的弯曲</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>听觉：风声沙沙作响，鸟鸣，远方的声音</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>嗅觉：新鲜的空气，泥土，遥远的尸体</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>质地：碰触高草，杂草的刮擦，干燥泥土的嘎吱嘎吱</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>天气：凉爽微风、阳光直射的热度、巨大的黑色雷云</span></p>
+
+<p class=a1 style='background:#D9E2F3'><b><span style='font-size:10.5pt;
+color:black'>沼泽</span></b></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>视觉：茂密的树叶、成群的蚊蚋、被藻类复盖的水、高跷棚屋、猛冲的鱼</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>听觉：蛙鸣、昆虫鸣叫、冒泡、水花四溅</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>嗅觉：丰富的苔藓和藻类，刺鼻的沼泽气体</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>质地：推动了漂浮的残渣、纠缠打结的爬虫、厚厚的泥</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>天气：闷热、静止的空气、倾盆大雨、阳光射下</span></p>
+
+<p class=a1 style='background:#D9E2F3'><b><span style='font-size:10.5pt;
+color:black'>地下</span></b></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>视觉：蜿蜒的通道、噼啪烧着的黄色火把、凹凸不平或有裂缝的地板、古代文字或建筑、石笋和钟乳石</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>听觉：滴滴答答的声音、老鼠或昆虫的乱窜声、远处机械的轰鸣声、自己说话和脚步的细微回声</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>嗅觉：静止的空气、硫磺味，金属矿床的刺鼻味道</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>质地：粗糙的岩壁、被冲刷平滑的石头、蜘蛛网</span></p>
+
+<p class=a1 style='background:#D9E2F3'><span style='color:black'>天气：寒冷的地下空气，地热的温度</span></p>
+
+</div>
+
+</div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div>
+</div>
+
+</body>
+
+</html>

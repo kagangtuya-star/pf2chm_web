@@ -1,0 +1,734 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>手持物品</title>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=robots content=index>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"><LINK rel=stylesheet 
+type=text/css href="Materials/4E.css">
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+</head>
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="page_160.html" title="Previous topic"><img id="winchm_template_prev" alt="Previous topic" src="template2/btn_prev_n.gif" border="0"></a><A href="page_144.html" title="Next topic"><img id="winchm_template_next" alt="Next topic" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation">Help &gt; 
+<A href="首页.html">核心规则书</A> &gt; <A href="page_139.html">第十一章：造物与宝物</A> &gt; </div>
+	<div id="winchm_template_title">手持物品</div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><H2>手持物品 Held Items</H2>
+<DIV>这类物品必须被持握在手上方可使用。武器、魔杖、法杖另有其各自的条目及相关规则。</DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>次元袋 Bag of Holding</SPAN><SPAN 
+class=level>物品4+</SPAN></DIV>
+<DIV class=trait><SPAN>咒法系</SPAN><SPAN>异次元</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>1</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>尽管这玩意看起来就像是一只装饰着五彩缤纷的绸缎与华美刺绣的布袋子，但是一只手袋被打开后所连通的异次元空间却远比它从外面看起来的要大得多得多。次元袋内部收容物的负载并不会影响它自身的负载。次元袋的异次元空间里所能收容的最大负载量取决于次元袋的类型。 
+<BR>　　像一个普通的袋子那样，你可以用交互动作将物品放入次元袋或从次元袋里取出。尽管这个袋子里可以容纳一大堆东西，但是被塞进去的物件任然必须得以通过袋子的开口。 
+<BR>　　如果袋子超载或者遭到损坏，那么它会破裂并且被毁坏，从而导致里面的物品永久性得丢失。如果将袋子的内面翻出，那么里面的东西会被无害地洒落出来，但是在下次使用袋子之前必须把它翻回原面。如果一个活物被放入袋子，里面的空气足够它存活10分钟，并且可以尝试通过一个DC13的逃脱检定来重获自由。袋子中的物品在被取出前无法提供任何效果。袋子中的物品无法被仅能侦测位于同位面物品的法术侦测到。</DIV>
+<DIV 
+class=description><B>类型</B>：I型；<B>等级</B>：4；<B>价格</B>：75gp；<B>容量</B>：25负载</DIV>
+<DIV 
+class=description><B>类型</B>：II型；<B>等级</B>：7；<B>价格</B>：300gp；<B>容量</B>：50负载</DIV>
+<DIV 
+class=description><B>类型</B>：III型；<B>等级</B>：11；<B>价格</B>：1,200gp；<B>容量</B>：100负载</DIV>
+<DIV 
+class=description><B>类型</B>：IV型；<B>等级</B>：13；<B>价格</B>：2,400gp；<B>容量</B>：150负载</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>瓶装空气 Bottled Air</SPAN><SPAN 
+class=level>物品7</SPAN></DIV>
+<DIV class=trait><SPAN>气</SPAN><SPAN>咒法系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>320gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>尽管看起来就像一只普通的带有软木塞的玻璃瓶，但是这个物品中却容纳着无穷无尽的新鲜空气。你必须先用一个交互动作打开瓶塞后才能启动这个瓶子。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+交互；<B>效果：</B>你从瓶子里深吸一口气。这让你得以在没有空气或者有毒的环境中呼吸。空气不会从瓶口中逸出，所以把一个开口的瓶子放在真空环境中并不会对环境本身造成任何改变。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>飞行扫帚 Broom of Flying</SPAN><SPAN 
+class=level>物品7</SPAN></DIV>
+<DIV class=trait><SPAN>魔法</SPAN><SPAN>变化系</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>1,900gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这把扫帚于重力间有着一股微弱的联系，以至于即使被收起时也会漂浮起来。你可以用一只手控制扫帚而让自己骑在上面，并且除你之外这把扫帚还能再搭载一名乘客。这把扫帚能够以20英尺的飞行速度移动。扫帚的运力是有限的，携带了超过20负载时它的移动速度会承受-10英尺的罚值，携带了超过30负载时它则会一头栽到地上。 
+<BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+命令，交互；<B>效果：</B>你说出一个位于同位面的目的地，扫帚就会以40英尺的飞行速度朝着你说的方向前进。你必须用两只手抓住扫帚才能让自己骑在上面，要么你就只能撒手让扫帚自个儿过去。如果你对目的地的位置、布局或是大致方向都不甚明了，或者你说的目的地在另一个位面上，那么扫帚只会漫无目的得四处游荡，并且在30分钟后返回起始位置。 
+<BR>　　如果扫帚携带着一名骑手，那么这个启动效果会在4小时后（通常情况下已经跑了16英里）、或是扫帚到达了目的地、或是你解消启动后结束。如果扫帚上没有骑手，那么这个启动效果会持续到扫帚到达目的地。当启动效果结束后，扫帚将会漂浮在地上，并且在1小时之内都无法被在此启动。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>开锁管钟 Chime of Opening</SPAN><SPAN 
+class=level>物品7</SPAN></DIV>
+<DIV class=trait><SPAN 
+class=rarity>罕见</SPAN><SPAN>塑能系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>235gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV class=description>这根长约一英尺的秘银中空管上刻着能够让人联想到开锁或是断链的雕花。管钟在它碎裂失效之前可以被启动10次。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+交互；<B>效果：</B>你将管钟对准你想要打开的一件容器、一扇门或是一把锁，然后敲响管钟。管钟发出的魔法波动会尝试一次加值为+13的贼活检定对抗锁的DC。这种方式一次只能对准一把锁，所以当一个目标拥有多种保护方式的时候，你可能要启动好几次管钟。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>水晶球 Crystal Ball</SPAN><SPAN 
+class=level>物品14+</SPAN></DIV>
+<DIV class=trait><SPAN 
+class=rarity>罕见</SPAN><SPAN>预言系</SPAN><SPAN>魔法</SPAN><SPAN>探知</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这只光洁的水晶球能够增强探知法术。任何通过水晶球施展的带有探知特征的法术所反馈得到的视觉信息都会呈现在球体里，而球体的表面则会发出所有的听觉信息。当你以任何方式施展一个探知术且手持着这个球体时，你能以相同的方式获取所有的信息，并且能让其他人看见或者听见目标。 
+<BR>　　最基本的水晶球是一只透明的石英球体，但是也有用各种各样不同的石头所制造出的别的样式的水晶球。 
+<BR><B>启动：</B>1分钟（命令，想象，交互）；<B>频率：</B>每小时1次；<B>效果：</B>水晶球按你的意愿施展<I>鹰眼术</I>。 
+<BR><B>启动：</B>10分钟（命令，想象，交互）；<B>频率：</B>每天2次；<B>效果：</B>水晶球按你的意愿施展DC33的<I>探知术</I>。</DIV>
+<DIV class=description><B>类型</B>：透明石英；<B>等级</B>：14；<B>价格</B>：3,800gp</DIV>
+<DIV class=description><B>类型</B>：月光石；<B>等级</B>：15；<B>价格</B>：7,000gp 
+<BR>探知术的DC为36，并且目标对你而言处于<I>识破隐形</I>的效果下。</DIV>
+<DIV class=description><B>类型</B>：月长石；<B>等级</B>：16；<B>价格</B>：7,500gp 
+<BR>探知术的DC为37，并且目标对你而言处于<I>读心术（Mind Reading）</I>的效果下（使用相同的DC）。</DIV>
+<DIV class=description><B>类型</B>：橄榄石；<B>等级</B>：17；<B>价格</B>：12,500gp 
+<BR>探知术的DC为39，并且你与目标可以通过<I>心灵感应（Telepathy）</I>交流。</DIV>
+<DIV class=description><B>类型</B>：黑曜石；<B>等级</B>：19；<B>价格</B>：32,000gp 
+<BR>探知术的DC为41，并且当你通过水晶球观测事物时都如同你使用了<I>真知术</I>一般。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>无尽水瓶 Decanter of Endless Water</SPAN><SPAN 
+class=level>物品7</SPAN></DIV>
+<DIV class=trait><SPAN>咒法系</SPAN><SPAN>魔法</SPAN><SPAN>水</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>320gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这件物品看起来就像是一个装满了水的普通玻璃瓶。只有当你说出了该物品的三个命令词之一后才能将瓶塞打开，每个命令词都会让水以不同的方式流出。笔直拉开瓶塞能够创造出淡水，而旋转着扭开瓶塞则能创造出盐水。所有效果都会一直持续下去直到水瓶被塞上（、用它自己的塞子、或是一根手指、或是别的什么东西）。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+命令，交互；<B>效果：</B>说出“流水”这个词可以让水以每轮1加仑的速度流出。 <BR><B>启动：</B><IMG src="Materials/OneAction.png"> 命令，交互；<B>效果：</B>说出“喷泉”这个词可以让水以每轮5加仑的速度喷出5英尺高。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+命令，交互；<B>效果：</B>说出“激流泉”这个词可以让水以每轮15加仑的迅猛势头汹涌而出。你可以将水流对准一个生物，迫使其承受水流冲击Hydraulic 
+Push法术的效果（法术攻击骰+15）。只要激流泉还在持续之中，你每轮都可以重复一次这一行为，但每次都需要花费一个交互动作来引导激流泉。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>永燃火把 Everburning Torch</SPAN><SPAN 
+class=level>物品1</SPAN></DIV>
+<DIV class=trait><SPAN>塑能系</SPAN><SPAN>光亮</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>15gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>永燃火把是常驻Permanent法术最常见的应用方式之一。这根火把持续不断地散发出光芒，无需氧气也不会发热。火光可以被遮盖或者隐藏，但无法被熄灭。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>神圣祈祷念珠 Holy Prayer Beads</SPAN><SPAN 
+class=level>物品5+</SPAN></DIV>
+<DIV class=trait><SPAN 
+class=rarity>罕见</SPAN><SPAN>神术</SPAN><SPAN>治疗</SPAN><SPAN>死灵系</SPAN><SPAN>正能量</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>—</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这串看上去平平无奇的念珠散发出柔和的光亮，并且在你第一次握着它施展神术法术的时候变得温热。当你这么做的时候，这串念珠会适应你的神祇，从而将其外观与图纹转变为符合你神祇风格的款式。这串念珠不会为了一名邪恶施法者转变，更不会为其发挥效力。<BR>　　每当你手持念珠并且使用你的法术位施展神术法术的时候都会恢复1点生命值；这是一个正能量治疗效果。如果你施展一个治疗法术，你可以将此额外的治疗赋予改法术的目标之一，而不是你本人。 
+<BR><B>启动：</B>施法；<B>效果：</B>施展一次<I>祝福术</I>或<I>医疗术</I>，每日各1次。</DIV>
+<DIV class=description><B>类型</B>：神圣祈祷念珠；<B>等级</B>：5；<B>价格</B>：160gp</DIV>
+<DIV class=description><B>类型</B>：高等神圣祈祷念珠；<B>等级</B>：11；<B>价格</B>：1,400gp 
+<BR>你使用法术位施放神术法术时恢复1d4点生命值取代原本的1点。念珠的法术变更为4环<I>祝福术</I>、<I>神圣狂怒</I>（符合你神祇的阵营之一）、<I>医疗术</I>、<I>中和毒性</I>以及<I>移除疾病</I>。你可以施放这些法术每日各1次。</DIV>
+<DIV class=description><B>制造需求：</B>你拥有源于神术根源的施法职业特性</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>音爆号角 Horn of Blasting</SPAN><SPAN 
+class=level>物品9</SPAN></DIV>
+<DIV class=trait><SPAN>塑能系</SPAN><SPAN>音波</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>700gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV class=description>音爆号角是一只闪亮的黄铜喇叭。它能被作为一种乐器来演奏，同时给你的表演检定提供+2物品加值。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+交互；<B>频率：</B>每轮1次；<B>效果：</B>当你带着恶意吹响号角时，你能够对准30英尺内的一个目标创造出一阵爆裂音符。这阵爆裂音符能够造成3d6音波伤害（基础强韧豁免，DC28）。 
+<BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+交互；<B>频率：</B>每天1次；<B>效果：</B>你可以更加大声地吹响号角来制造出一阵爆炸波，对30英尺的锥形范围内造成8d6点音波伤害。每个生物都需要进行一次DC28的强韧豁免，并具有以下效果： 
+<BR><B>大成功：</B>此生物不受伤害。 <BR><B>成功：</B>此生物受到一半的伤害。 
+<BR><B>失败：</B>此生物受到全额伤害，并且耳聋2d6轮。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>迷雾号角 Horn of Fog</SPAN><SPAN 
+class=level>物品6</SPAN></DIV>
+<DIV class=trait><SPAN>咒法系</SPAN><SPAN>魔法</SPAN><SPAN>水</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>230gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>1</TD></TR></TBODY></TABLE>
+<DIV class=description>这只巨大的羊角号角上永远都挂着微小的水珠，就好似水汽凝结在这号角上一般。 <BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+交互；<B>频率：</B>每小时1次；<B>效果：</B>你向号角里猛吹一口气，使其产生出一股低沉的气浪，并且施放了一个2环<I>隐雾术</I>。你能够在任何时候通过一个交互动作再次吹响号角用以消解这阵迷雾。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>不动权杖 Immovable Rod</SPAN><SPAN 
+class=level>物品9</SPAN></DIV>
+<DIV class=trait><SPAN>魔法</SPAN><SPAN>变化系</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>600gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>1</TD></TR></TBODY></TABLE>
+<DIV class=description>这片不伦不类的铁条的表面上显露出了一个小小的按钮。 <BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+交互；<B>效果：</B>你按下按钮，将权杖锚定在空间中。它无法移动，并且可以无视重力。如果按钮被再次按下，权杖将停止启动从而结束锚定魔法。只有当对其施加8000磅的压力，或是一个生物使用运动技能对其进行一次DC40的破拆检定时才能迫使被锚定的权杖移动（尽管大多数足够聪明的生物都会简简单单地按下按钮来释放权杖）。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>大师乐器 Maestro's Instrument</SPAN><SPAN 
+class=level>物品3+</SPAN></DIV>
+<DIV class=trait><SPAN>惑控系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>1</TD></TR></TBODY></TABLE>
+<DIV class=description>任何一种形式的手持乐器都能被做成大师乐器。当使用大师乐器演奏音乐时，这件乐器会为表演检定提供+1物品加值。 
+<BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+交互；<B>频率：</B>每日1次；<B>效果：</B>你可以通过演奏这一乐器来产生<I>魅惑术Charm</I>的效果。</DIV>
+<DIV class=description><B>类型：</B>次等；<B>等级：</B>3；<B>价格：</B>60gp</DIV>
+<DIV class=description><B>类型：</B>中等；<B>等级：</B>10；<B>价格：</B>900gp 
+<BR>物品加值为+2，并且魅惑术Charm为4环（DC27）。</DIV>
+<DIV class=description><B>类型：</B>高等；<B>等级：</B>18；<B>价格：</B>19,000gp 
+<BR>物品加值为+3，并且魅惑术Charm为8环（DC38）。</DIV>
+<DIV class=description><B>制造需求：</B>你必须能够施展对应环级的<I>魅惑术Charm</I>。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>神奇药箱 Marvelous Medicines</SPAN><SPAN 
+class=level>物品12+</SPAN></DIV>
+<DIV class=trait><SPAN>魔法</SPAN><SPAN>死灵系</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>1</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这套医疗工具包仿佛容纳着无穷无尽的绷带、草药和医疗攻击，这些物品都有着完美的品质，可以为你的医疗检定提供+2物品加值。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+治疗中毒，或者8小时（治疗疾病）；<B>效果：</B>你能够在治疗毒素时使用这套工具对患者施加<I>中和毒性Neutralize 
+Poison</I>的效果，或是在治疗疾病时为患者施加<I>移除疾病Remove 
+Disease</I>的效果。一旦这些药物被用来尝试治愈一名患者的毒素或是疾病之后，便无法再次使用它们来治愈这名患者身上相同的苦痛。</DIV>
+<DIV class=description><B>类型：</B>神奇药箱；<B>等级：</B>12；<B>价格：</B>1,800gp</DIV>
+<DIV class=description><B>类型：</B>高等神奇药箱；<B>等级：</B>18；<B>价格：</B>19,000gp 
+<BR>这套工具提供+3物品加值，并且法术效果升阶至6环。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>可能性之书 Possibility Tome</SPAN><SPAN 
+class=level>物品18</SPAN></DIV>
+<DIV class=trait><SPAN>魔法</SPAN><SPAN>预言系</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>22,000gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>2</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>镶嵌着一列宝石的银饰和打铜包裹着这本厚重的书册。如果你在启动这本书之前就将其打开，其中的牛皮纸上将是一片空白，但是一旦将其启动，单词将会在你的眼前跳动着游到纸上。 
+<BR><B>启动：</B>10分钟（想象，交互）；<B>效果：</B>你翻阅着这本书，想要深入了解某个宽泛的话题。选择一项技能：奥法，手艺，医疗，自然，神秘，宗教，社群，或是一个学识子项。书页上写满了所选技能的资讯，然而却只有你自己可以看见这些信息。当这些书页被填满后，你可以在尝试使用所选技能的回忆知识检定前通过1个交互动作查阅这本书。这会为此检定提供+3物品加值，并且在你投出大失败时视为失败。书中的信息会在24小时之后或是书本被再起启动时消失。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>远古榭寄生 Primeval Mistletoe</SPAN><SPAN 
+class=level>物品6+</SPAN></DIV>
+<DIV class=trait><SPAN>原能</SPAN><SPAN>变化系</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>—</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这簇结有浆果串的冬青与榭寄生小枝不会枯萎腐烂。它可以作为原能法术的器材，并且为持握着它的生物的自然检定上提供+1物品加值。 
+<BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+交互；<B>频率：</B>每10分钟1次；<B>效果：</B>你从一枚浆果中挤出汁液涂抹在一根木棒或者木杖上用以对其施放一道<I>橡棍术Shillelagh</I>。 
+<BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+交互；<B>频率：</B>每日1次；<B>效果：</B>你将小枝缠在手腕上，并且用手碰触一棵树来对自己施放一个<I>树化术Tree 
+Shape</I>，只不过你并非变成一棵树，而是变成了缠绕在所碰触的树木上的藤蔓。</DIV>
+<DIV class=description><B>类型：</B>远古榭寄生；<B>等级：</B>6；<B>价格：</B>230gp</DIV>
+<DIV class=description><B>类型：</B>高等远古榭寄生；<B>等级：</B>14；<B>价格：</B>3,900gp 
+<BR>这簇小枝提供+2加值，并且有一个额外的启动效果： <BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+交互；<B>频率：</B>每日1次；<B>效果：</B>你将远古榭寄生种到一片自然的泥土或是石头里。一旦被种下，这株植物立刻发芽生长为一片不影响移动的冬青灌木丛，并且散发出正能量波动，复制出一个<I>生命力场Field 
+of 
+Life</I>的效果。只要你维持此启动状态，这一效果便能持续至多1分钟。当法术结束时，这片冬青灌木丛将重新变回原来那簇远古榭寄生。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>否决权杖 Rod of Negation</SPAN><SPAN 
+class=level>物品14</SPAN></DIV>
+<DIV class=trait><SPAN>防护系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>4,300gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>1</TD></TR></TBODY></TABLE>
+<DIV class=description>这根朴实无华的细铅杆能够扰乱魔法。 <BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+交互；<B>效果：</B>这根权杖射出一道能够无效化法术或是魔法物品的细小灰色光束用，施放出一个6环<I>解除魔法</I>，反制调整值为+23。权杖在被启动后的2d6小时内无法被再次启动。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>惊异权杖 Rod of Wonder</SPAN><SPAN 
+class=level>物品8</SPAN></DIV>
+<DIV class=trait><SPAN 
+class=rarityR>稀有</SPAN><SPAN>混乱</SPAN><SPAN>塑能系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>465gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV class=description>这奇特的权杖是如此的异乎寻常而又变幻莫测。每次被启动时，它都会众多形形色色的效果中随机产生一个。 
+<BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+命令，交互；<B>效果：</B>选择一个60尺内的生物，依照下表投掷百分骰来确定权杖的效果。如果条目中仅列出了一个法术名称，那么权杖会施法此法术的最低环位版本。除非另有说明，否则你都可以自由决定所施法的那个法术，然而法术必须以你选择的生物为目标，或是对于仅能取范围的法术你所选的目标必须位于法术范围的中心。如果法术的距离低于60尺，那么将其增加至60尺。 
+<BR>　　所有法术的DC都为27，法术攻击骰为+17。如果用权杖对你自己施法，你不会获得豁免骰或是别的方法来抵御此法术。 
+<BR>　　权杖在被启动后的1d4小时内无法被再次启动。</DIV></DIV>
+<TABLE class=regular style="WIDTH: 650px">
+  <TBODY>
+  <TR>
+    <TH width="10%">d%</TH>
+    <TH>惊异效果</TH></TR>
+  <TR>
+    <TD>1-3</TD>
+    <TD>目标长出了叶子，持续24小时</TD></TR>
+  <TR>
+    <TD>4-8</TD>
+    <TD><I>黑暗术（Darkness）</I></TD></TR>
+  <TR>
+    <TD>9</TD>
+    <TD>召唤一只巨锹甲虫（5环<I>召唤怪物</I>；怪物手册41页）</TD></TR>
+  <TR>
+    <TD>10-13</TD>
+    <TD>600只五颜六色的大型蝴蝶汹涌而出，在20尺爆发范围中飞舞2轮；生物在蝴蝶群中失明。</TD></TR>
+  <TR>
+    <TD>14-15</TD>
+    <TD>目标所有的武器都被赋予了舞空符文的效果。</TD></TR>
+  <TR>
+    <TD>16-25</TD>
+    <TD><I>闪电束（Lightning Bolt）</I></TD></TR>
+  <TR>
+    <TD>26-29</TD>
+    <TD>权杖前方60尺锥形区域里长出了草，或是现有的草以10倍于普通速率生长。</TD></TR>
+  <TR>
+    <TD>30</TD>
+    <TD>目标永久性地变成蓝色、绿色或是紫色。</TD></TR>
+  <TR>
+    <TD>31</TD>
+    <TD>召唤一只象（6环<I>召唤动物</I>；怪物手册154页）</TD></TR>
+  <TR>
+    <TD>32-34</TD>
+    <TD>你身边60尺半径的范围内降下一阵大雨，持续1轮。</TD></TR>
+  <TR>
+    <TD>35-38</TD>
+    <TD><I>臭云术（Stinking Cloud）</I></TD></TR>
+  <TR>
+    <TD>39</TD>
+    <TD>召唤一只无用的小老鼠（1环召唤动物）</TD></TR>
+  <TR>
+    <TD>40-42</TD>
+    <TD><I>震荡图纹（Vibrant Pattern）</I>，持续1轮。</TD></TR>
+  <TR>
+    <TD>43-44</TD>
+    <TD>权杖对你施展<I>镜影术（Mirror Image）</I>。</TD></TR>
+  <TR>
+    <TD>45-46</TD>
+    <TD><I>造风术（Gust of Wind）</I></TD></TR>
+  <TR>
+    <TD>47-48</TD>
+    <TD>距离目标最近的无生命且无人持有的物品（体积不超过30立方英尺）永久性地变为灵体。</TD></TR>
+  <TR>
+    <TD>49-53</TD>
+    <TD><I>缓慢术（Slow）</I></TD></TR>
+  <TR>
+    <TD>54</TD>
+    <TD>你永久性地变成蓝色、绿色或是紫色。</TD></TR>
+  <TR>
+    <TD>55-59</TD>
+    <TD>权杖对你施放<I>害兽形态（Pest Form）</I>，持续1d4轮。</TD></TR>
+  <TR>
+    <TD>60-61</TD>
+    <TD>从权杖中射出1d4x10颗宝石（每颗价值1sp），对15尺锥形范围内的所有生物造成1点穿刺伤害。</TD></TR>
+  <TR>
+    <TD>62</TD>
+    <TD>100尺爆发范围的<I>睡眠术（Sleep）</I></TD></TR>
+  <TR>
+    <TD>63-72</TD>
+    <TD><I>火球术（Fireball）</I></TD></TR>
+  <TR>
+    <TD>73-77</TD>
+    <TD><I>读心术（Mind Reading）</I></TD></TR>
+  <TR>
+    <TD>78-80</TD>
+    <TD>再投一次骰子，目标相信你由第二次投骰产生的效果。</TD></TR>
+  <TR>
+    <TD>81-84</TD>
+    <TD><I>变巨术（Enlarge）</I></TD></TR>
+  <TR>
+    <TD>85-87</TD>
+    <TD>目标身上裹满了花蜜，使其在1轮内笨拙1。</TD></TR>
+  <TR>
+    <TD>88-92</TD>
+    <TD><I>妖火（Faerie Fire）</I></TD></TR>
+  <TR>
+    <TD>93-97</TD>
+    <TD>权杖对你施放了<I>隐形术（Invisibility）</I></TD></TR>
+  <TR>
+    <TD>98-100</TD>
+    <TD>权杖对你施放了<I>缩小术（Shrink）</I>，持续1天</TD></TR></TBODY></TABLE>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>万能钥匙 Skeleton Key</SPAN><SPAN 
+class=level>物品5+</SPAN></DIV>
+<DIV class=trait><SPAN>魔法</SPAN><SPAN>变化系</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>—</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这把魔法钥匙的顶端有着一只狰狞的头骨。这把钥匙可以在尝试开锁的时候代替盗贼工具，并且在贼活检定上提供+1物品加值。如果万能钥匙因为检定大失败而变成破损状态，那么直到被修复之前它都无法提供加值，并且只能如同普通的盗贼工具一般被使用。 
+<BR><B>启动：</B><IMG src="Materials/FreeAction.png"> 
+交互；<B>频率：</B>每日1次；<B>触发：</B>你尝试开锁，但还未投骰；<B>效果：</B>钥匙对你尝试要打开的锁施放<I>敲击术（Knock）</I>。</DIV>
+<DIV class=description><B>类型：</B>万能钥匙；<B>等级：</B>5；<B>价格：</B>125gp</DIV>
+<DIV class=description><B>类型：</B>高等万能钥匙；<B>等级：</B>11；<B>价格：</B>1,250gp 
+<BR>钥匙提供+2物品加值，你可以每小时启动钥匙1次。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>揭示香炉 Thurible of Revelation</SPAN><SPAN 
+class=level>物品3+</SPAN></DIV>
+<DIV class=trait><SPAN>预言系</SPAN><SPAN>神术</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>1</TD></TR></TBODY></TABLE>
+<DIV class=description>这只铜炉被挂在一根链子上。大部分启示香炉都饰有旋转着的天界语文字，不过仍有一些地狱语或深渊语版本的铁制香炉存在。 
+<BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+交互；<B>消耗：</B>价值至少5gp的熏香；<B>效果：</B>你点燃香炉中的熏香，它能够燃烧1小时。在这段时间内，只要你持握着香炉，你在宗教检定上就可获得+1物品加值，并且当你在用解读文书理解宗教内容时投出的大失败都改为失败。</DIV>
+<DIV class=description><B>类型：</B>次等；<B>等级：</B>3；<B>价格：</B>55gp</DIV>
+<DIV class=description><B>类型：</B>中等；<B>等级：</B>10；<B>价格：</B>900gp 
+<BR>香炉提供+2物品加值。每日一次，当你启动香炉时，你能够增强它的揭示效果。在启动期间，你能够以一个交互动作将香炉举到你的眼前，透过香炉中升起的烟雾，你在一轮之中获得<I>识破隐形（See 
+Invisibility）</I>的效果。</DIV>
+<DIV class=description><B>类型：</B>高等；<B>等级：</B>118；<B>价格：</B>19,000gp 
+<BR>香炉提供+3物品加值。高等揭示香炉更进一步强化了中等版本每日一次的效果，透过烟雾你能够获得<I>真知术（True 
+Seeing）</I>的效果。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>旅者万用工具 Traveler's Any-Tool</SPAN><SPAN 
+class=level>物品6</SPAN></DIV>
+<DIV class=trait><SPAN>魔法</SPAN><SPAN>变化系</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>200gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>1</TD></TR></TBODY></TABLE>
+<DIV class=description>在启动之前，这玩意看起来就是一根两头包铁的烧火棍。 <BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+想象，交互；<B>效果：</B>万用工具变成了一件你所想象的特定的简易工具。（通常来说你可以从第六章的工具表中进行选择）。棍子的木头部分会变成工具的柄和握把，金属部分变成铲子、锤头或是别的类似的玩意。它能变成绝大多数的基本工具，但是无法变出任何更复杂的玩意。你可以通过一个交互动作将工具变回原来的棍子。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>海神螺 Triton's Conch</SPAN><SPAN 
+class=level>物品9</SPAN></DIV>
+<DIV class=trait><SPAN>魔法</SPAN><SPAN>变化系</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>640gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV class=description>如果你将这只巨大的、变幻色彩的海螺壳放在耳朵旁，你便能听见大海的怒涛撞击在海岸上的声音。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+交互（听觉）；<B>效果：</B>你将海螺举到嘴边往里吹气，发出一阵悠长的隆隆声。在接下来一分钟内，你和启动海螺时距你30尺内的所有盟友在游泳的运动检定中获得+2物品加值，并且可以在水下呼吸。</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>奇妙雕像 Wondrous Figurine</SPAN><SPAN 
+class=level>物品2+</SPAN></DIV>
+<DIV class=trait><SPAN>咒法系</SPAN><SPAN>神术</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV class=description>每个小雕像都高1英寸，由特定的材料雕刻成特定的动物。 <BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+命令，交互；<B>效果：</B>你把雕像放在坚固的地上然后说出它的名字，使其变化成活生生的动物。在动物形态下，雕像拥有仆从特征。它能理解你的语言，并且当你使用动作命令它时，它会尽其所能地服从命令。每个动物的详情和启动频率（如果有的话）都陈列在后续各自的条目中。 
+<BR>　　如果雕像在动物形态下被杀死，它将恢复成雕像形态，并且只有在一周之后才能再次启动。如果雕像在雕像形态下被损毁，那么它将碎裂并且失去魔力。</DIV>
+<DIV class=description><B>类型：</B>黄金狮子；<B>等级：</B>10；<B>价格：</B>900gp 
+<BR>这个小雕像被雕刻成一对黄金狮子，当被启动时，它变成一对成年狮子（怪物手册52页）。这对狮子每日仅能召唤1次，并且法维持其狮子形态不超过1小时。如果其中一只狮子被杀死，那只狮子只能在一周之后被召唤，但这并不影响你召唤另一只狮子。</DIV>
+<DIV class=description><B>类型：</B>翠玉蛇；<B>等级：</B>7；<B>价格：</B>340gp 
+<BR>这块小雕像初看上去像是一块不定形的玉块，直到仔细观察之后才会发现它将蜿蜒的身体团成了一团。当被启动时，雕像变成一条巨蟒Giant 
+Viper（怪物手册303页）。这尊雕像没人仅能使用1次，并且维持蛇形态不超过10分钟。</DIV>
+<DIV class=description><B>类型：</B>大理石象；<B>等级：</B>13；<B>价格：</B>2,700gp 
+<BR>这只闪亮的大象雕像由一整块坚硬的大理石雕刻而成，在被启动时能变成一只完全成熟的大象（怪物手册154页）。大象每月技能被召唤4次。当被作为驮兽或者交通工具时，它可以持续24小时。如果试图让其在战斗时攻击或是以别的方式参与战斗，那么它会在1d4轮后变回雕像。</DIV>
+<DIV class=description><B>类型：</B>黑曜石驹；<B>等级：</B>15（罕见）；<B>价格：</B>6,000gp 
+<BR>这座阴森的黑色雕像看起来像是一匹用后腿站立的马。当被启动时，雕像变成一匹梦魇（怪物手册244页）。它每周可被召唤一次，持续24小时，并且无法使用Plane 
+Shift或是其他使骑手受益的能力。尽管是邪恶生物，它任允许任何阵营的生物骑在它背上，只不过一名善良阵营的骑手需要进行一次DC3的纯骰检定Flat 
+Check。如果检定失败，梦魇会使用其Plane 
+Shift能力将骑手带到深渊中的一个随机地点，并且立刻变回雕像形态，将骑手独自留在这个噩梦般的地方。</DIV>
+<DIV class=description><B>类型：</B>玛瑙犬；<B>等级：</B>2；<B>价格：</B>34gp 
+<BR>这座简单的玛瑙雕像变成了一只看门狗（怪物手册102页）。这只狗在追踪时的生存检定上有+4的环境加值，并且拥有黑暗视觉。当这只狗用嗅觉闻到一个藏匿Hidden生物时，此生物的藏匿Hidden状态变为可见Observed及隐蔽Concealed。玛瑙犬每周可启动1次，并且维持动物形态最多6小时。</DIV></DIV></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div>
+</div>
+
+</body></HTML>

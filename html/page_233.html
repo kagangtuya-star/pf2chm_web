@@ -1,0 +1,438 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>角色创建</title>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=robots content=index><LINK rel=stylesheet type=text/css 
+href="Materials/4E.css">
+<META name=GENERATOR content="MSHTML 11.00.10570.1001">
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+</head>
+<body>
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="page_232.html" title="Previous topic"><img id="winchm_template_prev" alt="Previous topic" src="template2/btn_prev_n.gif" border="0"></a><A href="page_234.html" title="Next topic"><img id="winchm_template_next" alt="Next topic" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation">Help &gt; 
+<A href="首页.html">核心规则书</A> &gt; <A href="page_27.html">第一章：引言</A> &gt; </div>
+	<div id="winchm_template_title">角色创建</div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><H2>角色创建 Character Creation</H2>
+<DIV>除非由你本人来担任GM，否则你游玩探索者规则（Pathfinder）时应当去做的第一件事便是创建自己的角色。你可以自行想象角色的过往经历、个性以及世界观，这些预想将为你在游戏过程中的扮演设立舞台背景。你将会使用本游戏规则的架构来设立角色，确定自身在游戏过程中能够胜任何种任务以及具备何种能力。 
+<BR>　　本节会手把手一步步地告诉你如何使用探索者规则创建一名角色，但在此之前，必须先让你理解何为属性（ability 
+scores）。这些数据是角色的重要组成部分，在接下来制作角色的多个步骤中，均会要求你在各种属性中进行选择。尽管本文提供了创建角色各步骤的推荐顺序，但你也可以按照自己喜欢的顺序完成这些过程。 
+<BR>　　第21-28页中的许多步骤会指示你再角色卡（character 
+sheet）上填写内容。角色卡的样式则可以见24-25页；你可以用本书的尾页复印一份，也可以在网上下载免费文档。角色卡的设计会在你实际游戏的过程中提供方便——但是创建角色的顺序与角色卡上的样式并不相同，因此你会在创建角色的过程中来回切换在角色卡上应当关注的区域。此外，角色卡上包含了所有你可能会用到的内容，但并非所有角色都需要你动笔填充角色卡上的每个区域。如果你所创建的角色用不到某块区域，那么你只要先把这部分留白即可。 
+<BR>　　接下来的几页会详细描述创建角色的每个步骤，而且都会用编号标注在24-25页的范立角色卡上，引导你应当关注的位置。如果需要你填写的内容应当记录在角色卡的第三和第四页，但没有在指示图中标注出来时，则会通过文本进行说明。 
+<BR>　　如果你需要创建一名高等级角色，跳过此处的说明，直接翻到29页查询关于角色升级的说明是比较好的选择。</DIV>
+<H3>六种属性值 The Six Ability Scores</H3>
+<DIV>属性值是你的角色最重要的数据之一。这些数值代表了角色最基础的潜力，并会对角色卡上几乎所有其他数据产生影响。属性并非一口气便能立刻决定的数据，你需要在创建角色的数个步骤中逐渐构筑。 
+<BR>　　属性值可以分为两类：肉体（physical）和心智（mental）。力量（Strength）、敏捷（Dexterity）、体质（Constitution）是肉体属性值（physical 
+ability 
+scores），它们用来衡量角色的体能强度。与之相对的，智力（Intelligence）、感知（Wisdom）和魅力（Charisma）是心智属性值（mental 
+ability scores），它们用来衡量角色的学习能力、意志力和人格力量。 
+<BR>　　某项属性值越优秀，与之相关的检定和与该属性相关联的能力就会越强，如下文所述。在预想自身角色的形象时，你也应当决定让角色哪些属性更加强大一些，以此来让你获得更多成功的机会。</DIV>
+<H4>力量 Strength</H4>
+<DIV>力量用于衡量角色的体能强度。若你想让角色进行肉搏战的话，力量就很重要。你的力量调整值（Strength 
+modifier）还会被添加到近战伤害检定（melee damage rolls）上，而且决定了你的角色能够背负多重的东西。</DIV>
+<H4>敏捷 Dexterity</H4>
+<DIV>敏捷用于衡量角色的灵活性、平衡能力和反应速度。若你想让角色用远程武器进行攻击或者潜伏在暗处突袭敌人的话，敏捷就很重要。你的敏捷调整值（Dexterity 
+modifier）还会被添加到角色的AC和反射豁免检定（Reflex saving throws）上。 </DIV>
+<H4>体质 Constitution</H4>
+<DIV>体质用于衡量角色的耐力以及身体是否强健。体质对于所有角色来说都是一项重要数值，而这对经常进行肉搏战的角色更为重要。你的体质调整值（Constitution 
+modifier）会加到你的生命值（Hit Points）和强韧豁免检定（Fortitude saving throws）上。 </DIV>
+<H4>智力 Intelligence</H4>
+<DIV>智力用于衡量角色的学习和推理的能力。智力数值较高有助于让你的角色分析形势和理解各种符号的含义，而这也意味着她们能够在额外技能上得到训练，精通额外的语言。</DIV>
+<H4>感知 Wisdom</H4>
+<DIV>感知用于衡量角色的常规感受力、认知能力与直觉。你的感知调整值（Wisdom 
+modifier）还会添加到察觉（Perception）以及意志豁免检定（Will saving throws）上。</DIV>
+<H4>魅力 Charisma</H4>
+<DIV>魅力用于衡量角色的个人魅力与人格力量。魅力数值较高能帮助你影响他人的想法及情绪。</DIV>
+<H3>属性值概览 Ability Score Overview</H3>
+<DIV>每项属性起始都是10点，这代表了人类的平均水平，但你可以为角色做出选择，通过合适的属性提升（ability 
+boosts）来调整并增加这些属性，而属性缺陷（ability flaws）则会让属性减少。在创建角色的过程中，请记得在做出后述决定时对属性数值进行调整。 
+<BR>　　<B>族裔</B>：每个族裔都会提供属性提升（ability boosts），部分情况下会附带属性缺陷（ability 
+flaws）。若你选择承受自选缺陷（voluntary flaws）的话，请在该步骤应用至属性上（详见26页边栏）。 
+<BR>　　<B>背景</B>：角色的背景会提供两次属性提升（ability boosts）。 
+<BR>　　<B>职业</B>：角色的职业会提供一次属性提升（ability boosts），该属性是对角色职业来说最重要的属性，也被称作关键属性（key 
+ability score）。 <BR>　　<B>决定属性值</B>：在完成其他步骤之后，你可以自行分配四次属性提升（ability 
+boosts）。之后再基于最终的属性数值来确定你的属性调整值（ability modifiers）。</DIV>
+<H4>属性提升 Ability Boosts</H4>
+<DIV>一次属性提升通常会让一项属性的数值增加2点。然而当你想要应用属性提升的属性已经达到18点或更高的时候，一次属性提升只能让该属性增加1点。在1级时，角色的任何属性都不能高于18点。 
+<BR>　　当你的角色获得一次属性提升时，该规则会指明它是否必须应用到特定属性值，或两个特定属性值之一，或是一个能应用到任何你选择的属性值上的“自选”属性提升。然而，当你同时获得多次属性提升时，你必须将它们每一个应用到不同的属性上。例如矮人，会获得体质和感知的各一次属性提升，以及一次自选属性提升，这自选只能应用到除了体质和感知之外的属性上</DIV>
+<H4>属性缺陷 Ability Flaws</H4>
+<DIV>属性缺陷在探索者规则里不像属性提升那样普遍。如果角色获得了一次属性缺陷——这通常来源于族裔——你要将对应属性的数值降低2点。</DIV>
+<H3>属性调整值 Ability Modifiers</H3>
+<DIV>一旦你确定角色的属性，则可以用这些数值确定角色的属性调整值，该数值在游戏中的大多数其他数据中产生影响。请根据属性数值在表1-1：属性调整值中确定对应的属性调整值。</DIV>
+<TABLE class=regular>
+  <CAPTION>表1-1：属性调整值</CAPTION>
+  <TBODY>
+  <TR>
+    <TH>属性值</TH>
+    <TH>调整值</TH>
+    <TH>属性值</TH>
+    <TH>调整值</TH></TR>
+  <TR>
+    <TD>1</TD>
+    <TD>-5</TD>
+    <TD>14-15</TD>
+    <TD>+2</TD></TR>
+  <TR>
+    <TD>2-3</TD>
+    <TD>-4</TD>
+    <TD>16-17</TD>
+    <TD>+3</TD></TR>
+  <TR>
+    <TD>4-5</TD>
+    <TD>-3</TD>
+    <TD>18-19</TD>
+    <TD>+4</TD></TR>
+  <TR>
+    <TD>6-7</TD>
+    <TD>-2</TD>
+    <TD>20-21</TD>
+    <TD>+5</TD></TR>
+  <TR>
+    <TD>8-9</TD>
+    <TD>-1</TD>
+    <TD>22-23</TD>
+    <TD>+6</TD></TR>
+  <TR>
+    <TD>10-11</TD>
+    <TD>+0</TD>
+    <TD>24-25</TD>
+    <TD>+7</TD></TR>
+  <TR>
+    <TD>12-13</TD>
+    <TD>+1</TD>
+    <TD colSpan=2>依次类推……</TD></TR></TBODY></TABLE>
+<DIV class=sidebar>
+<H1>可选方案：随机属性 Alternative Method: Rolling Ability Scores</H1>
+<DIV>如果你想制作相对平衡且无缺陷的角色，那么使用标准方式生成的属性较为合适。但你的GM可能会想往创建角色中添加更多的随机性，用骰子来决定你要扮演的角色类型。在此情况下，你能够使用本替代方案来帮助你生成属性。但要注意的是——这种用于提供乐趣的随机性有时会创造出比标准方式（以及其他探索者规则所采用的情况）强大（或弱小）得多的角色。 
+<BR>　　若你的GM选择随机属性，则使用后述替代步骤，并在整个创建角色的过程中忽略其他说明和指导中关于属性提升及属性缺陷的要求。</DIV>
+<H2>第一步：掷骰并分配数值 Roll and Assign Scores</H2>
+<DIV>投掷4个六面骰（4d6），并舍掉最低的结果。将另外三个骰子的点数相加并记录总和。举例说明：比如你投掷出了2、4、5和6，则舍弃2并把其他三个结果相加得15。重复该过程直至得到六个数值为止。决定这6个数值分别属于你的哪个属性</DIV>
+<H2>第二步：分配属性提升及属性缺陷 Assign Ability Boosts and Ability Flaws</H2>
+<DIV>将角色族裔提供的属性提升添加到属性上，但角色获得的自选属性提升数量要比正常少一次。若族裔还提供属性缺陷，也将其应用到角色的属性上。最后，将一次属性提升应用至角色的背景指定的属性上（你不会获得另一个自选属性提升） 
+<BR>　　这些属性提升无法将一项属性提升到18点以上。如果该情况发生了，你可以将属性提升应用至其他属性作为替代，就如同这是自选属性提升一般，或者你也可以将一项属性从17加到18点，并放弃超出的部分。</DIV>
+<H2>第三步：记录属性和调整值 Record Scores and Modifiers</H2>
+<DIV>记录最终的属性数值以及并根据表1-1来确定属性调整值。当你的角色在更高的等级获得属性提升时，则可以像任何其他角色那样正常分配。</DIV></DIV>
+<H2>第一步：建立概念 Create a Concept</H2>
+<DIV>你想扮演什么样的英雄？这个问题的答案可以简单如“勇猛的战士”，也可以复杂一些就像“在人类支配的城市中长大的精灵流浪者的孩子，她信奉太阳女神莎伦莱（Sarenrae）”。草拟角色的性格，勾勒出几条关于角色过去的细节，思考她如何以及为何进行冒险。你可能需要先阅读探索者规则中可用的族裔（ancestry）、背景（backgrounds）和职业（classes）。在22-23页中的总结可能能够帮助你将自身设立的概念和这些基础规则元素结合起来。在游戏开始之前，共同参与游戏的玩家之间讨论各自的角色如何认识彼此、以及她们如何在各自的冒险中协作也是一个好主意。 
+<BR>　　有许多方法来让你的角色概念变得清晰。一旦你对于自己想要扮演的角色产生了想法，则可以直接移步到第二步开始构建角色。</DIV>
+<H3>族裔、背景、职业或细节 Ancestry, Background, Class, or Details</H3>
+<DIV>如果探索者规则中的某个角色族裔、背景或职业特别吸引你，则可以轻松地围绕着这些内容建立角色概念。22-23页对于族裔和职业的总结能够简要概述这些选项（完整内容分别在第二章和第三章内）。每个族裔都具有数个传承（heritages），这些内容可能会帮助你进一步完善角色概念，比如由精灵或兽人抚养的人类、或者极寒地带或森林出身的精灵。此外，游戏规则设置了许多背景可供选择，这些反映了角色接受的教育、她们家庭所做的营生、或曾经担任过的职责。背景会在第二章进行介绍，从第60页开始。 
+<BR>　　围绕着特定族裔、背景或职业建立角色可以是一种与世界观产生互动的有趣方式。你想让自己的角色成为既定角色族裔或职业中的典型成员，就好像对应条目中介绍的那般一样？还是说愿意让角色颠复同类人持有的一般观念？举例来说：你可能会想扮演思维更加开阔、具有求变求新欲的矮人，或者具备手上技艺精湛绝伦、但却完全不想靠扒窃为生的盗贼（rogue）。 
+<BR>　　你能够从角色细节的任何方面来抽取并描绘自己的概念。你能够用扮演来挑战并非只有探索者规则的虚拟世界所限定的条条框框，甚至也可以是现实生活中的社会准则。你的角色可以挑战性别观念、探索文化身份、身患残疾或者这些提议中的任何组合。你的角色可以过上任何你自己角色合适的生活。</DIV>
+<H3>信仰 Faith</H3>
+<DIV>或许你想扮演的角色是某个特定神祇的虔诚信徒。探索者规则丰富的世界观里包含有数量庞大且各式各样的信仰与哲学观念，从侠肝义胆的酒醉英雄凯登·凯连（Cayden 
+Cailean, the Drunken Hero）；到星辰与梦境的女神——星域之歌黛丝娜（Desna, the Song of 
+Spheres）；再到荣耀、正义和统治的女神——后继者艾欧梅黛（Iomedae, the 
+Inheritor）。探索者规则的主要神祇都收录在本书437-440页。你的角色可能会被某个信仰所吸引，并决定成为该神祇的神卫（champion）或牧师（cleric）；当然，她们也可以只是在日常生活中遵循着这些神祇教义的虔诚信徒，或者仅仅是这些信徒的孩子而已。</DIV>
+<H3>你的盟友 Your Allies</H3>
+<DIV>当你构筑自己的角色概念时，可能会想和其他玩家产生关联。你们的角色可能已经具有了某种共同点；她们可能是亲戚，或者出身自同一个村庄的旅行者。你也可以仅就规则层面与其他玩家进行讨论，创建出在战斗技巧方面能够相辅相成的角色。对于后者来说，如果在一个队伍里同时有角色担任伤害制造者、吸引火力的肉盾以及提供治疗的能手的话，会对冒险产生很大的帮助。无论如何，探索者规则的职业中包含了许多选项，这使得在构筑各种类型的角色时都可以具有多个选择，因此你不需要被这种宽泛的类别限制了自己的选择。</DIV>
+<DIV class=sidebar>
+<H1>族裔与职业 Ancestries and Classes</H1>
+<DIV>每个角色都可以使用不同的方式来构筑自己的角色。有的人想要让自己的角色更好地融入到故事里，而有的人则想从规则层面进行能力组合形成搭配。你在制作角色时可以将两种方法结合起来。无论哪种做法都不是错误的！ 
+<BR>　　当你翻页之后，可以看到关于族裔和职业的图示，该图示可以让玩家一眼从图示中辨明自己应当如何分配起始属性。在22页的族裔导览中，每个族裔介绍都会列出它会为哪些属性提供属性提升，并指示出族裔可能包含的属性缺陷。关于属性提升和属性缺陷的说明，可以向前翻阅20页的内容。 
+<BR>　　在22-23页的导览中则列出了每个职业的关键属性——该职业的大多数能力所要运用到的属性。当你为角色选择职业时，还可以让相应的属性得到一次属性提升。该导览图中还会标注出对于该职业的成员来说第二重要的属性（次要属性）。 
+<BR>　　请记住，角色的背景还会影响她的属性，而且背景带来的属性提升比职业所提供的更加灵活。有关可用背景的说明，请见60-64页。</DIV></DIV>
+<H2>第二步：开始构建属性 Start Building Ability Scores</H2>
+<DIV>在此阶段，你需要开始构建角色的属性。见前面19-20页属性概述（Ability Score 
+Overview）的介绍以了解更多对于你的角色来说十分重要的内容，此外你也能对整个过程有个总体的了解。 
+<BR>　　你角色的每项属性起始均为10点，随着你选择自己的族裔（ancestry）、背景（background）和职业（class），你会将能够让属性的数值增加2点的属性提升（ability 
+boosts）、以及让属性的数值减少2点的属性缺陷（ability 
+flaws）应用到各项属性上。在此时，你只需要在每项属性上填写好10这个数字，然后熟悉20页中有关属性提升和属性缺陷的规则。此时也是决定对于角色来说哪个属性最为重要的好时机。详细请见19页的六种属性值（The 
+Six Ability Scores）以及22-23页的各职业导览。 </DIV>
+<H2>第三步：选择族裔 Select an Ancestry</H2>
+<DIV>为你的角色选择一个族裔。22页的族裔导览提供了探索者规则的核心族裔选项，其列举的每个族裔都在本书的第二章内有完整详细的介绍。族裔决定了角色的体型（size）、速度（Speed）和语言（languages），并影响角色的生命值（Hit 
+Points）。族裔还会提供属性提升和属性缺陷，并以此来反应此类族裔的基础素质。 <BR>　　当你为角色选择族裔时，要做出四个选择： 
+<UL>
+  <LI>选择族裔。 
+  <LI>分配任何族裔提供的自由属性提升，并思考是否要承受任何自选缺陷（voluntary flaws）。 
+  <LI>从该族裔可以选择的传承（heritage）中选择一项，进一步定义角色与生俱来的特征。 
+  <LI>选择一个族裔专长（ancestry feat），这代表了你的英雄在年轻时学会的能力。</LI></UL></DIV>
+<H2>第四步：选择背景 Pick a Background</H2>
+<DIV>你的角色的背景可能代表了她们所受到过的教育、自孩童时期便经受打磨的天赋、或者成为冒险者之前所经历过的人生。角色背景刊载于第二章，从60页开始。通常来说背景会提供两次属性提升（其中一次可能要在两个特定属性中进行选择，而另一个则是自由选择），一项特定技能（skill）受训、一项学识技能（Lore 
+skill）受训、并获得一个特定的技能专长（skill feat）。</DIV>
+<H2>第五步：选择职业 Choose a Class</H2>
+<DIV>在此阶段，你需要决定角色的职业。职业会为你的角色赋予一整套强大的能力，这决定了她们要如何战斗，以及能够摆脱或避免哪些种类的有害效果。每个职业的完整介绍都刊载于第三章，不过22-23页的导览图也会提供粗略的信息，告诉你对于扮演该职业来说何种属性是最为重要的。 
+<BR>　　你还不需要记录下角色所选职业的所有职业特性（class 
+features）。你只需要简单了解自己想要使用的职业，决定对你的角色来说最重要的属性是哪一项即可。</DIV>
+<H2>第六步：确定属性 Determine Ability Scores</H2>
+<DIV>现在，你已经做完了所有关于自身角色在规则方面上的重要选择，是时候决定她的属性了。做好下面三件事： 
+<UL>
+  <LI>首先，确保前几步中提供的所有属性提升和属性缺陷都已经应用到了属性上（来自角色的族裔、背景和职业）。 
+  <LI>其次，将四次属性提升应用至你的角色的属性上，每次都必须选择不同的属性，并使该属性的数值增加2点。 
+  <LI>最后，记录你的起始属性以及属性调整值，就如同表1-1：属性调整值中记录的那样。</LI></UL>　　记住，每次属性提升都会让属性在基础的10点上增加2点，而每次属性缺陷都会使其减少2点。你的属性无法低于8或高于18。</DIV>
+<DIV class=infoSidebar>
+<H1>可选规则：自选缺陷 Optional: Voluntary Flaws</H1>
+<DIV>即便你选择的族裔并没有将缺陷强加于你，但扮演具有明显缺陷的角色有时候是一件有趣的事情。你能够在应用族裔带来的属性提升和属性缺陷时，选择承受两次额外的属性缺陷。如果你这么做的话，还能再获得一次额外的自由属性提升。这些属性缺陷可以根据你的喜好自行选择，但你无法在此阶段对同一个属性多次应用属性缺陷（除非该属性已经在此阶段获得过属性提升，你才能两次额外属性缺陷同时应用在该属性上）。在此情况下，第一次属性缺陷会消除掉原先的属性提升，第二次属性缺陷会让该属性的数值降低2点。同样地，作为普通规则或属性提升规则的例外情况，你也能将两次自由属性提升应用至同一个属性上，但前提是该属性在此阶段已经应用过一次属性缺陷才行；第一次属性提升会消除掉属性缺陷，而角色的第二次属性提升会使该属性增加2点。举例说明：矮人在通常情况下会在体质和感知上获得属性提升，同时会在魅力属性上受到一次属性缺陷。你可以对智力和力量分别应用一次属性缺陷，或者将两次属性缺陷都有应用到感知上。你无法将额外属性缺陷应用到魅力上，因为矮人的魅力属性在此阶段已经受到了一次属性缺陷。</DIV></DIV>
+<H2>第七步：记录职业细节 Record Class Details</H2>
+<DIV>现在，找到你所选择的职业，将角色从该职业获得的所有好处及职业特性（class 
+features）记录下来。你现在已经标注了自己的关键属性，接下来要记录后述职业特性。 
+<UL>
+  <LI>确定角色的总起始生命值（total starting Hit 
+  Points），将角色从族裔（第二步中选择）中获得的生命值点数与职业提供的生命值点数相加。 
+  <LI>职业的初始熟练度（Initial Proficiencies）会介绍你的角色在若干领域内的起始熟练度（starting proficiency 
+  ranks）。将角色受过训练的技能选出并记录下来，顺着职业中记录的顺序依次标注。若你的职业在某项技能上提供受训，但该技能是已经受训的状态（这通常是你的背景提供的），你可以选择其他技能变为受训（trained）。 
+
+  <LI>见职业一栏的职业成长表格（class advancement table）来了解你的角色在1级时会习得的职业特性（class 
+  features）——但要记住，你已经选择了族裔和背景。有些职业特性会要求你做出其他选择，比如选择法术等等。 </LI></UL></DIV>
+<DIV class=infoSidebar>
+<H1>法术与施法 Spells and Spellcasting</H1>
+<DIV>大多数职业能够通过学习施放少量聚能法术（Focus 
+Spells），但吟游诗人（bard）、牧师（cleric）、德鲁伊（druid）、术士（sorcerer）和法师（wizard）能够施法——施放各种数量繁多的法术的能力。若角色的职业能够获得法术，你应当在创建角色的第七步里学习与该职业相关的法术以及如何施法。角色卡的第四页给出了空间来让你记录角色的魔法系统、法术攻击检定的熟练度（proficiency 
+rank）以及法术DC（spell 
+DCs）。这里还提供了足够的空间记录角色的法术剧目或法术书中记载的法术，也可以用来记录你经常准备的法术。职业决定了角色能够施放的法术、施法方式、以及每日能够施放法术的次数，但关于法术本身以及施法的详细规则请见第七章。</DIV></DIV>
+<H2>第八步：购买装备 Buy Equipment</H2>
+<DIV>在1级时，你的角色有15金币（150银币）来购买盔甲、武器和其他基础装备。角色的职业会列出她们已经受训（甚至更强！）的武器和盔甲类型。角色的武器决定了在战斗中能够造成的伤害有多大，而盔甲则影响了角色的防御等级（Armor 
+Class）；在第十步会有更多与计算相关数据的细节。不要忘记食物和旅行道具这样的物资！关于可用装备的价格以及更多细节，请见第六章。</DIV>
+<H2>第九步：计算调整值 Calculate Modifiers</H2>
+<DIV>在做出了创建角色最重要的几个决定后，是时候计算后述每个数据的调整值了。若你在某个数据上的熟练度（proficiency 
+rank）达到了受训（trained）、专家（expert）、大师（master）和传奇（legendary）的话，那么对于该数据来说，你的加值（bonus）为角色等级 
++ 基于熟练度的数字（依次分别为2、4、6和8）。若你的角色未受训（untrained），那么熟练加值（proficiency 
+bonus）则为+0。</DIV>
+<H3>察觉 Perception</H3>
+<DIV>角色的察觉调整值（Perception modifier）衡量了她的警惕性有多强。该调整值等于角色在察觉上获得的熟练加值（proficiency 
+bonus）加上感知调整值（Wisdom modifier）。更多的相关信息请见448页（第九章）。</DIV>
+<H3>豁免骰 Saving Throws</H3>
+<DIV>要确定每种豁免的数值，你要将角色的强韧（Fortitude）、反射（Reflex）或意志（Will）的熟练加值（proficiency 
+bonus；根据具体情况）加上与各类豁免相关的属性调整值。对于强韧豁免（Fortitude saving 
+throws）来说，使用角色的体质调整值（Constitution modifier）。对于反射豁免（Reflex saving 
+throws）来说，使用角色的敏捷调整值（Dexterity modifier）。对于意志豁免（Will saving 
+throws）来说，使用角色的感知调整值（Wisdom 
+modifier）。之后再加上来源于能力（abilities）、专长（feats）或物品（items），且总是会产生效果（不包含那些仅在特定情况下生效的调整值、加值或减值）的任何加值或减值。将最后得到的数值记录到对应的豁免上。</DIV>
+<H3>近战打击与远程打击 Melee Strikes and Ranged Strikes</H3>
+<DIV>接下来将目光转移到你填写角色所使用的近战及远程武器的部分，计算使用每个武器进行打击（Strikes，一个动作，效果是进行一次攻击）时所使用的调整值，以及该武器的打击会造成多大的伤害。打击的调整值等同于角色使用对应武器时所获得的熟练加值（proficiency 
+bonus）加上一项属性调整值（通常来说近战打击使用力量，而远程打击使用敏捷）。你还能添加来自武器的任何物品加值（item 
+bonus）以及任何其他常驻（permanent）加值或减值。你还需要计算每件武器的打击所能造成的伤害。近战武器的伤害检定（damage 
+rolls）通常要加上角色的力量调整值，而远程武器则可能要加上角色的部分或全部力量调整值，这取决于武器的特性（traits）。详细请见第六章来获得更多的信息。</DIV>
+<H3>技能 Skills</H3>
+<DIV>在角色卡的右下侧表格列出了每个技能的名称，在此旁边会标注有属性的缩写来提示你与该技能相关的属性。对于角色的每个已受训技能来说，要把与该技能对应的熟练加值（该加值对于1级角色来说通常为+3点）和对应属性的调整值相加，外加任何其他适用于该技能的加值和减值，才可以确定该技能的总调整值。未受训（untrained）的技能也使用相同的方法计算，但你的熟练加值为+0点。</DIV>
+<H2>第十步：完成细节 Finishing Details</H2>
+<DIV>接下来将后述细节添加到角色卡的适当位置上。</DIV>
+<H3>阵营 Alignment</H3>
+<DIV>角色的阵营是一种关于她所具有的道德和性格的指标。在探索者规则中一共有九种可用的阵营，如表1-2：九大阵营（Table 1–2: The Nine 
+Alignments）所述。若角色的阵营属于中立之外的其他类别，那么她便会获得与该阵营类别相应的特性（traits）。这可能会影响各种法术、物品和生物与你的角色互动的方式。 
+<BR>　　角色的阵营是由两组相对的价值观所构成的：善良与邪恶轴以及秩序与混乱轴。没有对某个倾向表现出强烈认同的角色会位于该轴的中立一栏。请时刻谨记，阵营是一个复杂的主题，看起来好似善良的行为也可能被用于邪恶的目标，反之亦然。GM是某件特定行为会如何影响角色阵营的最终裁决者。 
+<BR>　　若你扮演神卫（champion），角色的阵营必须符合自身的神祇与事业（Deity and 
+Cause）相符（见437-440页以及106-107页），若你扮演牧师（cleric），角色的阵营必须符合她信奉的神祇（deity；见437-440页）。</DIV>
+<H4>善良与邪恶 Good and Evil</H4>
+<DIV>若角色将他人的幸福置于自己之上，无私地帮助他人（甚至是帮助那些与她非亲非故的人）的话，该角色就属于善良阵营。若角色为了保护他人免受伤害、甚至会将自身置于危险之中的话，她也是善良的。若角色会为了一己之私去牺牲他人，甚至以伤害他人为乐的话，便属于邪恶阵营。若角色的价值观倾向于两者之间，则可能在善良邪恶轴上属于中立位置。</DIV>
+<H4>秩序与混乱 Law and Chaos</H4>
+<DIV>若角色注重事物的一致性、稳定性以及可预见性，认为这些高于灵活性的话，她便属于秩序阵营（或称守序阵营）。守序角色的人生遵循着一套固定的系统，这可能是经过精心规划日复一日的生活、小心谨慎地遵从于一套官方或非官方性质的制度、或者严格坚持着某种荣誉准则。而在另一侧，若你的角色看重灵活性、创造性以及本能的释放，认为这些比让事物一致相容更加重要的话，她们就属于混乱阵营——但这并不意味着她们会通过随机的方式来作出决定。混乱角色认为守序角色过于死板，无法根据自身优势来应对每种状况，也不能抓住机遇；而守序角色则视混乱角色不负责任、任性轻浮。 
+<BR>　　许多角色介于两者之间，在很多情况下服从法律或遵循行为规范，但在自身需要的时候，也会凌驾于规则之上。若你的角色也是如此，则在此轴上属于中立位置。</DIV>
+<H4>改变阵营 Changing Alignment</H4>
+<DIV>随着游戏的进行，当角色的观念变更、或者你意识到自身角色的行为反映出了不同阵营的风格而非你最初选择的阵营时，阵营便会改变。在大多数情况下，你可以就这样在改变阵营后继续游戏。但是当你扮演的角色是牧师或神卫的时候，将阵营改变成自身信仰神祇（对于神卫来说则是改变事业）所不允许的组合时，会让角色失去部分职业能力，直至她们赎罪（atone）为止（详细请见各职业中的描述）。</DIV>
+<TABLE class=alignment>
+  <CAPTION>表1-2：九大阵营</CAPTION>
+  <TBODY>
+  <TR>
+    <TH></TH>
+    <TH>善良</TH>
+    <TH>中立</TH>
+    <TH>邪恶</TH></TR>
+  <TR>
+    <TH>守序</TH>
+    <TD>守序善良（LG）</TD>
+    <TD>守序中立（LN）</TD>
+    <TD>守序邪恶（LE）</TD></TR>
+  <TR>
+    <TH>中立</TH>
+    <TD>中立善良（NG）</TD>
+    <TD>绝对中立（N）</TD>
+    <TD>中立邪恶（NE）</TD></TR>
+  <TR>
+    <TH>混乱</TH>
+    <TD>混乱善良（CG）</TD>
+    <TD>混乱中立（CN）</TD>
+    <TD>混乱邪恶（CE）</TD></TR></TBODY></TABLE>
+<H3>神祇 Deity</H3>
+<DIV>写下你的角色所信仰的神祇（如果有的话）。神卫和牧师必须信仰神祇。见探索者规则的437-440页了解更多关于神祇的信息。</DIV>
+<H3>年龄 Age</H3>
+<DIV>确定角色的年龄，并将这记录在角色卡的第三页上。在第二章中，你为角色所选择族裔的描述中，有关于此类族裔各年龄层的描述。在此之上，你可以根据自己的喜好扮演任意年龄的角色。角色年龄很老并不会对你的任何角色数据产生影响，但是你可以在考虑起始属性以及后续成长时将这一因素考虑进去。过于年轻的角色可能改变游戏中部分威胁的调性，所以建议创造角色时的年龄层至少为成年的青年人（young 
+adults）。</DIV>
+<H3>性别与人称代词 Gender and Pronouns</H3>
+<DIV>所有性别的角色都可以成为冒险者。在角色卡的第三页记录角色的性别，如果可以的话，把人称代词也记录上。</DIV>
+<H3>职业DC Class DC</H3>
+<DIV>职业DC是角色职业所提供的部分能力的困难等级。该DC基础为10，加上对应职业的职业DC获得的熟练加值（对于大多数1级角色来说为+3），再加上职业的关键属性的调整值。</DIV>
+<H3>英雄点 Hero Points</H3>
+<DIV>你的角色会在每个游戏团期（game 
+session）的起始获得1点英雄点，你可以在这个团期（sessions）内通过作出英雄般的行为或谋划出巧妙的计策来获得额外英雄点。你的角色可以使用英雄点来获得某些好处，比如避免死亡或者重新投掷一次d20检定。关于英雄点详细内容请见467页的第九章。 
+</DIV>
+<H3>护甲等级 Armor Class (AC)</H3>
+<DIV>角色的防御等级反映了在战斗中命中她究竟有多难。想计算自己的AC，要用10加上角色的敏捷调整值（至多为角色装备盔甲的敏捷调整值上限；见274页），加上角色对于自身盔甲所具有的熟练加值，外加盔甲对AC带来的物品加值（item 
+bonus），以及任何其他的常驻（permanent）加值和减值。 </DIV>
+<H3>负载 Bulk</H3>
+<DIV>角色的最高负载反映了她们能够轻松携带多重的物品。如果她们所携带物品的总负载量超过了5加自身力量调整值的话，角色便会陷入超载（encumbered）状态。角色所携带物品的总负载量无法超过10加自身力量调整值。角色的负载等于她所携带物品的总和；时刻铭记10件轻量物品（light 
+items）记为1负载（1B）。你可以在第六章里找到更多关于负载的信息。 </DIV></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div>
+</div>
+
+</body></HTML>
