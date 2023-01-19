@@ -1,0 +1,745 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0014)about:internet -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>手持物品</title>
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<META name=robots content=index><LINK rel=stylesheet type=text/css 
+href="Materials/4E.css">
+<META name=GENERATOR content="MSHTML 11.00.10570.1001">
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+</head>
+<body><script language="JavaScript" type="text/JavaScript">
+function syn(){
+if(parent.nav.tree){
+ if(parent.nav.tree.loaded){
+  parent.nav.tree.selectNode(459);
+ }else{
+  setTimeout("syn()",500);
+}
+  }else{
+  setTimeout("syn()",500);
+  }}
+if(parent!=self){
+  setTimeout("syn()",100);
+}else{
+  parent.location.href = "../index.htm?page=page_390.html";
+}
+originalOnload = window.onload;
+if(originalOnload==null){
+window.onload = function(){parent.contentLoaded = true;};
+}else{
+window.onload = function(){originalOnload();parent.contentLoaded = true;};
+}
+</script> 
+
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="page_389.html" title="Previous topic"><img id="winchm_template_prev" alt="Previous topic" src="template2/btn_prev_n.gif" border="0"></a><A href="page_391.html" title="Next topic"><img id="winchm_template_next" alt="Next topic" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation">Help &gt; 
+<A href="page_348.html">魔法之秘</A> &gt; <A href="page_352.html">第四章：魔法物品</A> &gt; <A href="page_388.html">永久物品</A> &gt; </div>
+	<div id="winchm_template_title">手持物品</div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><div id="winchm_template_container">
+	<div id="winchm_template_content"><DIV class=statBlock><DIV class=title><SPAN class=name>圣水袋 Anointed Waterskin</SPAN><SPAN 
+class=level>物品9</SPAN></DIV>
+<DIV 
+class=trait><SPAN>神术</SPAN><SPAN>塑能系</SPAN><SPAN>善良</SPAN><SPAN>水</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>600gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手；<B>负载</B>L</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这个水袋闪耀着神圣的能量，会慢慢充满独一无二的特殊圣水。在使用任何一种启动效果后，水袋会变空，然后慢慢地重新填充。在第二天黎明时充满并可以再次使用。 
+<BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+命令，交互；<B>要求：</B>圣水袋已经充满；<B>效果：</B>你将圣水袋投掷最多60尺远。圣水泼洒到周围，造成圣水溅射（holy cascade）效果。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+交互；<B>要求：</B>圣水袋已经充满；<B>效果：</B>你喝下圣水袋里的水，你获得<I>祝福术Bless 
+</I>效果。和法术一样，你可以在下一轮开始时使用一个具有专注特征的单动作，将弥漫的半径增加5尺。 
+<BR><B>启动：</B>1分钟（命令，交互）；<B>要求：</B>圣水袋已经充满；<B>效果：</B>你将袋子里的水倒出，创造10瓶圣水。你必须提供容器。 
+</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>戏法套牌 Cantrip Deck</SPAN><SPAN 
+class=level>物品1</SPAN></DIV>
+<DIV class=trait><SPAN>塑能系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手；<B>负载</B>-</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>为了尽可能普及魔法知识，内西斯（Nethys）的崇拜者们发明了一种方法，可以将戏法绑定到非施法者也能使用的卡牌上。这副套牌含有一摞厚羊皮纸制成的纸牌，每张牌大约为扑克牌的一半大小。每一张卡牌都以严谨的文字简单描述了它所含有的戏法，根据不同的学派以不同颜色和数字标出。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png">或更多（想象，交互）；<B>效果：</B>你想象自己需要的戏法，该戏法会自动出现在牌库顶端，然后你抽卡。套牌将该戏法作为1环法术施放，法术DC为15并且法师攻击调整值为+5。戏法生效后，该卡牌随机化为尘土。启动所需要的动作数量取决于你选择的戏法。</DIV>
+<DIV class=description><B>类型：</B>5卡包；<B>等级：</B>1；<B>价格：</B>5gp 
+<BR>该卡包内含5张单一种类的常见戏法（例如<I>光亮术 Light </I>）。</DIV>
+<DIV class=description><B>类型：</B>全卡包；<B>等级：</B>1；<B>价格：</B>20gp 
+<BR>该卡包内含24张卡，包括了<I>《核心规则手册》</I>中的每一种戏法。 </DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>译码员手稿 Codebreaker's Parchment</SPAN><SPAN 
+class=level>物品3+</SPAN></DIV>
+<DIV class=trait><SPAN>幻术系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手；<B>负载</B>L</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这种精心制作、看似普通的羊皮纸对于书写敏感文件非常有用。当文字被写在羊皮纸上时，立刻就会变成无法识别的密码，需要通过DC 
+20的解译文书（Decipher Writing）检定才能破译。 <BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+命令；<B>效果：</B>被打乱的文字以正确的方式显现。如果辨识出这件物品，可以得知以一个命令动作能启动该效果，但是只有在辨识魔法（Identify 
+Magic）检定中取得大成功时才能得知这个具体的口令词是什么。 <BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+交互；<B>效果：</B>你点燃羊皮纸，销毁上面的文字，但是羊皮纸完好无损，并且可以在上面书写新的文字。 </DIV>
+<DIV class=description><B>类型：</B>译码员手稿；<B>等级：</B>3；<B>价格：</B>45gp</DIV>
+<DIV class=description><B>类型：</B>高等译码员手稿；<B>等级：</B>10；<B>价格：</B>950gp 
+<BR>解译文书的DC为30，并且需要大师熟练度。</DIV>
+<DIV class=description><B>类型：</B>上等译码员手稿；<B>等级：</B>17；<B>价格：</B>14,500gp 
+<BR>解译文书的DC为40，并且需要传奇熟练度。 </DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>幻象套牌 Deck of Illusions</SPAN><SPAN 
+class=level>物品6</SPAN></DIV>
+<DIV class=trait><SPAN 
+class=rarity>罕见</SPAN><SPAN>幻术系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>200gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手；<B>负载</B>-</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>一套34张的羊皮纸卡牌通常装在天鹅绒袋子或简单的皮革小包里。每张卡牌上都描绘了不同的生物、怪物或其他什么存在，当套牌被激活时，会立即出现这些生物真实比例的幻象。你可以仅仅观察卡面上的绘画，但不会有任何魔法效果发生，除非你启动套牌，此时牌库会自动洗牌并随机抽出一张卡。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+想象，交互；<B>效果：</B>你从牌库中随机抽出一张卡，把它扔到地上，创造出所描绘的生物的幻象。该幻象类似<I>幻象生物 Illusory Creature 
+</I>法术，只是它的射程以被丢在地上的卡牌为圆心，半径30尺。并且幻象会一直持续直到自身被摧毁，或任何人移动、伤害了地上的卡牌为止。当你在卡牌60尺范围内并且维持启动时，幻象将在你的回合进行行动。如果你不维持它，或者你从牌库抽一张新卡，原来的幻象就会结束。 
+</DIV></DIV>
+<DIV class=sidebar>
+<H1>幻象套牌里的牌 Deck Of Illusions Cards</H1>你可以使用扑克牌或者塔罗牌来作为幻象牌的指示物进行游戏。 
+<TABLE class=regular style="WIDTH: 600px">
+  <TBODY>
+  <TR>
+    <TH>生物</TH>
+    <TH>扑克牌</TH>
+    <TH>塔罗牌</TH></TR>
+  <TR>
+    <TD>铁魔像</TD>
+    <TD>梅花A</TD>
+    <TD>魔杖１</TD></TR>
+  <TR>
+    <TD>半人马</TD>
+    <TD>梅花2</TD>
+    <TD>魔杖2</TD></TR>
+  <TR>
+    <TD>高等幽影</TD>
+    <TD>梅花8</TD>
+    <TD>魔杖8</TD></TR>
+  <TR>
+    <TD>土魔蝠</TD>
+    <TD>梅花9</TD>
+    <TD>魔杖9</TD></TR>
+  <TR>
+    <TD>山丘巨人</TD>
+    <TD>梅花10</TD>
+    <TD>魔杖10</TD></TR>
+  <TR>
+    <TD>胶纸怪</TD>
+    <TD>梅花J</TD>
+    <TD>魔杖骑士</TD></TR>
+  <TR>
+    <TD>皮克精</TD>
+    <TD>梅花Q</TD>
+    <TD>魔杖之后</TD></TR>
+  <TR>
+    <TD>树精守望者</TD>
+    <TD>梅花K</TD>
+    <TD>魔杖之王</TD></TR>
+  <TR>
+    <TD>迷诱魔</TD>
+    <TD>方块A</TD>
+    <TD>星币1</TD></TR>
+  <TR>
+    <TD>奇美拉</TD>
+    <TD>方块2</TD>
+    <TD>星币2</TD></TR>
+  <TR>
+    <TD>座狼</TD>
+    <TD>方块8</TD>
+    <TD>星币8</TD></TR>
+  <TR>
+    <TD>巨魔</TD>
+    <TD>方块9</TD>
+    <TD>星币9</TD></TR>
+  <TR>
+    <TD>雪人</TD>
+    <TD>方块10</TD>
+    <TD>星币10</TD></TR>
+  <TR>
+    <TD>鹰身女妖</TD>
+    <TD>方块J</TD>
+    <TD>星币骑士</TD></TR>
+  <TR>
+    <TD>多头蛇</TD>
+    <TD>方块Q</TD>
+    <TD>星币之后</TD></TR>
+  <TR>
+    <TD>斯芬克斯</TD>
+    <TD>方块K</TD>
+    <TD>星币之王</TD></TR>
+  <TR>
+    <TD>红龙</TD>
+    <TD>红桃A</TD>
+    <TD>圣杯1</TD></TR>
+  <TR>
+    <TD>鬣齿兽</TD>
+    <TD>红桃2</TD>
+    <TD>圣杯2</TD></TR>
+  <TR>
+    <TD>熊地精</TD>
+    <TD>红桃8</TD>
+    <TD>圣杯8</TD></TR>
+  <TR>
+    <TD>双头巨人</TD>
+    <TD>红桃9</TD>
+    <TD>圣杯9</TD></TR>
+  <TR>
+    <TD>云巨人</TD>
+    <TD>红桃10</TD>
+    <TD>圣杯10</TD></TR>
+  <TR>
+    <TD>巨螳螂</TD>
+    <TD>红桃J</TD>
+    <TD>圣杯骑士</TD></TR>
+  <TR>
+    <TD>猛犸象</TD>
+    <TD>红桃Q</TD>
+    <TD>圣杯之后</TD></TR>
+  <TR>
+    <TD>暴龙</TD>
+    <TD>红桃K</TD>
+    <TD>圣杯之王</TD></TR>
+  <TR>
+    <TD>巫妖</TD>
+    <TD>黑桃A</TD>
+    <TD>宝剑1</TD></TR>
+  <TR>
+    <TD>木灵仙后</TD>
+    <TD>黑桃2</TD>
+    <TD>宝剑2</TD></TR>
+  <TR>
+    <TD>巨蝎</TD>
+    <TD>黑桃8</TD>
+    <TD>宝剑8</TD></TR>
+  <TR>
+    <TD>巨魔</TD>
+    <TD>黑桃9</TD>
+    <TD>宝剑9</TD></TR>
+  <TR>
+    <TD>霜巨人</TD>
+    <TD>黑桃10</TD>
+    <TD>宝剑10</TD></TR>
+  <TR>
+    <TD>野猪</TD>
+    <TD>黑桃J</TD>
+    <TD>宝剑骑士</TD></TR>
+  <TR>
+    <TD>美杜莎</TD>
+    <TD>黑桃Q</TD>
+    <TD>宝剑之后</TD></TR>
+  <TR>
+    <TD>叶莱西</TD>
+    <TD>黑桃K</TD>
+    <TD>宝剑之王</TD></TR>
+  <TR>
+    <TD>牌组启动者</TD>
+    <TD>Joker（黑）</TD>
+    <TD>愚者</TD></TR>
+  <TR>
+    <TD>牌组启动者<BR>最惧怕的存在</TD>
+    <TD>Joker（红）</TD>
+    <TD>恶魔</TD></TR></TBODY></TABLE></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>淘气套牌 Deck of Mischief</SPAN><SPAN 
+class=level>物品4</SPAN></DIV>
+<DIV class=trait><SPAN 
+class=rarity>罕见</SPAN><SPAN>幻术系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>75gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手；<B>负载</B>-</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这副牌有54张，看起来和标准的扑克牌几乎完全相同。这副淘气套牌由四种主题花色组成，每种花色13张牌，还有2张百搭牌。这副牌是那些不喜欢单纯碰运气的无赖们的最爱——至少能让自己的胜算更大一点。如果你知道如何启动套牌，你能以幻觉将每种花色的A牌和人面牌（J/Q/K）转化为其他花色。 
+<BR>　　这副牌就如同它的名字一样淘气，如果你不好好保养它们的话，它可能会故意跟你捣蛋。尽管套牌对元素伤害有惊人的抗力，但浸水、肮脏、破旧的卡牌可能无法完全发挥功能。当你试图感知牌库里还剩什么牌的时候，可能会得知错误的信息，当你在关键时刻试图改卡时也有可能失败。如果这副牌因为损坏或丢失导致缺牌，它就会迅速失去欺骗能力，甚至有可能在牌局中故意坑你。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+想象，交互；<B>效果：</B>你可以得知牌库中还剩下哪些A牌和人面牌。然后你可以将手上的某张A牌或人面牌（如果你有的话）的牌面与牌库里某张牌的牌面进行交换。执行搜索（Seek）动作或触碰卡牌的生物可以选择不相信幻觉（察觉DC 
+20）。 </DIV></DIV>
+<DIV class=sidebar>
+<H1>老法师套牌 The Old Mage 
+Deck</H1>这副非魔法的套牌被称为“老法师牌”，它在格拉里昂各地的叫法都存在一些差别。在塔尔多（Taldor）被称为“魔术师套牌”，而在镣铐群岛（Shackles）被称为“面具牌”。牌组的四种花色对应着魔法的四要素（essences）：物质（Matter）、精魂（Spirit）、心智（Mind）、生命（Life），每种花色都有13张印着编号的卡片，外加两张百搭牌。普通版的套牌价格很便宜（售价 
+5sp），而拥有精美卡面和高价材料制成的限量版往往更受收藏家的追捧。套牌所占的负载可以忽略不计，使用时需要双手持握。 
+<BR>　　在经典的老法师牌中，每种花色的13张牌牌面如下：其中老法师贾特比（Jatembe）的门徒——十魔武（Ten Magic 
+Warriors）代表了2到11的卡面。玛甘比入门生（1），红土狼（2），灰大象（3），金蛇（4），黑山羊（5），变色青蛙（6），绿蜘蛛（7），胡桃鹰（8），白牛（9），蓝花豹（10），黑鹫（11），代表不同魔法要素的特定生物（12），老法师贾特比施放代表各要素的法术（13）。每一副牌的百搭牌都不尽相同，导致每一幅老法师牌都是独一无二的。 
+
+<TABLE class=regular style="WIDTH: 600px">
+  <CAPTION>老法师套牌替换</CAPTION>
+  <TBODY>
+  <TR>
+    <TH>老法师牌</TH>
+    <TH>标准扑克</TH>
+    <TH>小阿卡那牌</TH></TR>
+  <TR>
+    <TD>物质花色</TD>
+    <TD>方块</TD>
+    <TD>星币</TD></TR>
+  <TR>
+    <TD>精魂花色</TD>
+    <TD>梅花</TD>
+    <TD>魔杖</TD></TR>
+  <TR>
+    <TD>心智花色</TD>
+    <TD>黑桃</TD>
+    <TD>宝剑</TD></TR>
+  <TR>
+    <TD>生命花色</TD>
+    <TD>红桃</TD>
+    <TD>圣杯</TD></TR>
+  <TR>
+    <TD>一号牌</TD>
+    <TD>A牌</TD>
+    <TD>A牌</TD></TR>
+  <TR>
+    <TD>十一号牌</TD>
+    <TD>J牌</TD>
+    <TD>骑士</TD></TR>
+  <TR>
+    <TD>十二号牌</TD>
+    <TD>Q牌</TD>
+    <TD>王后</TD></TR>
+  <TR>
+    <TD>十三号牌</TD>
+    <TD>K牌</TD>
+    <TD>国王</TD></TR>
+  <TR>
+    <TD>百搭牌</TD>
+    <TD>鬼牌</TD>
+    <TD>任意两张侍从牌<BR>或大阿卡那牌</TD></TR></TBODY></TABLE></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>联谊酒壶 Flask of Fellowship</SPAN><SPAN 
+class=level>物品2</SPAN></DIV>
+<DIV class=trait><SPAN>咒法系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>25gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手；<B>负载</B>L</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>L</TD></TR></TBODY></TABLE>
+<DIV class=description>这个金属酒壶直径4英寸，高10英寸。它的顶部是四个互相嵌套在一起的金属杯拧在壶嘴上。 
+<BR><B>启动：</B>建立印象（Make an 
+Impression）；<B>效果：</B>如果你将分享饮料作为你建立印象行动的一部分，那么从酒壶里倾倒而出的饮料一定是对方此刻最想喝上一杯的东西——红酒、烈酒、热姜茶、冻柠茶，诸如此类。你在交涉检定上获得+1物品加值。 
+<BR>　　如果GM认为你把酒壶拿出来出来没有意义，或者该饮料不适合在这种场合饮用，或者交涉的对象根本就不想和你一起喝，那么他可以不允许你使用。联谊酒壶里流出来的饮料完全是社交性质的，它不会让任何人喝醉，也无法缓解严重的口渴。 
+</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>流沙之罐 Jar of Shifting Sands</SPAN><SPAN 
+class=level>物品7</SPAN></DIV>
+<DIV class=trait><SPAN>咒法系</SPAN><SPAN>土</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>320gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手；<B>负载</B>L</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这个小陶罐内装满了大约四分之一加仑的沙子。当你倒出里面的沙子时，陶罐随即能变出更多的沙子。尽管听上去匪夷所思，据说世界上至少有一个沙漠是由这种陶罐创造出来的。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+命令，交互；<B>效果：</B>你能让沙子以每轮1加仑的速度从陶罐里涌出。该效果不会结束，直到罐子被盖上盖子。 <BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+命令，交互；<B>效果：</B>你迅速将沙子倒在1块相邻的方格里，造成困难地形。你在1分钟内无法使用罐子的任何一种启动效果。 </DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>配钥工具 Keymaking Tools</SPAN><SPAN 
+class=level>物品3</SPAN></DIV>
+<DIV class=trait><SPAN>咒法系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>55gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手；<B>负载</B>L</TD></TR></TBODY></TABLE>
+<DIV class=description>这件盗贼工具可以让它的主人在开锁后一段时间内拥有锁的控制权限。当用此工具进行开锁（Pick a 
+Lock）动作时，贼活检定有+1物品加值。当用此工具将锁完全打开时，它会生成一把临时的钥匙副本。这把幻影钥匙可以像原本的钥匙一样上锁或者开锁。这把钥匙被一条精致的银链栓在盗贼工具上，12小时后会消失。通过这种方式创造出的钥匙副本，同一套盗贼工具只能包含一把。创建新钥匙将取代旧钥匙。 
+</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>千刃兵书 Thousand-Blade Thesis</SPAN><SPAN 
+class=level>物品9</SPAN></DIV>
+<DIV class=trait><SPAN 
+class=rarity>罕见</SPAN><SPAN>异次元</SPAN><SPAN>绑定</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>600gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手；<B>负载</B>L</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这捆裱装在柔韧竹桶上的宣纸卷轴包含了大量关于战争艺术的书法散文和绘画，其中尤其着重描述了各类武器在战争中的使用，以及如何在战术层面用不同武器武装士兵以获得最大的优势。查阅兵书能让你在战争学识（Warfare 
+Lore）检定上获得+2物品加值。和大部分学术期刊（Scholarly Compendiums）一样，这种用法要求单手持握兵书。 
+<BR>　　兵书同样能作为一个异次元的武备库和弹药库使用。该兵书拥有5B容积，但只能储存武器或弹药。你和其他人能以一个交互动作向兵书中存放或从兵书中取出武器或弹药，就如同其他容器一样。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+交互；<B>频率：每日1次</B>；<B>效果：</B>千刃兵书引人注目地在空中展开，里面的武器全部弹射出来，令人印象深刻地一字排开，并悬浮于你触手可及的地方。在1分钟之内，你能以一个自由动作拔取其中一把悬浮的武器。其他人也可以尝试抢夺它们，但要做到这一点，他们必须在卸武（Disarm）检定中得到大成功的结果。在1分钟时间结束前，你无法将武器放回兵书里。 
+</DIV></DIV></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div></div></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div>
+</div>
+
+</body></HTML>

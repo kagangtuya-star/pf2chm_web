@@ -1,0 +1,784 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>邪魔（Daemon）</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+</head>
+
+<body><script language="JavaScript" type="text/JavaScript">
+function syn(){
+if(parent.nav.tree){
+ if(parent.nav.tree.loaded){
+  parent.nav.tree.selectNode(1070);
+ }else{
+  setTimeout("syn()",500);
+}
+  }else{
+  setTimeout("syn()",500);
+  }}
+if(parent!=self){
+  setTimeout("syn()",100);
+}else{
+  parent.location.href = "../../index.htm?page=2.11魔族（Fiend）/邪魔（Daemon）.htm";
+}
+originalOnload = window.onload;
+if(originalOnload==null){
+window.onload = function(){parent.contentLoaded = true;};
+}else{
+window.onload = function(){originalOnload();parent.contentLoaded = true;};
+}
+</script> 
+
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="新建项目.htm" title="Previous topic"><img id="winchm_template_prev" alt="Previous topic" src="../template2/btn_prev_n.gif" border="0"></a><A href="../$$unsavedpage26.htm" title="Next topic"><img id="winchm_template_next" alt="Next topic" src="../template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation">Help &gt; 
+<A href="../怪物图鉴2.htm">怪物图鉴2</A> &gt; <A href="../$$unsavedpage25.htm">10魔族（Fiend）</A> &gt; </div>
+	<div id="winchm_template_title">邪魔（Daemon）</div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><DIV class=quoteheader><DIV class=topslice_quote>引用</DIV></DIV>
+<BLOCKQUOTE class=bbc_standard_quote><SPAN class=bbc_color 
+  style="COLOR: red"><SPAN class=bbc_size 
+  style="FONT-SIZE: 14pt"><STRONG>以下内容来自B1</STRONG></SPAN></SPAN></BLOCKQUOTE>
+<DIV class=quotefooter>
+<DIV class=botslice_quote></DIV></DIV><BR><SPAN class=bbc_color 
+style="COLOR: navy"><SPAN class=bbc_size style="FONT-SIZE: 18pt"><STRONG>邪魔 
+Daemon</STRONG></SPAN></SPAN><BR>作为荒凉恐怖的末日荒原的居民，邪魔被塑造成致力于于毁灭一切形式的生命。它们会尝试用最痛苦和最恐怖的方式杀死每个凡人，所有这些都是为了服侍被称为天启的四驭者（Four 
+Horsemen）。每一种邪魔代表一种不同的死亡方式，它们的力量几乎总是为了传播这种特定的死亡方式而存在。通过这种力量，它们试图把所有生灵都拖入绝望的深渊，并让所有灵魂泯灭。虽然那些把邪魔召唤到主物质位面的人通常会利用这些生物的破坏力和腐化能力来达到自己的目的，但是邪魔们自身也在不断寻找传播恐惧、怀疑和绝望的方法。通常邪魔会隐藏自己的阴谋并替其他魔族（fiends）办事，这造成的混乱会加剧凡人们的恐惧。<BR><BR>虽然所有邪魔族都会试图引诱凡人们堕入邪道，用这种方法增加自身的数量和自己家乡位面的力量，但是邪魔对凡人灵魂的渴望则更进一步，并会使用各种方法——尤其是狂躁邪魔的灵魂宝石——来引诱他们。在末日荒原以及其他很多多重宇宙中令人生畏的国度里，灵魂是美味的飨宴、是交易的货币同时也是魔法力量的源泉。而邪魔则是所有这些地方的居民中最强大的食客、商人和灵魂“资源”的使用者。<BR><BR>
+<DIV class=quoteheader>
+<DIV class=topslice_quote>引用</DIV></DIV>
+<BLOCKQUOTE class=bbc_standard_quote><STRONG><SPAN class=bbc_size 
+  style="FONT-SIZE: 12pt">邪魔神祇 DAEMONIC 
+  DIVINITIES</SPAN></STRONG><BR>邪魔有无数强大而独特的半神，被统称为先驱者（harbingers），它们统治辽阔的末日荒原。在这些半神之上，更有强大的力量——天启四驭者（four 
+  Horsemen of the 
+  Apocalypse）。随着岁月流逝，每位驭者的名字和身份也在不断变化。目前，它们是：瘟疫驭者亚波伦（Apollyon），死亡驭者卡戎（Charon），战争驭者莎祖瑞尔（Szuriel），饥荒驭者崔玛瑞希（Trelmarixian）。到目前为止，只有卡戎的身份没有变化过。有些人认为“第五驭者”曾经统领过其他四位驭者，但是另一些人则认为末日荒原上空永无止尽的日蚀是这位早已死去的神灵的残迹。</BLOCKQUOTE>
+<DIV class=quotefooter>
+<DIV class=botslice_quote></DIV></DIV><BR>
+<DIV class=quoteheader>
+<DIV class=topslice_quote>引用</DIV></DIV>
+<BLOCKQUOTE class=bbc_standard_quote><SPAN class=bbc_size 
+  style="FONT-SIZE: 12pt"><STRONG>作为财产的灵魂宝石 SOUL GEMS AS 
+  TREASURE</STRONG></SPAN><BR>灵魂宝石在黑市流通，传统的天界生物和招魂者们都觉得这是非常邪恶之事。灵魂宝石的价值各不相同，其价值通常与宝石内部困着的灵魂的等级有关。</BLOCKQUOTE>
+<DIV class=quotefooter>
+<DIV class=botslice_quote></DIV></DIV><BR>
+<DIV class=quoteheader>
+<DIV class=topslice_quote>引用</DIV></DIV>
+<BLOCKQUOTE class=bbc_standard_quote><SPAN class=bbc_size 
+  style="FONT-SIZE: 12pt"><STRONG>邪魔悖论 THE DAEMONIC 
+  PARADOX</STRONG></SPAN><BR>邪魔的存在体现了一个基本矛盾——当化身为死亡并试图吞噬所有生命的同时，它们本身也是生命。有人说在现实世界的生命都寂灭之后它们将迎来光荣的终结（glorious 
+  end time）。但其实大部分邪魔都没考虑过这个悖论。</BLOCKQUOTE>
+<DIV class=quotefooter>
+<DIV class=botslice_quote></DIV></DIV><BR>
+<DIV class=quoteheader>
+<DIV class=topslice_quote>引用</DIV></DIV>
+<BLOCKQUOTE class=bbc_standard_quote>
+  <P><SPAN class=bbc_size style="FONT-SIZE: 12pt"><STRONG>其他邪魔 OTHER 
+  DAEMONS</STRONG></SPAN><BR>有多少可怕的死法存在就有多少邪魔。血腥的血染邪魔（sangudaemon） 
+  代表流血而死，而骷髅般的死役邪魔（thanadaemon）代表着年老体衰而死，最强大的邪魔是噬魂狂魔（olethrodaemons），它们代表了因为天启或世界末日造成的大规模死亡。</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P><SPAN class=bbc_color style="COLOR: brown"><STRONG><SPAN class=bbc_size 
+  style="FONT-SIZE: 14pt">狂躁邪魔（收割邪魔）Cacodaemon（Harvester 
+  Daemon）</SPAN></STRONG></SPAN><BR>这些狂躁暴力和怨毒的化身诞生于末日荒原中愤怒和扭曲的灵魂旋涡。狂躁邪魔不断渴望人类的灵魂，并渴求制造痛苦。它们是长着牙齿、翅膀和尖刺的圆球，是邪魔里最为弱小的，代表着各种各样琐碎的死亡形式，并不专注于某种具体的死法所带来的力量。<BR><BR><SPAN 
+  class=bbc_size 
+  style="FONT-SIZE: 12pt"><STRONG>狂躁邪魔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1级生物</STRONG></SPAN>
+  <HR>
+  <STRONG>中立邪恶 超小型 邪魔 魔族</STRONG><BR><STRONG>察觉</STRONG> +6; 
+  黑暗视觉<BR><STRONG>语言</STRONG> 通用语, 邪魔语; 心灵感应 100尺<BR><STRONG>技能</STRONG> 特技+8, 
+  欺骗+5, 宗教 +6, 隐秘+8<BR><STRONG>力量</STRONG>+0, <STRONG>敏捷</STRONG>+3, 
+  <STRONG>体质</STRONG>+2, <STRONG>智力</STRONG>-1, <STRONG>感知</STRONG>+1, 
+  <STRONG>魅力</STRONG>+2
+  <HR>
+  <STRONG>AC</STRONG> 16; <STRONG>强韧</STRONG>+7, <STRONG>反射</STRONG>+8, 
+  <STRONG>意志</STRONG>+6<BR><STRONG>HP</STRONG> 22; <STRONG>免疫</STRONG> 死亡效果; 
+  <STRONG>弱点</STRONG> 善良 3
+  <HR>
+  <STRONG>速度</STRONG> 5 尺, 飞行40尺<BR><STRONG>近战[A]</STRONG> 啃咬+8（灵巧, 疾病, 邪恶, 娴熟, 
+  魔法） 伤害 1d8 穿刺 外加1d4邪恶和<STRONG>邪魔狂躁症</STRONG><BR><STRONG>神术内在法术</STRONG> DC 17; 
+  <BR>&nbsp; <STRONG>4环</STRONG> <EM>阅读机运 read omens</EM>; <STRONG>2环</STRONG> 
+  <EM>隐形术 invisibility</EM>（随意施展; 仅限自身）; <BR>&nbsp; <STRONG>1环</STRONG> <EM>侦测阵营 
+  detect alignment</EM>（随意施展; 仅限善良）, <EM>恐惧术 fear</EM>; <BR>&nbsp; 
+  <STRONG>戏法（1环）</STRONG> <EM>侦测魔法 detect magic</EM>（随意施展）<BR><BR><STRONG>邪魔狂躁症 
+  Cacodaemonia</STRONG>（疾病）狂躁邪魔能和同一位面上受此疾病影响的生物通过心灵感应来交流。; <STRONG>豁免</STRONG> 
+  DC 17 强韧; <STRONG>阶段1</STRONG> 携带疾病（1 天）;&nbsp; &nbsp;<STRONG>阶段2</STRONG> 
+  呆滞1（1天）;&nbsp; &nbsp;<STRONG>阶段3</STRONG> 呆滞2（1 天）<BR><BR><STRONG>变形 Change 
+  Shape [A]</STRONG>（专注, 神术, 变形, 变化系）<BR>&nbsp; ?<STRONG> 蜥蜴Lizard</STRONG> 
+  <STRONG>速度</STRONG> 20尺; <BR>&nbsp; &nbsp; &nbsp; 
+  <STRONG>近战[A]</STRONG>啃咬+8（灵巧, 娴熟）, <STRONG>伤害</STRONG> 1d8+1 穿刺<BR>&nbsp; 
+  ?<STRONG>章鱼Octopus</STRONG> <STRONG>体型</STRONG> 小型; <STRONG>速度</STRONG> 20尺, 
+  游泳 30尺; <BR>&nbsp; &nbsp; &nbsp; <STRONG>近战[A]</STRONG> 触手+8（娴熟）, 
+  <STRONG>伤害</STRONG> 1d8+1 钝击 附带攫抓; <BR>&nbsp; &nbsp; &nbsp; 
+  <STRONG>近战[A]</STRONG> 喙啄 +8（灵巧, 娴熟）, <STRONG>伤害</STRONG> 1d6 穿刺 
+  外加2毒素<BR>&nbsp; ?<STRONG>蝎子Scorpion</STRONG> <STRONG>体型</STRONG> 小型; 
+  <STRONG>速度</STRONG> 30尺; <BR>&nbsp; &nbsp; &nbsp; <STRONG>近战[A]</STRONG> 
+  螯夹+8（灵巧, 娴熟）, <STRONG>伤害</STRONG> 1d6+1 钝击 附带攫抓; <BR>&nbsp; &nbsp; &nbsp; 
+  <STRONG>近战[A]</STRONG> 钉刺+8（灵巧, 娴熟）, <STRONG>伤害</STRONG> 1d6+1 穿刺 
+  外加1d4毒素<BR><BR><STRONG>魂锁 Soul Lock [AAA]</STRONG>（死亡, 神术, 
+  死灵系）每日一次，狂躁邪魔能吞下一只30尺内的、死亡一分钟之内的、有意识的生物的灵魂。当狂躁邪魔这么做时，它的腹中会孕育出一只拳头大小的灵魂宝石（硬度 2, 
+  HP 
+  8）并且它能随时以一个交互动作将其呕吐出来。摧毁灵魂宝石能释放被困的灵魂，但并不能让死者复生。当施法者试图对灵魂宝石中困着的灵魂施展复活法术时必须通过DC 
+  30的宗教检定，一旦成功则灵魂宝石碎裂，死者像通常情况那样复活。一个魔族（fiend）可以以一个交互动作，吞下所持有的灵魂宝石，将灵魂放逐至该魔族的家乡位面。该魔族获得快速治疗5，持续1分钟。<BR></P>
+  <DIV style="MARGIN: 5px 20px 20px">
+  <DIV class=smallfont style="MARGIN-BOTTOM: 2px">&nbsp;</DIV></DIV>
+  <P><IMG class="bbc_img resized" style="CURSOR: pointer" alt="" src="https://2e.aonprd.com/Images/Monsters/Daemon_Cacodaemon.png" height=300></P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P><STRONG><SPAN class=bbc_color style="COLOR: brown"><SPAN class=bbc_size 
+  style="FONT-SIZE: 14pt">仆役邪魔（守卫邪魔）Ceustodaemon（Guardian 
+  Daemon）</SPAN></SPAN><BR></STRONG>仆役邪魔由各种邪恶的凡人灵魂形成，尤其是那些试图加速自己死亡让自己变成邪魔仆从的人们。他们超凡的感官让他们在守护宝库或主物质位面的其他类似的地点时非常有用。仆役邪魔是为侍奉而生的，但是总是在想方设法挣脱束缚，因此它们可能会撕裂召唤它们的凡人的肉体。最邪恶的召唤者把仆役邪魔释放到凡间有时仅仅是为了取悦末日荒原的邪恶力量。<BR><BR><STRONG><SPAN 
+  class=bbc_size 
+  style="FONT-SIZE: 12pt">仆役邪魔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6级生物</SPAN></STRONG>
+  <HR>
+  <STRONG>中立邪恶 大型 邪魔 魔族</STRONG><BR><STRONG>察觉</STRONG> +14; 黑暗视觉, 
+  识破隐形<BR><STRONG>语言</STRONG> 通用语, 邪魔语; 心灵感应 100尺<BR><STRONG>技能</STRONG> 欺骗+15, 
+  威吓+13, 隐秘+12, 生存+10<BR><STRONG>力量</STRONG>+5, <STRONG>敏捷</STRONG>+2, 
+  <STRONG>体质</STRONG>+4, <STRONG>智力</STRONG>+0, <STRONG>感知</STRONG>+2, 
+  <STRONG>魅力</STRONG>+ 3
+  <HR>
+  <STRONG>AC</STRONG> 23; <STRONG>强韧</STRONG>+16, <STRONG>反射</STRONG>+12, 
+  <STRONG>意志</STRONG>+12<BR><STRONG>HP</STRONG> 130; <STRONG>免疫</STRONG> 死亡效果; 
+  弱点 善良10
+  <HR>
+  <STRONG>速度</STRONG> 25尺<BR><STRONG>近战[A]</STRONG> 啃咬+16（邪恶, 触及10尺）, 伤害 2d10+5 
+  穿刺 外加1d6邪恶和<STRONG>恶毒之伤</STRONG><BR><STRONG>近战[A]</STRONG> 爪抓+16（灵巧, 邪恶, 魔法, 
+  触及 10尺）, <STRONG>伤害</STRONG> 2d6+5 挥砍 
+  外加1d6邪恶和<STRONG>恶毒之伤</STRONG><BR><STRONG>神术内在法术</STRONG> DC 23; <BR>&nbsp; 
+  <STRONG>7环</STRONG> <EM>飞行术 fly</EM>, <STRONG>4环</STRONG> <EM>次元门 dimension 
+  door</EM>（随意施展）, <BR>&nbsp; <STRONG>3环</STRONG> <EM>解除魔法 dispel 
+  magic</EM>（×2）, <EM>麻痹术 paralyze</EM>, <STRONG>1环</STRONG><EM> 侦测阵营 detect 
+  alignment</EM>（随意施展; 仅限善良）; <BR>&nbsp; <STRONG>常驻（2环）</STRONG> <EM>识破隐形 see 
+  invisibility</EM><BR><BR><STRONG>吐息 Breath Weapon [AA]</STRONG>（神术, 塑能系, 
+  火焰）仆役邪魔对30尺锥形范围喷出烈焰。范围内的生物受到7d6火焰伤害（DC 
+  24基础反射豁免）。仆役邪魔自身和每个豁免失败的生物将会着火，受到2d6持续性火焰伤害。仆役邪魔在1d4轮内无法再次使用吐息能力。<BR><BR><STRONG>乐于侍奉Drawn 
+  to Service </STRONG>当施展类似异界誓缚 planar binding 或异界盟友 planar ally 
+  之类的仪式将仆役邪魔召唤到其他位面时，该仪式的主要检定或次要检定技能DC减少5，并且仆役邪魔的服务只需要正常开销的一半。<BR><BR><STRONG>恶毒之伤 
+  Vicious Wounds</STRONG> 
+  当仆役邪魔的啃咬打击或爪抓打击成功命中目标，恶毒地撕裂猎物时，它的身躯上会出现类似的伤口。目标受到额外1d6伤害，仆役邪魔也受到同样的额外伤害。如果该额外伤害因为重击变为双倍，则仆役邪魔同样受到双倍伤害。<BR></P>
+  <DIV style="MARGIN: 5px 20px 20px">
+  <DIV class=smallfont style="MARGIN-BOTTOM: 2px">
+  <DIV style="display:block">&nbsp;</DIV></DIV></DIV>
+  <P><IMG class="bbc_img resized" style="CURSOR: pointer" alt="" src="https://2e.aonprd.com/Images/Monsters/Daemon_Ceustodaemon.png" height=300></P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P><STRONG><SPAN class=bbc_color style="COLOR: brown"><SPAN class=bbc_size 
+  style="FONT-SIZE: 14pt">疫病邪魔（瘟疫邪魔）Leukodaemon（Pestilence 
+  Daemon）</SPAN></SPAN><BR></STRONG>这些有着颅骨头部、秃鹫翅膀的邪魔是瘟疫的预兆，是瘟疫驭者亚波伦（Apollyon）的仆从。它们是死于疾病的邪恶灵魂的具现，不知疲倦地工作以便疾病传播到多元宇宙的所有世界。相比其他的邪魔，疫病邪魔和同类以及它们的召唤者互相合作，并把散播疾病和瘟疫的使命视作比个体荣誉更高的目标。<BR><BR><SPAN 
+  class=bbc_size 
+  style="FONT-SIZE: 12pt"><STRONG>疫病邪魔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  9级生物</STRONG></SPAN>
+  <HR>
+  <STRONG>中立邪恶 大型 邪魔 魔族</STRONG><BR><STRONG>察觉</STRONG> +20; 黑暗视觉, 
+  疫病感官60尺<BR><STRONG>语言</STRONG> 通用语, 邪魔语; 心灵感应 100尺<BR><STRONG>技能</STRONG> 
+  特技+18, 威吓+18, 医疗+20, 宗教 +20, 隐秘+18, 生存+16<BR><STRONG>力量</STRONG>+6, 
+  <STRONG>敏捷</STRONG>+5, <STRONG>体质</STRONG>+1, <STRONG>智力</STRONG>+3, 
+  <STRONG>感知</STRONG>+5, <STRONG>魅力</STRONG>+3<BR><STRONG>物品</STRONG> +1 
+  强击符合长弓（50支箭）<BR><STRONG>疫病感官 Plaguesense</STRONG> 
+  疫病邪魔能感知到范围内任何携带疾病的生物，并且能知晓这些生物所携带的所有疾病的类型和疾病当前所处的阶段。
+  <HR>
+  <STRONG>AC</STRONG> 28; <STRONG>强韧</STRONG>+15, <STRONG>反射</STRONG>+21, 
+  <STRONG>意志</STRONG>+19; 对抗魔法的豁免鉴定获得+1状态加值<BR><STRONG>HP</STRONG> 155; 
+  <STRONG>免疫</STRONG> 死亡效果, 疾病; <STRONG>弱点</STRONG> 善良 10<BR><STRONG>传染灵光 
+  Infectious Aura</STRONG>（灵光, 
+  疾病）30尺。疫病邪魔向周围散播感染。30尺内的所有生物对疾病的豁免都承受-2减值。如果范围内的生物携带疾病或已经在发病过程中，则它相邻的生物暴露在该疾病的影响下，并且需要对抗相同的豁免DC。
+  <HR>
+  <STRONG>速度</STRONG> 25尺, 飞行 40尺<BR><STRONG>近战[A]</STRONG> 啃咬+21（疾病, 邪恶, 魔法, 触及 
+  10尺）, <STRONG>伤害</STRONG> 2d12+9 穿刺 
+  外加1d6邪恶和<STRONG>邪魔瘟疫</STRONG><BR><STRONG>近战[A]</STRONG> 爪抓+21（灵巧, 疾病, 邪恶, 魔法, 
+  触及 10尺）, <STRONG>伤害</STRONG> 2d8+9 挥砍 
+  外加1d6邪恶和<STRONG>邪魔瘟疫</STRONG><BR><STRONG>远程[A]</STRONG> 复合长弓+21（致命1d10, 疾病, 
+  邪恶, 魔法, 助进, 射程增量 100尺, 装填0, 近射30尺）, <STRONG>伤害</STRONG> 2d8+9 穿刺 
+  外加1d6邪恶和邪魔瘟疫<BR><STRONG>神术内在法术</STRONG> DC 26; <BR>&nbsp; <STRONG>5环</STRONG> 
+  <EM>次元门 dimension door</EM>; <BR>&nbsp; <STRONG>4环</STRONG> <EM>次元门 dimension 
+  door</EM>（随意施展）, <EM>解除魔法 dispel magic</EM>（×2）; <BR>&nbsp; 
+  <STRONG>1环</STRONG> <EM>侦测阵营 detect alignment</EM>（随意施展; 
+  仅限善良）<BR>&nbsp;<BR><STRONG>吐息 Breath Weapon [AA]</STRONG>（塑能系, 
+  神术）疫病邪魔对20尺锥形范围喷出一群肿胀的咬人的黑色苍蝇。范围内的生物受到4d8穿刺伤害（DC 
+  28基础反射豁免）。豁免失败的生物陷入恶心1（sickened）状态（大失败则恶心2）。<BR><BR><STRONG>邪魔瘟疫 Daemonic 
+  Pestilence</STRONG>（疾病） 疫病邪魔能和同一位面上受此疾病影响的生物通过心灵感应来交流; 豁免 DC 28 强韧; 阶段1 携带（1 
+  日）; 阶段2 流失1（drained）（1 日）; 阶段3 流失2（1 日）; 阶段4 流失2（1 日）; 阶段5 流失 3（1 周）; 阶段6 
+  死亡<BR><BR><STRONG>快速感染 Quicken Pestilence [A]</STRONG>（神术, 操作, 
+  死灵系）疫病邪魔可以诱使疾病完全爆发。它选择一个传染灵光范围内已经受到疾病影响的生物。疾病当前阶段的间歇期直接结束，导致该生物必须尝试一次对抗疾病的强韧检定。<BR><BR></P>
+  <DIV style="MARGIN: 5px 20px 20px">
+  <DIV class=smallfont style="MARGIN-BOTTOM: 2px">
+  <DIV style="display:block">&nbsp;</DIV></DIV></DIV>
+  <P><IMG class="bbc_img resized" style="CURSOR: pointer" alt="" src="https://2e.aonprd.com/Images/Monsters/Daemon_Leukodaemon.png" height=300></P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P><SPAN class=bbc_color style="COLOR: brown"><STRONG><SPAN class=bbc_size 
+  style="FONT-SIZE: 14pt">星界邪魔（虚空邪魔）Astradaemon（Void 
+  Daemon）</SPAN></STRONG></SPAN><BR>这些令人不安的卑鄙邪魔代表着对灵魂或生命力量直接进行攻击所造成的死亡——这也包括了它们的致命触摸所导致的灵魂剥离的死法。星界邪魔很少出现在主物质位面，它们大部分时间都在生者世界前往来生的必经之路上进行狩猎。在那里，它们捕食迁徙的灵魂，夺走他们应得的奖励或惩罚，把他们拖到末日荒原，作为他们永恒主人的贡品。这些可怕的邪魔也会出现在星界（Astral 
+  Plane）的灵魂之河（River of 
+  Souls），在那里不断寻找着新的猎物。招魂者（Psychopomps）对星界邪魔有一种特殊的仇恨，它们和这些怪诞的灵魂猎手之间的冲突在很多传说里都有所体现。<BR><BR>并非所有的星界邪魔仅仅对灵魂感兴趣。一些最为臭名昭著的星界邪魔作为刺客听候驭者们的调遣。<BR><BR><STRONG><SPAN 
+  class=bbc_size 
+  style="FONT-SIZE: 12pt">星界邪魔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16级生物</SPAN></STRONG>
+  <HR>
+  <STRONG>中立邪恶 大型 邪魔 魔族</STRONG><BR><STRONG>察觉</STRONG> +28; 黑暗视觉, 生命感知30尺, 
+  真视术<BR><STRONG>语言</STRONG> 通用语, 邪灵语; 心灵感应 100尺<BR><STRONG>技能</STRONG> 特技+28, 
+  威吓+33, 宗教 +26, 隐秘+28, 生存+26<BR><STRONG>力量</STRONG>+5, <STRONG>敏捷</STRONG>+6, 
+  <STRONG>体质</STRONG>+7, <STRONG>智力</STRONG>+2, <STRONG>感知</STRONG>+4, 
+  <STRONG>魅力</STRONG>+7
+  <HR>
+  <STRONG>AC</STRONG> 39; <STRONG>强韧</STRONG>+27, <STRONG>反射</STRONG>+30, 
+  <STRONG>意志</STRONG>+26; 对抗魔法的豁免鉴定获得+1状态加值<BR><STRONG>HP</STRONG> 240; 
+  <STRONG>免疫</STRONG> 死亡效果, 负能量; <STRONG>弱点</STRONG> 善良 15<BR><STRONG>灵魂虹吸 Soul 
+  Siphon</STRONG>（灵光, 神术, 力场, 
+  死灵系）30尺。星界邪魔从刚杀死的生物身上吸取灵魂能量。如果一个小型或更大体型的活着的生物在此灵光范围内死亡，星界邪魔获得5临时生命值，并且攻击检定和伤害检定获得+1状态加值，持续1分钟，除非该生物是被星界邪魔的噬魂能力所杀。灵光范围内无实体的不死生物、活着的精魄也会不断被吸取灵魂，每轮受到1d8力场伤害。<BR><STRONG>移位 
+  Displacement</STRONG>（神术, 幻术系, 
+  视觉）星界邪魔扭曲光线，看起来和它的真实位置略微偏移，但仍占据相同的空间。以星界邪魔为目标的生物必须尝试DC 
+  11的纯骰检定，就如同星界邪魔处于藏匿（hidden）状态，即使它依然能被观察到。盲斗Blind-Fight专长和半身人的锐眼keen 
+  eyes天赋对隐蔽生物纯骰检定的修正适用于移位状态的星界邪魔。
+  <HR>
+  <STRONG>速度</STRONG> 60尺, 飞行 60尺<BR><STRONG>近战[A]</STRONG> 啃咬+32（邪恶, 魔法, 触及 
+  10尺）, <STRONG>伤害</STRONG> 3d8+9 穿刺 plus 1d6 邪恶,<STRONG> 吸取精华</STRONG>, 
+  和攫抓<BR><STRONG>近战[A]</STRONG> 爪抓+32（灵巧, 邪恶, 魔法, 触及 10尺）, <STRONG>伤害</STRONG> 
+  3d6+9 挥砍 外加1d6邪恶和<STRONG>吸取精华</STRONG><BR><STRONG>近战[A]</STRONG> 尾击+32（邪恶, 魔法, 
+  触及 15尺）, <STRONG>伤害</STRONG> 3d10+9 钝击 
+  外加1d6邪恶和<STRONG>吸取精华</STRONG><BR><STRONG>神术内在法术</STRONG> DC 37; <BR>&nbsp; 
+  <STRONG>8环</STRONG> <EM>感知位置 discern location</EM>, <EM>死亡一指 finger of 
+  death</EM>; <STRONG>7环</STRONG><EM> 位面传送 plane shift</EM>（×2）, <BR>&nbsp; 
+  <STRONG>5环</STRONG> <EM>次元门 dimension door</EM>; <STRONG>4环</STRONG> <EM>次元门 
+  dimension door</EM>（随意施展）, <BR>&nbsp; <STRONG>1环</STRONG> <EM>侦测阵营 detect 
+  alignment</EM>（随意施展; 仅限善良）; <STRONG>常驻（6环）</STRONG> <EM>真视术 true 
+  seeing</EM><BR><BR><STRONG>噬魂Devour Soul [A]</STRONG>（神术, 失能, 死灵系） 
+  <STRONG>需求</STRONG> 星界邪魔本轮中尚未进行带有攻击特征的动作。 <STRONG>效果</STRONG> 
+  星界邪魔拽出被它擒抱的生物的灵魂并将其吞噬。该生物必须成功通过DC 
+  35强韧检定，否则立即死亡。如果它死亡，星界邪魔获得10点临时生命值并且攻击检定和伤害检定获得获得+2状态加值，持续1分钟。如果该生物是15级或更高级别的生物，则持续时间为1天。被此方法杀死的受害者可以被正常复活。通过豁免的生物在1分钟之内对该能力临时免疫。<BR><BR><STRONG>吸取精华 
+  Essence Drain</STRONG>（神术, 死灵系, 
+  负能量）星界邪魔的爪抓、啃咬或尾击命中时，它能吸取目标的精神和生命精华。目标受到2d10负能量伤害并且星界邪魔获得等量的生命值。目标必须成功通过DC 
+  37强韧检定，否则获得毁灭1（doomed）和流失1（drained）状态。如果目标已经受到毁灭和流失状态影响，则其状态值+1，最大能达到状态值4。<BR></P>
+  <DIV style="MARGIN: 5px 20px 20px">
+  <DIV class=smallfont style="MARGIN-BOTTOM: 2px">&nbsp;</DIV></DIV>
+  <P><IMG class="bbc_img resized" style="CURSOR: pointer" alt="" src="https://2e.aonprd.com/Images/Monsters/Daemon_Astradaemon.png" height=300></P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P><SPAN class=bbc_color style="COLOR: navy"><STRONG><SPAN class=bbc_size 
+  style="FONT-SIZE: 18pt">邪魔 
+  Daemon</SPAN></STRONG></SPAN><BR>　　邪魔来自最卑鄙的人的灵魂，它们是各种死亡方式的拟人化具现。<BR><BR></P>
+  <DIV class=quoteheader>
+  <DIV class=topslice_quote>引用</DIV></DIV>
+  <BLOCKQUOTE class=bbc_standard_quote><SPAN class=bbc_size 
+    style="FONT-SIZE: 12pt"><STRONG>边栏：末日荒原 
+    ABADDON</STRONG></SPAN><BR>邪魔来自末日荒原，一个只有最堕落的灵魂才能体验到的纯粹邪恶的世界。如果说地狱是充满折磨和系统化的邪恶领域，那么末日荒原就是它扭曲的兄弟——在那里，只能找到大量的痛苦和绝望，既没有地狱的规矩束缚，也没有深渊的混乱自由。对于那些仅仅想把自己的邪恶强加于人的堕落者来说，末日荒原是个丰富的猎场，可以纵情享受各种卑鄙无耻的行为，但来访者应该注意：这里的竞争也同样激烈。</BLOCKQUOTE>
+  <DIV class=quotefooter>
+  <DIV class=botslice_quote></DIV></DIV>
+  <P><BR>&nbsp;</P>
+  <DIV class=quoteheader>
+  <DIV class=topslice_quote>引用</DIV></DIV>
+  <BLOCKQUOTE class=bbc_standard_quote><SPAN class=bbc_size 
+    style="FONT-SIZE: 12pt"><STRONG>边栏：邪魔先驱 DAEMON 
+    HARBINGERS</STRONG></SPAN><BR>四驭者是最为强大的邪魔半神，但它们只是诸多邪魔半神中的四位而已。更多的邪魔先驱居住在末日荒原，每一位都是独特而强大的半神，在邪魔中具有广泛的影响力。“收集者”贾卡尔卡斯（Jacarkas 
+    the Collector ，奴隶城市待戮城的统治者），“蛇君”沃拉沙（Vorasha the 
+    Ophidian，饥荒驭者的妻子），“苦涩凶焰”泽利什卡尔（Zelishkar the Bitter 
+    Flame，纵火狂和战争驭者的代理人）只是统治末日荒原的几十位邪魔先驱中的三位。</BLOCKQUOTE>
+  <DIV class=quotefooter>
+  <DIV class=botslice_quote></DIV></DIV>
+  <P><BR>&nbsp;</P>
+  <DIV class=quoteheader>
+  <DIV class=topslice_quote>引用</DIV></DIV>
+  <BLOCKQUOTE class=bbc_standard_quote><SPAN class=bbc_size 
+    style="FONT-SIZE: 12pt"><STRONG>边栏：邪魔执事 DAEMONIC 
+    DEACONS</STRONG></SPAN><BR>每位驭者都有一种特定类型的邪魔专门为其服务，这就是所谓的邪魔执事。疫病邪魔（Leukodaemons）是瘟疫驭者的执事，饥馑邪魔（Meladaemons）是饥荒驭者的执事，执死邪魔（thanadaemons）是死亡驭者的执事。狂战邪魔（Purrodaemons）是邪魔执事中最强大的，服务于战争驭者。然而，随着时间的推移，哪种执事最强也不是一成不变的。</BLOCKQUOTE>
+  <DIV class=quotefooter>
+  <DIV class=botslice_quote></DIV></DIV>
+  <P><BR>&nbsp;</P>
+  <DIV class=quoteheader>
+  <DIV class=topslice_quote>引用</DIV></DIV>
+  <BLOCKQUOTE class=bbc_standard_quote><SPAN class=bbc_size 
+    style="FONT-SIZE: 12pt"><STRONG>边栏：作为装备的灵魂宝石 SOUL GEMS AS 
+    GEAR</STRONG></SPAN><BR>邪魔常常携带灵魂宝石作为战利品或某种能量源。狂躁邪魔（Cacodaemons，《怪物图鉴》70页）是灵魂宝石最常见的来源，但它们也可以通过缚魂术（bind 
+    soul）这样的法术产生。如果邪魔通过粉碎某个灵魂宝石来获得某种力量，那么被困在宝石中的灵魂将可以前往来世，并可以通过正常方法复活。</BLOCKQUOTE>
+  <DIV class=quotefooter>
+  <DIV class=botslice_quote></DIV></DIV>
+  <P><BR><BR><SPAN class=bbc_color style="COLOR: brown"><SPAN class=bbc_size 
+  style="FONT-SIZE: 14pt"><STRONG>残虐邪魔（毒液邪魔）PISCODAEMON（VENOM 
+  DAEMON）</STRONG></SPAN></SPAN><BR>　　即便以魔族的标准来看，残虐邪魔也是性情残忍的，以制造缓慢而痛苦的死亡为乐。对于残虐邪魔来说，死亡不过是腐败蛋糕上的糖霜——它真正的乐趣来自看、听、闻，甚至品尝原始的痛苦。虽然毒素和毒液是残虐邪魔的首选武器 
+  ，但如果必要的话，它们残忍的爪子也会将敌人撕成碎片。<BR><BR>　　残虐邪魔生活在恶臭的沼泽和有毒的水道中，包括冥河（River 
+  Styx）、胆汁水闸（Bile Sluice）和死亡驭者喀戎的溺水王庭（Drowning 
+  Court）。残虐邪魔身边往往有一群代表溺水而亡的冥河邪魔（hydrodaemon）伴随着它们。虽然残虐邪魔是狡猾的指挥官，但在战斗最激烈的时候，它们很容易忘记自身的角色，完全投入到战斗中。<BR><BR><SPAN 
+  class=bbc_size 
+  style="FONT-SIZE: 12pt"><STRONG>残虐邪魔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10级生物</STRONG></SPAN>
+  <HR>
+  <STRONG><SPAN class=bbc_color style="COLOR: blue">中立邪恶</SPAN> <SPAN 
+  class=bbc_color style="COLOR: green">中型</SPAN> <SPAN class=bbc_color 
+  style="COLOR: brown">两栖 邪魔 魔族</SPAN></STRONG><BR><STRONG>察觉</STRONG> 
+  +19；黑暗视觉，识破隐形<BR><STRONG>语言</STRONG> 通用语，邪魔语；心灵感应100尺<BR><STRONG>技能</STRONG> 
+  运动+22，威吓+19，医疗 +17，隐秘 +22，生存+19<BR><STRONG>力量</STRONG> +6，<STRONG>敏捷</STRONG> 
+  +4，<STRONG>体质</STRONG> +6，<STRONG>智力</STRONG> +2，<STRONG>感知</STRONG> 
+  +3，<STRONG>魅力</STRONG> +3
+  <HR>
+  <STRONG>AC</STRONG> 28；<STRONG>强韧</STRONG> +22，<STRONG>反射</STRONG> 
+  +16，<STRONG>意志</STRONG> +19；对抗魔法效果时所有豁免+1<BR><STRONG>HP</STRONG> 
+  200；<STRONG>免疫</STRONG> 死亡效果，毒素；<STRONG>弱点</STRONG> 善良 10<BR><STRONG>借机攻击[R] 
+  </STRONG><BR><STRONG>毒液增强（Enhance Venom）[R]</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（神术，厄运，死灵系，毒素）</SPAN><STRONG>触发</STRONG> 
+  一个30尺内的生物尝试进行一次豁免检定来对抗残虐毒液；<STRONG>效果</STRONG> 该生物即使通过豁免，也要受到2d8毒素伤害。
+  <HR>
+  <STRONG>速度</STRONG> 25尺，游泳40尺<BR><STRONG>近战[A] </STRONG>爪抓 +23<SPAN 
+  class=bbc_color style="COLOR: brown">（邪恶，魔法）</SPAN>，<STRONG>伤害</STRONG> 
+  2d10+12 挥砍 外加1d6 邪恶和攫抓<BR><STRONG>近战[A] </STRONG>触手 +23<SPAN class=bbc_color 
+  style="COLOR: brown">（灵巧，邪恶，魔法）</SPAN>，<STRONG>伤害</STRONG> 2d6+12 钝击 外加1d6 
+  邪恶和残虐毒液<BR><STRONG>神术内在法术 </STRONG>DC 29；<BR>　<STRONG>5环</STRONG> <EM>次元门 
+  dimension door</EM>；<STRONG>4环</STRONG> <EM>次元门 dimension 
+  door</EM>（随意施展），<EM>臭云术 stinking cloud</EM>（×3）；<BR>　<STRONG>1环</STRONG> 
+  <EM>侦测阵营 detect alignment</EM>（随意施展；仅限善良），<EM>侦测毒素 detect 
+  poison</EM>（随意施展）；<BR>　<STRONG>常驻（2环）</STRONG><EM>识破隐形 see 
+  invisibility</EM><BR><BR><STRONG>紧勒（Constrict）[A] </STRONG>2d10+6 钝击，DC 
+  30<BR><BR><STRONG>血腥撕裂（Gory Rend）[AA] 
+  </STRONG>残虐邪魔对同一个生物进行两次爪抓打击。如果都命中，该生物受到额外2d10持续性流血伤害，并且暴露在残虐毒液的影响下。<BR><BR><STRONG>残虐毒液（Piscovenom）</STRONG><SPAN 
+  class=bbc_color style="COLOR: brown">（毒素）</SPAN><STRONG>豁免</STRONG> DC 30 
+  强韧；<STRONG>最大持续</STRONG> 6 轮；<STRONG>阶段1</STRONG> 1d8 毒素和力竭 
+  1（1轮）；<STRONG>阶段2</STRONG> 2d8 毒素和力竭 1（1轮）；<STRONG>阶段3</STRONG> 4d8 毒素和力竭 
+  2（1轮）<BR><BR><IMG class="bbc_img resized" style="CURSOR: pointer" alt="" src="https://2e.aonprd.com/Images/Monsters/Daemon_Piscodaemon.png" height=300></P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P><SPAN class=bbc_color style="COLOR: brown"><SPAN class=bbc_size 
+  style="FONT-SIZE: 14pt"><STRONG>饥馑邪魔（饥荒邪魔）MELADAEMON（FAMINE 
+  DAEMON）</STRONG></SPAN></SPAN><BR>　　饥馑邪魔将是饿死和渴死的化身，并以散播导致其死亡的同样绝望为乐。当它们没有在破坏农田、屠杀牲畜或污染水源时，就是在囚犯身上做实验，研究生物在没有食物的情况下能活多久，以及这种饥渴所导致的有害影响。他们非常忠诚于饥荒驭者崔玛瑞希（Trelmarixian），不为其他生物服务。如果崔玛瑞希同意，它们会和其它邪魔一同工作，但它们是出名的叛徒。<BR><BR></P>
+  <DIV class=quoteheader>
+  <DIV class=topslice_quote>引用</DIV></DIV>
+  <BLOCKQUOTE class=bbc_standard_quote><SPAN class=bbc_size 
+    style="FONT-SIZE: 12pt"><STRONG>边栏：扭曲成它的样貌 FORMED IN HIS 
+    IMAGE</STRONG></SPAN><BR>饥馑邪魔的外表一直是瘦骨嶙峋的野兽，但未必都是豺狼的样子。当崔玛瑞希推翻上一任饥荒驭者时，他作为末日荒原的统治者所做的第一件事就是强行扭曲他忠诚仆从们的外表，让他们看起来像自己邪恶的影子。他在之后继续给饥馑邪魔灌输适合于它豺狼模样的特质，进一步扭曲它们，巩固他们的忠心。</BLOCKQUOTE>
+  <DIV class=quotefooter>
+  <DIV class=botslice_quote></DIV></DIV>
+  <P><BR><SPAN class=bbc_size 
+  style="FONT-SIZE: 12pt"><STRONG>饥馑邪魔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11级生物</STRONG></SPAN>
+  <HR>
+  <STRONG><SPAN class=bbc_color style="COLOR: blue">中立邪恶 </SPAN><SPAN 
+  class=bbc_color style="COLOR: green">大型</SPAN> <SPAN class=bbc_color 
+  style="COLOR: brown">邪魔 魔族</SPAN></STRONG><BR><STRONG>察觉</STRONG> 
+  +21；黑暗视觉，生命感知（模糊感官） 30尺<BR><STRONG>语言</STRONG> 通用语，邪魔语；心灵感应 
+  100尺<BR><STRONG>技能</STRONG> 特技+20，欺骗 +23，威吓+23，宗教 +20，隐秘 
+  +23，生存+19<BR><STRONG>力量</STRONG> +7，<STRONG>敏捷</STRONG> +5，<STRONG>体质</STRONG> 
+  +6，<STRONG>智力</STRONG> +3，<STRONG>感知</STRONG> +4，<STRONG>魅力</STRONG> +6
+  <HR>
+  <STRONG>AC</STRONG> 31；<STRONG>强韧</STRONG> +23，<STRONG>反射</STRONG> 
+  +20，<STRONG>意志</STRONG> +19；对抗魔法效果时所有豁免+1<BR><STRONG>HP</STRONG> 
+  225；<STRONG>免疫</STRONG> 死亡效果；<STRONG>弱点</STRONG> 善良 10<BR><STRONG>饥饿灵光 
+  Consumptive Aura</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（灵光，神术）</SPAN> 
+  20尺。饥馑邪魔散发的气息让周围生物陷入极度饥饿。每轮当一个生物在灵光范围内开始它的回合时，必须尝试1次DC 27强韧豁免。如果失败，该生物受到1d6 
+  负能量伤害（大失败则2d6）并且陷入疲乏。该疲乏状态会一直持续到该生物吃下任何食物为止。<BR><BR><STRONG>枯萎反射 Withering 
+  Opportunity[R] </STRONG><STRONG>触发</STRONG> 
+  饥馑邪魔被相邻的生物攻击，并且攻击失手；<STRONG>效果</STRONG> 
+  饥馑邪魔猛击触发的生物，该生物必须立即尝试1次针对枯萎之触的豁免鉴定。<BR>（译注：这里原文是The meladaemon swipes at the 
+  triggering creature而不是Strike，这个动作也没有攻击tag，因此个人理解是不需要进行攻击检定，目标直接进入到豁免阶段）
+  <HR>
+  <STRONG>速度</STRONG> 25尺，飞行 50尺<BR><STRONG>近战[A] </STRONG>噬咬 +24<SPAN 
+  class=bbc_color style="COLOR: brown">（邪恶，魔法，触及10尺）</SPAN>，<STRONG>伤害</STRONG> 
+  2d12+13 外加1d6 邪恶和邪魔消瘦症<BR><STRONG>近战[A] </STRONG>爪抓 +24<SPAN class=bbc_color 
+  style="COLOR: brown">（灵巧，邪恶，魔法，触及 10尺）</SPAN>，<STRONG>伤害</STRONG> 2d8+13 挥砍 
+  外加1d6 邪恶，攫抓，和枯萎之触<BR><STRONG>神术内在法术</STRONG> DC 31；<BR>　<STRONG>6环</STRONG> 
+  <EM>幻痛术 phantom pain</EM>；　<STRONG>5环</STRONG> <EM>次元门 dimension door，恐惧术 
+  fear，魔法飞弹 magic missile</EM>（随意施展）；<BR>　<STRONG>4环</STRONG> <EM>次元门 dimension 
+  door</EM>（随意施展）；<STRONG>1环</STRONG> <EM>侦测阵营 detect 
+  alignment</EM>（仅限善良；随意施展）<BR><STRONG>仪式</STRONG> DC 31；<EM>枯萎术 
+  blight</EM><BR><BR><STRONG>邪魔消瘦症 Daemonic Famine</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（疾病）</SPAN><STRONG>豁免</STRONG> DC 29 
+  强韧；<STRONG>阶段1</STRONG> 携带疾病（1日）；<STRONG>阶段2</STRONG> 
+  力竭1（1日）；<STRONG>阶段3</STRONG> 力竭2（1日）；<STRONG>阶段4</STRONG> 
+  同阶段3；<STRONG>阶段5</STRONG> 力竭3（1 周）；<STRONG>阶段6</STRONG> 死亡<BR><BR><STRONG>枯萎之触 
+  Withering Touch</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（神术，邪恶，死灵系）</SPAN> 
+  当饥馑邪魔以爪抓打击命中对手，或一个生物在被饥馑邪魔攫抓的状态下开始它的回合，该生物必须通过DC 
+  30强韧检定。如果失败，该生物受到1d6负能量伤害，并且陷入疲乏。该疲乏状态持续到该生物饮水为止。<BR><BR><IMG class="bbc_img resized" style="CURSOR: pointer" alt="" src="https://2e.aonprd.com/Images/Monsters/Daemon_meladaemon.png" height=400></P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P><SPAN class=bbc_color style="COLOR: brown"><SPAN class=bbc_size 
+  style="FONT-SIZE: 14pt"><STRONG>异虫邪魔（劫掠邪魔）DERGHODAEMON（RAVAGER 
+  DAEMON）</STRONG></SPAN></SPAN><BR>　　异虫邪魔代表那些不可测的暴力和活吞导致的死亡。无论是在现实生活中，丧心病狂的杀人犯将受害者剁成碎片煮食，还是狼人将受害者撕成碎片，或者他们只是屈服于自然并且成为蠕虫们的大餐，异虫邪魔一直追求着任意扭曲且血腥的死法。和某些邪魔不同，异虫邪魔对漫长的死法感觉不到任何乐趣——对于它们来说，能越快速地实现血腥的死亡，就能越早将注意力转移到下一个受害者，重复暴力的循环。<BR><BR>　　异虫邪魔看起来就像大多数虫类一样，锋利的剃刀状爪子连接着具有威胁性的几丁质四肢，但很少有人能持久观察它的外貌——异虫邪魔的凝视足以让附近的其他生物产生严重的视觉幻象。这会让异虫邪魔的外表变得越来越扭曲，那些盯着它看的人会产生邪恶的幻觉和渴望伤害和吞噬他人的欲望。<BR><BR>　　也许异虫邪魔对受害者施加的最令人恐惧的攻击是它们的虫群感染——异虫邪魔喷出一大群嗡嗡作响的虫群，包裹住受害者并吞噬受害者的躯体，虫群发出的嗡嗡声让人心智困惑，如同耳语般的威胁，就算受害者不死的话也会陷入不分敌我的狂暴失心疯！<BR><BR><SPAN 
+  class=bbc_size style="FONT-SIZE: 12pt"><STRONG>异虫邪魔 DERGHODAEMON 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12级生物</STRONG></SPAN>
+  <HR>
+  <STRONG><SPAN class=bbc_color style="COLOR: blue">中立邪恶</SPAN> <SPAN 
+  class=bbc_color style="COLOR: green">大型</SPAN> <SPAN class=bbc_color 
+  style="COLOR: brown">邪魔 魔族</SPAN></STRONG><BR><STRONG>察觉</STRONG> 
+  +24；黑暗视觉，灵敏嗅觉（模糊感官） 60尺<BR><STRONG>语言</STRONG> 
+  通用语，邪魔语；心灵感应100尺<BR><STRONG>技能</STRONG> 特技+22，运动+25，威吓+24，隐秘 
+  +24<BR><STRONG>力量</STRONG> +7，<STRONG>敏捷</STRONG> +6，<STRONG>体质</STRONG> 
+  +5，<STRONG>智力</STRONG> +1，<STRONG>感知</STRONG> +6，<STRONG>魅力</STRONG> +6
+  <HR>
+  <STRONG>AC</STRONG> 33；<STRONG>强韧</STRONG> +21，<STRONG>反射</STRONG> 
+  +24，<STRONG>意志</STRONG> +22；对抗魔法效果时所有豁免+1<BR><STRONG>HP</STRONG> 
+  240；<STRONG>免疫</STRONG> 困惑，死亡效果，集群攻击；<STRONG>弱点</STRONG> 善良 10
+  <HR>
+  <STRONG>速度</STRONG> 35尺<BR><STRONG>近战[A] </STRONG>爪抓 +25<SPAN class=bbc_color 
+  style="COLOR: brown">（致命1d12，邪恶，魔法，触及 10尺）</SPAN>，<STRONG>伤害</STRONG> 3d8+10 
+  挥砍 外加1d6邪恶<BR><STRONG>远程[A] </STRONG>虫群喷吐 +25<SPAN class=bbc_color 
+  style="COLOR: brown">（邪恶，魔法，射程60尺）</SPAN>，<STRONG>伤害</STRONG> 2d6+13 穿刺 
+  外加1d6邪恶<BR><STRONG>神术内在法术</STRONG> DC 32；<BR>　<STRONG>6环</STRONG> <EM>剑刃障壁 
+  blade barrier，弱智术 feeblemind</EM>（×3）；<STRONG>5环</STRONG> <EM>次元门 dimension 
+  door</EM>；<BR>　<STRONG>4环</STRONG> <EM>次元门dimension 
+  door</EM>（随意施展）；　<STRONG>1环</STRONG> <EM>侦测阵营 detect 
+  alignment</EM>（仅限善良；随意施展）<BR><BR><STRONG>异虫邪魔的凝视（Derghodaemon's 
+  Stare）[A]</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（神术，情绪，惑控系，失能，心智，视觉）</SPAN> 一个非邪恶目标必须成功通过DC 
+  32意志豁免，否则困惑1轮，大失败困惑1分钟。目标在10分钟内对此能力临时免疫。<BR><BR><STRONG>撕裂（Rend）[A]</STRONG> 
+  爪抓<BR><BR><STRONG>凶暴突袭（Savage Assault）[AA] 
+  </STRONG>异虫邪魔进行最多5次爪抓打击，每次针对不同目标。这些攻击会计入异虫邪魔的多重攻击减值，但该减值在所有打击都完成后才会增加。<BR><BR><STRONG>虫群侵袭（Swarming 
+  Infestation）[AA]</STRONG> 
+  异虫邪魔喷出一大群昆虫，对射程内的最多两个彼此相邻的目标进行一次虫群喷吐打击。无论是否命中目标，目每个目标都必须尝试DC 
+  31反射豁免（如果喷吐虫群打击命中，目标的豁免有-2环境减值）。虫群侵袭造成的持续性伤害会在目标受到任何范围性伤害时终止。异虫邪魔在1d4轮内无法再次使用该能力。<BR>　<STRONG>大成功</STRONG> 
+  在虫群喷吐打击造成伤害的同时，虫群消散了。<BR>　<STRONG>成功</STRONG> 
+  虫群爬上目标身体并钻了进去，造成1d6持续性穿刺伤害。<BR>　<STRONG>失败</STRONG> 
+  虫群爬上目标身体并钻了进去，造成2d6持续性穿刺伤害。<BR>　<STRONG>大失败</STRONG> 
+  类似失败，但虫群造成的嗡嗡声还会让目标困惑1轮；这是一个带有听觉、情绪和心灵特征的额外效果。<BR><BR><BR><IMG class="bbc_img resized" style="CURSOR: pointer" alt="" src="https://2e.aonprd.com/Images/Monsters/Daemon_DERGHODAEMON.png" height=400></P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P><SPAN class=bbc_color style="COLOR: brown"><SPAN class=bbc_size 
+  style="FONT-SIZE: 14pt"><STRONG>执死邪魔（死亡邪魔）THANADAEMON（DEATH 
+  DAEMON）</STRONG></SPAN></SPAN><BR>　　执死邪魔也被称为死亡执事，它们代表年龄过老而衰亡的死法。它们是最具耐心的邪魔之一，更愿意等待时机，制定影响深远甚至长达数十年之久的计划，而非武力解决问题（但它们作为敌人依然致命）。和死亡驭者一样，它们在冥河的河水中寻找随意漂流的灵魂。执死邪魔几乎总是携带者它们标志性的船桨（它们将船桨当做长杖来挥舞）。这些船桨可以帮助他们在遍布淤泥且激流汹涌的冥河中航行。<BR><BR></P>
+  <DIV class=quoteheader>
+  <DIV class=topslice_quote>引用</DIV></DIV>
+  <BLOCKQUOTE class=bbc_standard_quote><SPAN class=bbc_size 
+    style="FONT-SIZE: 12pt"><STRONG>边栏：冥河摆渡费 STYX PASSAGE 
+    FEES</STRONG></SPAN><BR>　　执死邪魔以一种诡异的轻松姿态航行在黑暗的冥河上，它们非常乐意为凡人提供乘坐他们破旧小船的机会——只要价格合适。黄金通常可以作为支付给执死邪魔的报酬，但是这种邪魔以常常在事后改变所约定的细节而出名，并且可能会要求提供某种帮助，或某些难以搞到的商品，例如灵魂宝石，而不是金币。</BLOCKQUOTE>
+  <DIV class=quotefooter>
+  <DIV class=botslice_quote></DIV></DIV>
+  <P><BR><SPAN class=bbc_size style="FONT-SIZE: 12pt"><STRONG>执死邪魔 THANADAEMON 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13级生物</STRONG></SPAN>
+  <HR>
+  <STRONG><SPAN class=bbc_color style="COLOR: blue">中立邪恶</SPAN> <SPAN 
+  class=bbc_color style="COLOR: green">中型</SPAN> <SPAN class=bbc_color 
+  style="COLOR: brown">邪魔 魔族</SPAN></STRONG><BR><STRONG>察觉</STRONG> 
+  +26；黑暗视觉，真视术<BR><STRONG>语言</STRONG> 通用语，邪魔语；心灵感应100尺<BR><STRONG>技能</STRONG> 奥法 
+  +22，欺骗 +26，威吓+26，宗教 +22，冥河学识（Styx Lore）+24<BR><STRONG>力量</STRONG> 
+  +6，<STRONG>敏捷</STRONG> +6，<STRONG>体质</STRONG> +4，<STRONG>智力</STRONG> 
+  +3，<STRONG>感知</STRONG> +5，<STRONG>魅力</STRONG> +7<BR><STRONG>物品</STRONG> +1 
+  强击长棒（Bo staff），灵魂宝石（2）
+  <HR>
+  <STRONG>AC</STRONG> 34；<STRONG>强韧</STRONG> +21，<STRONG>反射</STRONG> 
+  +23，<STRONG>意志</STRONG> +26；对抗魔法效果时所有豁免+1<BR><STRONG>HP</STRONG> 
+  270；<STRONG>免疫</STRONG> 死亡效果；<STRONG>弱点</STRONG> good 
+  10<BR><STRONG>骇人凝视（Terrifying Gaze）</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（灵光，神术，情绪，惑控系，恐惧，心智，视觉）</SPAN> 
+  30尺。当有生物在灵光范围中结束回合时，它必须尝试DC 
+  30意志豁免。如果生物失败，则陷入惊惧2。生物然后在24小时内对骇人凝视临时免疫（但对抗专注凝视能力时，该临时免疫不起作用）。
+  <HR>
+  <STRONG>速度</STRONG> 25尺；凌空而行<BR><STRONG>近战[A] </STRONG>长棍 +28<SPAN 
+  class=bbc_color style="COLOR: brown">（邪恶，魔法，格挡，触及 
+  10尺，摔绊）</SPAN>，<STRONG>伤害</STRONG> 3d8+14 钝击 外加1d6 负能量，1d6 
+  邪恶，和流失打击<BR><STRONG>近战[A] </STRONG>爪抓 +27<SPAN class=bbc_color 
+  style="COLOR: brown">（灵巧，邪恶，娴熟，魔法）</SPAN>，<STRONG>伤害</STRONG> 3d6+14 挥砍 
+  外加1d6邪恶和流失打击<BR><STRONG>神术内在法术</STRONG> DC 34；<BR>　<STRONG>7环</STRONG> 
+  <EM>死亡一指 finger of death，位面传送 plane 
+  shift</EM>（随意施展；仅限自身的小船和上面的乘客；仅限星界、灵界、和邪恶位面），<EM>传送术 
+  teleport</EM>；<BR>　<STRONG>6环</STRONG> <EM>缓慢术 slow，血族驱命 vampiric 
+  exsanguination</EM>（×2）；<STRONG>5环</STRONG> <EM>次元门 dimension 
+  door</EM>；<BR>　<STRONG>4环</STRONG> <EM>次元门 dimension 
+  door</EM>（随意施展）；<STRONG>1环</STRONG> 侦测阵营 detect 
+  alignment（仅限善良；随意施展）；<BR>　<STRONG>常驻（7环）</STRONG> 凌空而行 air walk，真视术 true 
+  seeing<BR><STRONG>仪式</STRONG> DC 34；<EM>唤起死灵 create 
+  undead</EM><BR><BR><STRONG>流失打击（Draining Strike）</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（神术，死灵系） </SPAN>当执死邪魔以近战打击伤害一个生物时，生物必须尝试DC 
+  33强韧豁免，否则陷入流失1。执死邪魔每次进一步造成伤害时，如果生物豁免失败，则流失状态值+1，最大达到流失4。<BR><BR><STRONG>专注凝视（Focus 
+  Gaze）[A]</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（专注，神术，恐惧，视觉）</SPAN>执死邪魔瞪视30尺内它能看见的目标。如果目标尚未陷入惊惧，它必须立即尝试一次DC 
+  33的意志检定，对抗执死邪魔的骇人凝视（Terrifying Gaze）。如果目标已经陷入惊惧，它必须尝试DC 
+  33意志检定，否则逃跑1d4轮。第二个效果带有失能特征。在尝试此豁免后，生物直到执死邪魔下个回合开始前对此能力临时免疫。<BR><BR><STRONG>灵魂碾磨（Soul 
+  Crush）[AA]</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（操作）</SPAN><STRONG>需求</STRONG> 
+  执死邪魔拥有灵魂宝石；<STRONG>效果</STRONG> 执死邪魔以交互动作碾碎灵魂宝石，获得快速治疗15，持续1分钟。<BR><BR><BR><IMG class="bbc_img resized" style="CURSOR: pointer" alt="" src="https://2e.aonprd.com/Images/Monsters/Daemon_THANADAEMON.png" height=400></P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P><SPAN class=bbc_color style="COLOR: brown"><SPAN class=bbc_size 
+  style="FONT-SIZE: 14pt"><STRONG>战狂邪魔（战争邪魔）PURRODAEMON（WAR 
+  DAEMON）</STRONG></SPAN></SPAN><BR>　　很少有生物会像战狂邪魔（战争驭者的执事）那样，将战争中大量的流血和生命的陨落体现得淋漓尽致。这些巨大的人形邪魔身着黑色的装饰、邪恶的盔甲、裸露的部分被无数武器刺穿。然而这些插在身上的武器并非战狂邪魔的伤口，而是武器库。战狂邪魔可以用令人恐惧的速度和令人作呕的轻松姿态从身体里拔出这些武器，就像从剑鞘里拔出剑一样，它们的血液中饱含邪恶，乃至于被它们鲜血浸透的武器成为了非常强大的战争工具。<BR><BR><SPAN 
+  class=bbc_size style="FONT-SIZE: 12pt"><STRONG>战狂邪魔 PURRODAEMON 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18级生物</STRONG></SPAN>
+  <HR>
+  <STRONG><SPAN class=bbc_color style="COLOR: blue">中立邪恶</SPAN> <SPAN 
+  class=bbc_color style="COLOR: green">大型</SPAN> <SPAN class=bbc_color 
+  style="COLOR: brown">邪魔 魔族</SPAN></STRONG><BR><STRONG>察觉</STRONG> 
+  +33；黑暗视觉，真视术<BR><STRONG>语言</STRONG> 通用语，邪魔语；心灵感应100尺<BR><STRONG>技能</STRONG> 
+  运动+37，威吓+35，宗教 +30，隐秘 +34，生存+33，战争学识 +32<BR><STRONG>力量</STRONG> 
+  +9，<STRONG>敏捷</STRONG> +6，<STRONG>体质</STRONG> +7，<STRONG>智力</STRONG> 
+  +4，<STRONG>感知</STRONG> +7，<STRONG>魅力</STRONG> +7<BR><STRONG>物品</STRONG> +2 
+  高等强击大砍刀，灵魂宝石（2），浸染武器（7-10把）
+  <HR>
+  <STRONG>AC</STRONG> 43；<STRONG>强韧</STRONG> +33，<STRONG>反射</STRONG> 
+  +30，<STRONG>意志</STRONG> +29；对抗魔法效果时所有豁免+1<BR><STRONG>HP</STRONG> 
+  335；<STRONG>免疫</STRONG> 流血，死亡效果；<STRONG>弱点</STRONG> 善良 15；<STRONG>抗力</STRONG> 
+  穿刺 15
+  <HR>
+  <STRONG>速度</STRONG> 25尺，飞行50尺<BR><STRONG>近战[A] </STRONG>大砍刀 +37<SPAN 
+  class=bbc_color style="COLOR: brown">（致命 d8，邪恶，叠劲，魔法，触及 
+  15尺）</SPAN>，<STRONG>伤害</STRONG> 3d8+17挥砍 外加2d6 邪恶和4d6持续性流血<BR><STRONG>远程[A] 
+  </STRONG>猛掷武器 +35<SPAN class=bbc_color 
+  style="COLOR: brown">（致命1d10，邪恶，魔法，助进，射程120尺）</SPAN>，<STRONG>伤害</STRONG> 
+  2d10+12 穿刺 外加1d6邪恶 和4d6持续性流血<BR><STRONG>神术内在法术</STRONG> DC 
+  37；<BR>　<STRONG>9环</STRONG> <EM>缚魂术 bind soul，剑刃障壁 blade barrier，连锁闪电 chain 
+  lightning</EM>；　<STRONG>7环</STRONG> <EM>焰击术 flame strike，传送术 
+  teleport</EM>；<BR>　<STRONG>5环</STRONG> <EM>次元门 dimension 
+  door</EM>；<STRONG>4环</STRONG> <EM>次元门 dimension 
+  door</EM>（随意施展）；<BR>　<STRONG>1环</STRONG> <EM>侦测阵营 detect 
+  alignment</EM>（仅限善良；随意施展）；<STRONG>常驻（6环）</STRONG> <EM>真视术 true 
+  seeing</EM><BR><BR><STRONG>猛掷武器（Hurl Weapon）[A]</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（神术，塑能系）</SPAN>战狂邪魔以念动力射出身体里插着的一把武器（见浸染武器能力）。战狂邪魔无需使用任何一只手，就可以进行1次猛掷武器打击。<BR><BR><STRONG>召回武器（Recall 
+  Weapon）[A]</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（塑能系）</SPAN><STRONG>需求</STRONG> 
+  一把被浸染的武器，离开了邪魔的身体，并且位于邪魔120尺内；<STRONG>效果</STRONG> 
+  这把被浸染的武器快速飞回邪魔身边并重新插回邪魔身体里。如果有生物在武器飞行路径上，邪魔能对该生物进行一次猛掷武器打击；如果命中，该武器落在该生物相邻的方格内。<BR><BR><STRONG>浸染武器（Steep 
+  Weapon）[A]</STRONG><SPAN class=bbc_color 
+  style="COLOR: brown">（操作）</SPAN>战狂邪魔将一把武器插入它的身体里。这不会对战狂邪魔造成伤害，它的身上最多能插十把武器。插入的武器必须要能造成穿刺或挥砍伤害。<BR>　如果战狂邪魔以交互动作碾碎一枚灵魂宝石，由它所选择的一把插在它身体里的武器会被魔族的污秽力量增强，变成一把+2高等强击武器，可以用来替换它持用的大砍刀，或用它猛掷目标（猛掷武器的攻击调整值有+2物品加值，并且造成额外1d10伤害）。这种魔法增强会在武器拔出邪魔身体24小时后消散。侵染武器可以被缴械。<BR><BR><STRONG>扭转利刃（Twist 
+  the Blade）[R] </STRONG><STRONG>需求</STRONG> 
+  战狂邪魔的身体上插着少于10把武器；<STRONG>触发</STRONG> 战狂邪魔被一把造成穿刺伤害的武器击中；<STRONG>效果</STRONG> 
+  战狂邪魔抓住触发的武器。武器持握者必须尝试DC 
+  40反射豁免，如果失败，武器会被缴械并且落在相邻的方格里。如果大失败，该武器会被插入邪魔的身体里，视同于邪魔使用了浸染武器能力。<BR><BR><BR><IMG class="bbc_img resized" style="CURSOR: pointer" alt="" src="https://2e.aonprd.com/Images/Monsters/Daemon_PURRODAEMON.png" height=400></P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P><SPAN class=bbc_color style="COLOR: brown"><SPAN class=bbc_size 
+  style="FONT-SIZE: 12pt"><STRONG>末日狂魔（天启邪魔）OLETHRODAEMON（APOCALYPSE 
+  DAEMON）</STRONG></SPAN></SPAN><BR>　　即便是邪魔也会惧怕它们同类中最为庞大和可怕的末日狂魔。没有哪个单一的实体能展现出这样的邪恶；相反，这些活着的战争机器是有许多灵魂融合而成的——至少故事里是这样描述的。其他理论认为，天启四驭者是创造末日狂魔的元凶，或者末日狂魔仅仅是更为神秘的第五骑士的力量投影。<BR><BR>　　无论真相如何，末日狂魔是真实存在的，它们的存在本身就足以让人感到恐惧。末日狂魔的样貌和凡人所知的任何生物都相去甚远——流着口涎的大嘴上方是几十只从不眨眼的发光眼睛、身下是两对肌肉发达的四肢、浑身长满无数的角。<BR><BR><SPAN 
+  class=bbc_size style="FONT-SIZE: 12pt"><STRONG>末日狂魔 OLETHRODAEMON 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20级生物</STRONG></SPAN>
+  <HR>
+  <STRONG><SPAN class=bbc_color style="COLOR: blue">中立邪恶</SPAN> <SPAN 
+  class=bbc_color style="COLOR: green">巨形</SPAN> <SPAN class=bbc_color 
+  style="COLOR: brown">邪魔 魔族</SPAN></STRONG><BR><STRONG>察觉</STRONG> 
+  +33；黑暗视觉，震颤感知（模糊感官） 120尺，真视术<BR><STRONG>语言</STRONG> 通用语，邪魔语；心灵感应 
+  100尺<BR><STRONG>技能</STRONG> 运动+40，威吓+38，宗教 +34<BR><STRONG>力量</STRONG> 
+  +10，<STRONG>敏捷</STRONG> +6，<STRONG>体质</STRONG> +7，<STRONG>智力</STRONG> 
+  +2，<STRONG>感知</STRONG> +6，<STRONG>魅力</STRONG> +8<BR><STRONG>物品</STRONG> 
+灵魂宝石（4）
+  <HR>
+  <STRONG>AC</STRONG> 44；<STRONG>强韧</STRONG> +35，<STRONG>反射</STRONG> 
+  +32，<STRONG>意志</STRONG> +34；对抗魔法效果时所有豁免+1<BR><STRONG>HP</STRONG> 
+  450；<STRONG>免疫</STRONG> 死亡效果；<STRONG>弱点</STRONG> 善良20<BR><STRONG>末日灵光（Aura of 
+  Doom）</STRONG><SPAN class=bbc_color style="COLOR: brown">（灵光，死亡，神术）</SPAN> 
+  60尺。在灵光范围内开始回合的生物都会陷入毁灭1，该状态会一直持续到生物离开灵光范围1小时后。
+  <HR>
+  <STRONG>速度</STRONG> 35尺，掘进 35尺，飞行 40尺<BR><STRONG>近战[A] </STRONG>啃咬 
+  +38（邪恶，魔法，触及 10尺），<STRONG>伤害</STRONG> 4d12+17 穿刺 外加1d6邪恶 和攫抓<BR><STRONG>近战[A] 
+  </STRONG>爪抓 +38（灵巧，邪恶，魔法，触及 15尺），<STRONG>伤害</STRONG> 4d8+17 挥砍 外加1d6邪恶 
+  和攫抓<BR><STRONG>神术内在法术</STRONG> DC 42，法术攻击+34；<BR>　<STRONG>10环</STRONG> <EM>大灾变 
+  cataclysm，大屠杀 massacre</EM>；<STRONG>9环</STRONG> <EM>解离术 
+  disintegrate</EM>（×3），<EM>裂解术 disjunction，女妖之嚎 wail of the 
+  banshee</EM>；<BR>　<STRONG>5环</STRONG> <EM>次元门 dimension 
+  door</EM>；　<STRONG>4环</STRONG> <EM>次元门 dimension 
+  door</EM>（随意施展）；<BR>　<STRONG>1环</STRONG> <EM>侦测阵营 detect 
+  alignment</EM>（仅限善良；随意施展）；　<STRONG>常驻（10环）</STRONG> <EM>真视术 true 
+  seeing</EM><BR><STRONG>仪式</STRONG> DC 42；<EM>操控天气 control 
+  weather</EM>（<STRONG>9环</STRONG>）<BR><BR><STRONG>天启吐息（Apocalypse Breath）[AA] - 
+  [AAA]</STRONG><SPAN class=bbc_color style="COLOR: brown">（神术，负能量）</SPAN> 
+  邪魔从嘴里喷出一团恶毒的黑烟，其形状为120尺线形或60尺锥形（如果使用3个动作来施放，则同时具有锥形和线型）。范围内的活物受到24d6负能量伤害（DC 
+  45基础反射豁免）。末日狂魔在1d4轮内无法再次使用天启吐息。<BR><BR><STRONG>灵魂碾磨（Soul 
+  Crush）[AA]</STRONG><SPAN class=bbc_color style="COLOR: brown">（操作）</SPAN> 
+  <STRONG>需求</STRONG> 末日狂魔有一枚灵魂宝石；<STRONG>效果</STRONG> 
+  末日狂魔用一只手碾碎灵魂宝石，天启吐息立即可用，或者恢复任何一个它已经用掉的内在法术。<BR><BR><STRONG>活吞（Swallow 
+  Whole）[A]</STRONG><SPAN class=bbc_color style="COLOR: brown">（攻击）</SPAN> 
+  超大型，4d10+10 钝击 
+  和流失2，破裂43。末日狂魔拥有许多个胃袋，这些胃袋和它迷宫般的消化系统相连。被活吞的生物无法执行逃脱动作，但可以尝试通过投掷1d6来找到一条出路。当掷出1-3时，生物掉进末日狂魔的另一个胃袋里。当掷出4-6时，生物能设法从末日狂魔身上砍出一条路来。<BR><BR><IMG class="bbc_img resized" style="CURSOR: pointer" alt="" src="https://2e.aonprd.com/Images/Monsters/Daemon_OLETHRODAEMON.png" height=400></P></BLOCKQUOTE></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div>
+</div>
+
+</body>
+</html>

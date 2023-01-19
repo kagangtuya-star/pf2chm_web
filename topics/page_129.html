@@ -1,0 +1,474 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0014)about:internet -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>第十章：游戏掌控</title>
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<META name=robots content=index>
+<META name=GENERATOR content="MSHTML 11.00.9600.19355"><LINK rel=stylesheet 
+type=text/css href="Materials/4E.css">
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+</head>
+<body><script language="JavaScript" type="text/JavaScript">
+function syn(){
+if(parent.nav.tree){
+ if(parent.nav.tree.loaded){
+  parent.nav.tree.selectNode(198);
+ }else{
+  setTimeout("syn()",500);
+}
+  }else{
+  setTimeout("syn()",500);
+  }}
+if(parent!=self){
+  setTimeout("syn()",100);
+}else{
+  parent.location.href = "../index.htm?page=page_129.html";
+}
+originalOnload = window.onload;
+if(originalOnload==null){
+window.onload = function(){parent.contentLoaded = true;};
+}else{
+window.onload = function(){originalOnload();parent.contentLoaded = true;};
+}
+</script> 
+
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="page_128.html" title="Previous topic"><img id="winchm_template_prev" alt="Previous topic" src="template2/btn_prev_n.gif" border="0"></a><A href="page_130.html" title="Next topic"><img id="winchm_template_next" alt="Next topic" src="template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation">Help &gt; 
+<A href="首页.html">核心规则书</A> &gt; </div>
+	<div id="winchm_template_title">第十章：游戏掌控</div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><div id="winchm_template_container">
+	<div id="winchm_template_content">
+<DIV 
+class=info>作为游戏主持人，你会主导Pathfinder的每次团期、让玩家与游戏世界之间搭起桥梁。设置场景让角色与怪物战斗、与其他人们互动，以及探索这个世界，全都操之在你。</DIV>
+<HR style="COLOR: #5e0000">
+
+<DIV>当你作为游戏主持人时，你会承接一份十分有意义的工作：为你这群朋友制造有趣的经历。你的责任包含…… 
+<UL>
+  <LI>以环环相扣，引人入胜的方式去诉说这团人冒险的故事。 
+  <LI>将游戏发生的地点描摩的栩栩如生，在强调奇幻的同时，也要与现实接轨，使其可信。 
+  <LI>用新奇的内容娱乐玩家跟你自己，并用有趣的回馈奖励有创意的点子。 
+  <LI>借由设计或研读冒险，创造角色以及故事情节来备团。 
+  <LI>当玩家作了出乎意料的举动，你要为非玩家角色与这个世界其他的势力做即兴扮演。 
+  <LI>为规则做裁决，确保公平，让游戏能像前推进。 
+</LI></UL>　　本章提供的工具，能让你肩负起这些责任。下列各部分将一个战役里出现的各种元素进行分解，谈论了游玩的不同模式和如何为角色想要尝试的任务设置挑战难度(DC)、提供了不同的方法奖励角色，并描述了跑团环境里可能会影响冒险中的聚会的方面。 
+</DIV>
+<H2>规划一个战役 Planning a Campaign</H2>
+<DIV>《探索者》游戏一般建构在一个战役之上，所谓战役指的是专注于单一团队中的角色的连续故事。一个战役可以再细分成数个冒险，所谓冒险指的是涉及探索与跟非玩家角色互动的，比较短的故事。单一冒险讲述的完整故事可能与一个更大的战役弧有所连接。而进行一场冒险会横夸一个或一个以上的团期，所谓团期指的是一群人聚在一起游玩一部分的冒险，花费数个小时的这个过程。&nbsp;<BR>　　一个战役为你的《探索者》游戏提供了所有架构。当你要准备你自己的战役时，你需要为它建立范围与主题，之后，你会在战役内的冒险和场景中再次强化他们。 
+</DIV>
+<H3>战役长度 Campaign Length</H3>
+<DIV>战役长度的范围可以从几个团期到好几年。战役长度取决于两个主要因素：你需要多少时间完成这个故事、玩家能为这个游戏投注多少时间。 
+<BR>　　如果你的玩家想要体验《探索者》或想要玩某个短冒险，一个团期，或称为「一次团」是不错的选择。这种方式需要的时间负担较少，但需要游戏主持人使用立即上戏肉的手段来呈现游戏的事件，因为这时玩家没有多少机会浸入故事或设定。 
+<BR>　　如果你想带更长的战役，你会需要为游戏内的角色直接增添一些故事成分，而不是只有冒险的事件而已。换句话说，角色在团队的共同目标外，必须有自己的目标。 
+<BR>　　你可以借由观察你实际游玩花的时间，或你想要让角色提升多少等级，来判断一个战役会有多长。一般来说三到四个团期团队就会升级。因为你有可能偶尔会取消团期，一周跑一次持续一年，可以进行一个大约14级的战役，如果两周一次持续一年，可以进行一个大约8级的战役，而一个月一次，就会是5级战役。如果你一周只能玩一次，你可以考虑进行时间更长的团期，并且使用快速进度(见P.509)。 
+<BR>　　一个战役的长度模糊不清完全没问题。许多团会在玩完一个冒险后，决定是否要接下一个。但如果你玩的是长度不定的战役，而战役又将在下次冒险后结束，那别去进行一个你无法给出圆满结局的情节。如果你介绍了一个拥有压倒性力量，对故事的影响举足轻重的敌人，而角色直到15级前都无法阻止它，结果你的战役在8级结束，会给人一种虎头蛇尾的感觉。 
+<BR>　　在估计你战役的长度与广度时建议保守一点。跑一个20级的史诗战役，有着复杂、盘根错节的剧情固然十分诱人，但如果你的团一个月只能跑一次，而玩家又有其他责任在身时，团可能在还没道尾声之前，就因为长度而分崩离析。 
+</DIV>
+<DIV class=sidebar>
+<H1>玩游戏要合作 Collaboration During Play</H1>
+<DIV>做为游戏主持人，你对世界以及规则的运行，还有非玩家角色的行动有着最终裁定权。本规则的目地在于让游戏进行的更为平顺，并有一个确保一致的领导者。这不是想让某个玩家成为团队中的独裁者。在角色扮演游戏中，合作至关重要! 
+<BR>　　合作应该以怎样的形式出现取决于你的玩家对什么感兴趣。某些团中，玩家会喜欢为世界以及非玩家角色增添细节。也有玩家会想让世界超出他们的掌控，而他们会去做的决定就是他们的角色会做的。两者都是有趣且很不错的游玩方式。 
+<BR>　　鼓励您在开始游戏前，搜集来自玩家的意见，询问玩家他们会想特别体验怎样的说故事风格、他们想游玩世界的哪个部分、他们会想面对怎样的敌人，或是他们会想玩哪个已经出版的冒险。一次好的战役会在开头玩家思考要扮演怎样的角色而你思考要运行怎样的冒险时，让双方交流。结果可以从从无到有写一个适合角色的冒险，到选择某个已出版的冒险，让玩家建构自己的角色，接着去调整适应冒险的开头，好让所有的角色都有个理由牵涉其中。 
+<BR>　　在跑团时，合作的机会会反复出现。当玩家无视暗示，或对战役的情节思考出了具体的推测，他们会告诉你他们想在游戏里看到什么。试着去统整他们的意见，但仍要有足够的曲折，让每个想法都含有出乎意料的地方。 
+</DIV></DIV>
+<H4>预计持续时间 Expected Duration</H4>
+<DIV>不是所有战役都会在相同的地方结束。有些战役会一路玩到20级，在角色达到力量的高峰并且直面任何凡人都无法面对，最强大的威胁之后结束。其他战役会在低等级，当团队打败了强大的对手或解决了关键性的问题后结束。还有些战役会在玩家无法出席，或认为这是个结束的好时机时结束。 
+<BR>　　当你开始一个战役时，你心里要有一个结束的点。当然，你要有点弹性，因为你是跟玩家一起说故事的，你对战役最初的期待有可能会被证明是错误的。当你觉得你要带往一个满意的结尾时，像其他玩家做确认是不错的选择。你可以说：「我想我们还剩下两次团，大家觉得如何?还有什么想做却还没做的事情吗?」这可以让你评估你的设想是否跟团里的其他人相符─然后做出必要的调整。 
+</DIV>
+<H3>主题 Themes</H3>
+<DIV>你为自己的战役选出的主题，能用来和其他战役进行区分。主题包含你故事中的重大戏剧性问题与特定环境或生物的反复使用，主题也可以包含非传统高度幻想的类型。你为战役所选择的主题也暗示你可能会使用的故事线元素。 
+<BR>　　故事线的主题通常与背景故事、动机以及角色和敌人的缺陷有关。举个例子，如果你把复仇当做你游戏期中一个主题，你可能会介绍一个敌人，它对复仇的追求将它的人生弄的分崩离析，并对它周围的人造成了无法弥补的伤害。如果有个角色阵营是混乱善良，并是自主与自由的信徒，你可能会在玩家正与奴隶主交战之际引入这名角色。或者，你也可以选择爱这个主题，引导非玩家角色涉入一个悲剧罗曼史，寻找让失去的致爱重新回归的办法，或和玩家角色谈恋爱。 
+<BR>　　使用相似的地点和与之相关的生物，可以帮你截然不同的冒险间形成连系。玩家们会感觉自己的角色变得精通与巨人谈判、在波涛汹涌的海上航行、与魔鬼战斗、探索位面或处理那些反复出现的元素。举个例子，你可能让角色在之前探索过冷冻苔原，而之后在旅行在充满更困难挑战的寒冷位面，这些挑战可以使用他们之前学到的知识克服。还有，熊地精士兵对低等级的团队来说是一个强悍的敌人，但当角色或取更高的等级，熊地精会变成仅仅是另一个生物的手下，玩家会有进步的感觉。 
+<BR>　　《探索者》是一个幻想冒险游戏，但你可以让你的战役涵括其他小说流派的元素。或许你想为游戏灌注些恐怖、减少魔法的存在并使用缓慢进度(见P.509)，让它更像是剑与魔法的故事，或是在蒸气庞克设定中把魔法变成科学。 
+</DIV>
+<H3>一个友善的环境 A Welcome Environment</H3>
+<DIV>做为一个游戏主持人，有责任确保你和其他玩家在游戏中拥有值得的、有趣的时光。游戏可以讨论困难的主题以及陷入紧张的时刻，但根本上《探索者》是一个休闲活动。唯有玩家遵守社交规范并且互相尊重，团才可以进行下去。 
+<BR>　　那些生理或心理并没有这么强大的玩家，会发现相较那些有能耐的玩家，自己受到的挑战会更大。与你的玩家一同工作，确保他们有他们需要的资源和协助。此外，留心不适当的行为，并且在游戏中小心的观察玩家的肢体语言。如果你发现有玩家觉得不舒服，你有权暂停游戏，重定一个方向，在团期中或团期结束后私下向玩家确认，或采取你觉得适当的行动。 
+<BR>　　如果玩家向你说他们对游戏的某些东西感倒不快，无论其内容是你在当GM时所讲述的，还是其他玩家或角色的行动，仔细的聆听该玩家的感受，采取行动并确保他们能再次从你的游戏里感受到快乐。如果你在准备预写材料，然后你发现有个角色或场景不适当，你完全有权力修改任何细节到你觉得妥当。你也有权力(或者说责任)去要求玩家改变他们的行为，或甚至离桌，如果他们的所做所为无法被接受，或是让其他人感到不快。要一个感到不快的人自己去扛解决问题的责任绝不可取。错误发生在所难免。重要的是你的回应与处理。 
+<BR>　　游戏是大家的。永远别让那些坑蒙拐骗的人破坏你的游戏或是排除其他玩家。你的努力是让游戏与游戏文化变得对大众更友善的长期目标的一部分。让我们一起携手，我们可以营造一个社群，在那，任何身分与经历的玩家都可以感到安全。 
+</DIV>
+<DIV class=sidebar>
+<H1>责任承担的工具 Tools for Responsible Play</H1>
+<DIV>和谐与舒适是角色扮演游戏中很重要的主题，许多设计师创造了各种技术来促进责任承担。有些方式你可以使用，例如Ron 
+Edwards开发的界线和朦胧，还有John Stavropoulos开发的X卡片。</DIV>
+<H2>界线和朦胧 Lines and Veils</H2>
+<DIV>「界线」跟「朦胧」这两个词可以在你的团里成为一种普通的词汇，其内涵下面会说到。界线就是玩家可以采取的行动的严格限制，例如「我们对酷刑划下一条界线」。这个团同意不会跨过这条线，并且会把游戏里的这部分略过。 
+<BR>　　朦胧则是宣告某些东西不应该描述的太详细。这场景因为朦胧而淡去，或团队转而讨论不同的话题，虽然被朦胧化的事情依然发生了。举个例子，你可能会说「我们将那些角色走向卧室的这个场景朦胧化」。 
+<BR>　　你可能会预先想出更多界线和朦胧，但随着游戏你会发现更多。 </DIV>
+<H2>X卡片 The X-Card</H2>
+<DIV>在一张卡片上画上一个X，接着在开始跑团时在桌上设一个X卡片区，并向玩家说明它的用途：所有玩家都可以透过轻碰X卡片来排除他们感到不适的内容，说出来的人要先倒带再继续，并删除令人反感的内容。作为你战役的基本守则，不能有所质疑、不能公审，当有人碰触了X卡片时也不能辩论。但如果你需要，你可以要求澄清，例如：我需要倒带到多早前?有些团队不用卡片，他们把X划在手上，并说：让X离开吧。或是使用相同的其他方式。或是游戏后私下跟该玩家探讨，看这个准则是不是要再修改。你可以在tinyurl.com/x-card-rpg找到更多内容。 
+</DIV></DIV>
+<H4>令人不快的内容 Objectionable Content</H4>
+<DIV>在战役开始前，跟你的玩家们做确认(团体或个人)，去找出什么样的内容他们能接受出现在游戏里，以及他们希望避免怎样的话题。因为故事是实时展开的，所以在游戏开始前去讨论这个话题致关重要。这些讨论是希望保护玩家的安全，所以不要去问玩家为什么会希望禁止某个内容，就禁止，然后不准质疑。 
+<BR>　　像电影或电视游戏那样分级是个方法。《探索者》游戏常常包含暴力与残酷。内容叙述的生动程度的极限是如何?玩家可以在跑团中说脏话吗?玩家有恐惧症，并不希望某些东西出现在游戏里，例如蜘蛛或身体恐惧吗? 
+<BR>　　在你想好令人不快的内容极限后，你有四个重要的任务： 
+<UL>
+  <LI>向其他人清楚传达这些极限。 
+  <LI>确保你跟其他玩家能遵守这个分界。 
+  <LI>如果玩家在跑团中突然对某些内容表示不快，立刻处理，就算这个内容并没有在之前的讨论中被禁止。一旦事情解决，继续游戏。 
+  <LI>如果有任何玩家故意想把这些分界推大、钻漏洞、试着重新协商极限，或是嘲笑对令人不快的内容有着不同容忍程度的人，立刻处理。 </LI></UL></DIV>
+<H4>《探索者》的底线 The Pathfinder Baseline</H4>
+<DIV>你或许会发现你的玩家对令人不快的内容这话题没什么可说的，只是假设一般的社会习俗会将最令人感到不快的话题排除在游戏外。这通常不够，因为这种共同的假设往往不那么精准。下面是一套在很多团都适用的基本假设，你可以对其调整去适应你和其他玩家的偏好。 
+
+<UL>
+  <LI>对血腥、暴力，甚至肢解的描述。但是，对流血与残忍的过度描述也应避免。 
+  <LI>游戏中会出现浪漫以及性方面的情节，但玩家应避免过度暗示。性总是发生在银幕外。由于在玩家角色间开始一段关系的尝试可能会以令人不快的方式相似于一名玩家攻击另一名玩家，因此这通常应该被避免（并且这在和陌生人进行游戏时是完全失当的）。 
+
+  <LI>不要对粗俗、肮脏描述太过。 </LI></UL>　　角色应该永远不做出下列的举动： 
+<UL>
+  <LI>严刑拷打 
+  <LI>强奸，非自愿的性行为或性胁迫 
+  <LI>伤害儿童，包含性虐待 
+  <LI>拥有奴隶或从奴隶贸易中获利 
+  <LI>应该受到谴责的使用控制心灵的魔法 
+</LI></UL>敌人会参与这种行为，但不会出现在台前或也不会有详细的描述。许多团会选择完全不要让敌人参与这类活动，让这类应受谴责的行为完全从他们的心中抹去。 
+</DIV>
+<H4>社交波及伤害 Social Splash Damage</H4>
+<DIV>这件事跟在游戏里关心自己和其他玩家一样重要，留心你的团对于你周围的人的影响。如果你是在一个不属于你的空间玩游戏，尊重你的东道主。如果你是在公众场合玩，要去顾及到你周围的人的感受，而不是只关心你的团。当我们被想象中的微观世界所吸引，沉迷进去就变得很轻易，但不要忽视周围的现实世界。要注意不要制造噪音、留下一团烂摊子、对暴力使用太过生动的描述以至于惊吓到路人，或对首次看见角色扮演游戏好奇的围观群众冷淡以对。 
+</DIV>
+<H3>创造角色 Character Creation</H3>
+<DIV>做为一个新战役的开端，玩家会创造新的角色。你对战役的构想以及哪些角色比较适合会影响到他们创作角色的过程。跟玩家一起决定哪些规则可以用。最安全也是最普遍的选择会出自《探索者》核心手册。游戏中，如果玩家想要使用其他书的通用、不常见或罕见的选项，审查这些选项是否与你心中的战役风格冲突，或者会在一段时间后出现奇怪的「惊」喜。允许新选项很棒，但没有义务要这样做。开放到你觉得舒适即可。</DIV></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div></div></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div>
+</div>
+
+</body></HTML>
