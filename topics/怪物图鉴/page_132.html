@@ -1,0 +1,624 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0014)about:internet -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>运行游戏模式</title>
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<META name=robots content=index><LINK rel=stylesheet type=text/css 
+href="Materials/4E.css">
+<META name=GENERATOR content="MSHTML 11.00.10570.1001">
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+</head>
+<body><script language="JavaScript" type="text/JavaScript">
+function syn(){
+if(parent.nav.tree){
+ if(parent.nav.tree.loaded){
+  parent.nav.tree.selectNode(693);
+ }else{
+  setTimeout("syn()",500);
+}
+  }else{
+  setTimeout("syn()",500);
+  }}
+if(parent!=self){
+  setTimeout("syn()",100);
+}else{
+  parent.location.href = "../../index.htm?page=怪物图鉴/page_132.html";
+}
+originalOnload = window.onload;
+if(originalOnload==null){
+window.onload = function(){parent.contentLoaded = true;};
+}else{
+window.onload = function(){originalOnload();parent.contentLoaded = true;};
+}
+</script> 
+
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="page_131.html" title="Previous topic"><img id="winchm_template_prev" alt="Previous topic" src="../template2/btn_prev_n.gif" border="0"></a><A href="page_133.html" title="Next topic"><img id="winchm_template_next" alt="Next topic" src="../template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation">Help &gt; 
+ &gt; </div>
+	<div id="winchm_template_title">运行游戏模式</div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><div id="winchm_template_container">
+	<div id="winchm_template_content">
+<DIV 
+class=info>探索者规则的游戏可以分成三种模式：遭遇、探索与休整期。每个模式都反应不同的状况，和具体的赌注与时标，角色可以在各个模式采取不同类型的动作与反应动作。</DIV>
+<HR style="COLOR: #5e0000">
+
+<DIV>遭遇模式可以使用现实或更慢的时标，此模式包含玩家和敌人、潜在的盟友或全都在场的正面接触。战斗和直接的社交互动一般采用遭遇模式。 
+<BR>　　探索模式可以说是冒险的结缔组织，当角色位在危险或不可靠(例如不熟的城市或地城)的场所，就会使用探索模式。在探索模式里，角色不是立即处于危险之中，但它们必须时刻保持警惕。将探索和遭遇模式结合就叫做冒险。 
+<BR>　　当玩家队伍不在冒险时，那就叫休整期。这个模式涵盖了绝大多数凡人的生活，日常任务还有为了长期目标的奋斗。</DIV>
+<H2>遭遇模式 Encounters</H2>
+<DIV>遭遇模式是结构化最高的模式，要进行此模式，你需要遵守第九章的规则。在从探索模式转换到遭遇模式前，你往往要决定先攻顺序，先攻顺序的相关指南在498页的探索模式的讨论里。设计战斗遭遇的规则在488页。 
+<BR>　　<B>赌注：</B>中度到高度。遭遇往往有着具体的赌注，之所以用按部就班的时间框架来进行此模式就是为了反应这点。 
+<BR>　　<B>时标：</B>遭遇模式里的战斗遭遇高度结构化，倚靠战斗轮展开，而其他类型的轮长不定。战斗里的1分钟为10轮，每个战斗轮都有6秒长，但言语上的交锋可以到几分钟长，或使用时长更长的轮好让所有人都有足够的时间表达它的观点。 
+<BR>　　<B>动作与反应动作：</B>战斗遭遇中，所以参与者的回合会被分为不连续的动作，当触发条件满足，参与者还可以使用反应动作。反应动作可以在社交环境下触发，虽然这类的触发条件往往是叙述性少有战术性。</DIV>
+<H3>选择敌人的动作 Choosing Adversaries' Actions</H3>
+<DIV>玩家通常会协调计划，试图把效果最大化，但它们的敌人可不会。GM要扮演角色的敌人，决定它们的战术。大部分的生物对战术只有基本的理解，像是夹击或专门盯着某个目标。但你要牢记它们也有情绪性的行为，也会犯错，甚至做的还比玩家角色糟。 
+<BR>　　要选择目标或使用什么能力时，你要使用敌人对场景的知识判断而非你个人的。你或许了解牧师的意志豁免调整值高，但怪物仍可能对她使用恐惧能力。这不是要你把敌人演成白癡，她们会从错误中学到教训、制定良好的计划，甚至预先研究玩家的角色。 
+<BR>　　敌人通常不会攻击倒地的玩家。就算之到这个倒下的角色可能会重回本次战场，唯有最恶毒的生物才会关注无助的敌人胜于周遭更具立即的威胁。 
+<BR>　　操纵敌人要同时表现出生物的真实及提升游戏的戏剧性。试着把遭遇想像成电影或小说的战斗场面。如果战士奚落一名火焰巨人，试着将它的注意力从脆弱的法师身上转移到自己，从战术层面考量，对火巨人来说，最好的决定就是持续追打法师。但对于这个场面来说，这是最好的吗?或许对于大家来说，最有趣可能是火巨人把注意力转向令它火大的战士吧。</DIV>
+<H3>避开遭遇 Bypassed Encounters</H3>
+<DIV>如果你设计好了一场战斗或一个挑战，可玩家却找到方法完全避开，那该怎么办?它们会失去获得XP的机会，或是错过重要的情报或宝藏。 
+<BR>　　上述例子的XP有个简单的处理方式：如果玩家的角色使用机智的战术、精明的协商、睿智的使用魔法或其它需要创造力与计划达成的手段，从而避开了挑战，就给它们该遭遇的XP。如果它们不怎么努力或只是运气好，例如找到一段秘密消息从而避开一场战斗，给它们低速或中速进度的XP。在形式更自由的冒险，例如道路错综复杂的地城，避开遭遇可能会根本没有奖励，因为这么做没什么意义。 
+<BR>　　如果玩家因为避开遭遇而错过讯息或物品，你需要随机应变。首先，赶快想一个在冒险中合情合理的地方把讯息或物品安排进去。如果能弄得合理，把一开始的遭遇移到故事的其它地方，并给在第一时间绕过遭遇的角色一个大优势。</DIV>
+<DIV class=sidebar>
+<H1>不用方格地图玩游戏 Playing Without A Grid</H1>
+<DIV>探索者规则的战斗建立在1吋正方形格子上，但你可以不用地图或格子。传统上我们称之为「心灵剧场」，你与其他玩家要想像战斗的地方还有周围的环境。这种游戏方式，需要你更常去做判决。这不难，问题往往是「我可以从我站的地方看到食人魔吗?」或是「我可以只使用一个行走(Stride)抵达食人魔那边吗?」最好请玩家告诉你他们想要做什么，例如「我想要穿越横梁，走到食人魔眼前攻击牠。」然后，你告诉玩家如何用动作实行，例如「你需要使用一个动作并通过一次特技检定，然后使用行走(Stride)靠近食人魔，接着你还有一个动作可以使用打击(Strike)。」 
+<BR>　　准备遭遇时，要避免过度使用困难地形、掩蔽或其他适合在方格上运作的战场挑战。同时，对于夹击这种战术可以宽松一点。你没有办法判定夹击，可在规则上会期待像是盗贼这类的近战角色要踏进夹击位，所以通常两位角色能在近战中联手就够了。</DIV></DIV>
+<H3>遭遇结束 Ending Encounters</H3>
+<DIV>要结束战斗遭遇，通常是某一方的生物全被杀死或陷入昏迷。如果情况变成这样，你就可以停止按先攻顺序行动了。接着，活下来的一方会有充足的时间让其他人站起来。但是，如果有玩家的角色要死了、紧攀悬崖边或是那种生死存乎片刻的情况下，你还是要继续使用战斗轮。 
+<BR>　　如果你确定不会有挑战，那你可以判定战斗结束，而玩家的角色就把杂鱼随意清理掉。但如果有玩家有创意或感兴趣的东西想要尝试，或他们正对法术保持专注─提前中止遭遇是种能避免无聊的方式，不是去削减谁的乐趣。你有很多方式提前结束战斗：敌人投降、敌人也不用到HP真的用光后才死，或你也可以直说战斗结束，玩家的角色快刀把剩下的乱麻斩了。最后一种情况，你可先问「如果开战，大家能接受吗?」好确定玩家有参与。 
+<BR>　　当己方几乎所有成员都被击溃，或是被法术或技巧彻底挫败，那某一方可能会投降。投降后，解除先攻顺序，转入短暂的谈判。这些对话一般来说是赢家是否会对输家展示仁慈，还是杀了，或是其它用来摆脱它们的方式。投降的一方在这种情况下通常没有什么筹码，所以要避免太过冗长的谈话。</DIV>
+<H4>逃跑的敌人 Fleeing Enemies</H4>
+<DIV>逃跑的敌人是个问题。玩家的角色往往会想追赶逃跑的敌人，因为他们会觉得敌人会在日后成为威胁。要避免这种一直动来动去的情况，因为它会拖慢游戏的节奏。如果所有敌人都逃了，中止先攻顺序，然后给每位角色追赶任一位逃跑的敌人的机会。每名角色可以宣告一个动作、法术或其他用来追捕逃跑敌人的能力。然后，比对角色跟目标的速度，评估哪些为了追捕所选择的法术或能力有帮助，并将猎物拥有且可以协助逃脱的能力考量进去。如果你判断追捕者追捕成功，那就回到原本的先攻顺序继续战斗，如果没成功，那猎物目前逃脱成功。 
+<BR>　　如果玩家的角色想撤退，最好就让他们这么做。挑一个特定的地点，只要他们全都抵达该处，就让他们撤退。但是，如果他们被妨碍或是因为其他原因被绊住，又或是敌人的速度比较快，在追捕的机动性上也比较好，那决定撤离的角色们可能就有需要承担的后果。</DIV>
+<H3>社交遭遇 Social Encounters</H3>
+<DIV>以不拘形式的角色扮演去进行多数交涉游戏是不错的方式，在涉及社交技巧的地方或许会有一到两个检定。但有时，在局势紧绷或决定性博弈的社交遭遇里，会使用先攻，类似战斗遭遇。跟其他遭遇一样，你需要高度重视社交遭遇的赌注!社交遭遇失利可能代表角色会被监禁或处死，主要敌人变成政治显贵或是一位关键盟友被羞辱并流放。 
+<BR>　　在社交上使用遭遇结构非常有用，因为相较沙盒模式，这能让时程更清晰，每位角色都能感觉到自己在贡献己身。在开始社交遭遇前，你要先设定赌注，让玩家知道成功或失败的后果，以及使遭遇结束的条件。 
+<BR>　　相较战斗遭遇，运行社交遭遇时你可以更为灵活。让一轮的长度不再是6秒、更多即兴发挥，不用特别去关注特殊攻击和法术，这些再再的把战斗遭遇和社交遭遇区隔开来。一般来说，你不需要担心角色的移动，你也不需要地图。以下是社交遭遇的范例： 
+
+<UL>
+  <LI>在法官面前证明某人的清白。 
+  <LI>说服邻近的统治者协助抵御入侵。 
+  <LI>在脑经急转弯打败一个敌对吟游诗人。 
+  <LI>在贵族法庭上揭穿敌人的阴谋。 </LI></UL></DIV>
+<H4>先攻与动作 Initiative And Actions</H4>
+<DIV>社交遭遇的先攻一般是骰社群或某项基于魅力的技能，像是交涉或欺瞒。和其他遭遇一样，角色如何介入冲突决定要骰何种技能。轮到某位角色的回合时，通常要使用技能动作尝试一次掷骰。让玩家去扮演他们的角色说了什么、做了什么，接着在判断要骰什么。你可以允许玩家们使用各自的能力或法术去达成他们想要的结果，但要注意大多数人如果看见施法的视觉征兆，会认为有人要使用魔法来影响或伤害他们，他们会对此做出负面的应对。 
+<BR>　　好的社交遭遇会有敌对方。可以是主动的，像是跟玩家进行抗辩的敌人；或是被动的，例如暴民每轮都会越来越失控。给敌对方更多的先攻位，好传达他们在做些什么。你可以为敌对方设计游戏数据，尤其是那些独行的，但像是一群失控暴民这种情况，你只需要设计一套不断增加的DC。</DIV>
+<H4>衡量成功与发展 Measuring Success And Progress</H4>
+<DIV>你需要决定玩家在社交遭遇中成功的衡量基准，因为这里没有AC也没有HP。第四章有为社交技能动作设计DC的只男，通常使用目标的意志DC。如果你需要没有数据的人的DC，例如你还没来得及设计数据的一群人或某位NPC，你可以在P.503中找到有关设计DC的指引。你可以使用简单的DC或使用基于等级的DC，来为目标设定一个层级或要通过怎样的挑战才能动摇他们。 
+<BR>　　态度状态(敌意、不友善、不关心、友善、乐于帮助)是个追踪社交遭遇进度的好办法。你可以用这些去表达当权者、群众、陪审团等等之类的态度。社交遭遇的目标通常是改变某人或某团体的态度到乐于帮助，好协助你，或是安抚有敌意的团队或个人好平息场面。尽量让玩家对他们在这个遭遇中取得了多少进展有个清晰的认识。 
+<BR>　　另一个方法是追踪由玩家造成的成功或失败的次数。举个例子，你需要骗四个卫兵让他们离开岗位，计算说谎(Lie)或分神(Create a 
+Diversion)的成功次数，直到总共有四次必要的成功。你可以合并两种方法，如果玩家需要显贵集团支持他们的行动，那遭遇的目标就是在时间内，确保多数贵族对玩家的态度比对敌人的好。</DIV>
+<H4>后果 Consequences</H4>
+<DIV>当你为社交遭遇设好赌注后，就该考虑后果了。除了玩家会在叙述上获得的好处外，社交遭遇通常也有XP奖励。因为战斗遭遇跟社交遭遇都是遭遇，所以会给予相差无几的XP，一般来说是中等成就，如果这遭遇是长期计划的高潮或重要的对头终于善恶有报，甚至会是主要成就。 
+<BR>　　社交遭遇的结局应该和游戏故事有直接关连。看看反响。哪些NPC现在看玩家顺眼了起来?哪些心怀怨恨或开始出谋划策?社交遭遇能为NPC盖棺论定，为他们划下尾声，但这玩家来说不是这样。就算情况真的很惨，像是死刑，但社交遭遇并不是尾声，还有时间去表现绝望中的英雄主义，或是扭转剧情。</DIV>
+<HR style="COLOR: #5e0000">
+
+<H2>探索模式 Exploration</H2>
+<DIV>探索模式是故意设计的不像遭遇那样严密的。因此，你要对发生的一切做出判决。 
+<BR>　　根本上，探索是将玩家对周围环境的了解奖励给他们。想要做到这样，你必须拥有且能传达给团队周围环境的心灵图像。你最好保持追踪玩家当前的位置，还有向玩家描述视觉、听觉或其他在冒险场所的感受。鼓励玩家认真探索，奖励他们的好奇心。玩家探索模式做的事情可以让你知道他们对甚么东西赶兴趣，或对他们来说什么是重要的事情。游戏进行忠，你会感受到玩家会对探索的某个面向激起兴趣，你可以在你的自己的冒险或是在已出版的冒险中添加或强调这些点。 
+<BR>　　<B>赌注：</B>低度或中度。探索模式应该用在有些但又不是立即的威胁存在时。玩家当前环境可能会遇到怪物或危害，但除非他们开始战斗或开始其他的直接互动前，都处于探索模式。 
+<BR>　　<B>时标：</B>玩家在探索模式时，游戏世界的时间流速会比现实世界来的更快，所以很少会用分钟或秒来计算时间。你可以想事情需要多快才会发生，自由提速或减速。如果非常需要知道究竟过了多久，你可以10分钟做为基准去判断探索模式花了多久的时间。 
+<BR>　　<B>动作和反应动作：</B>虽然探索不会按轮行动，可探索行动会假定玩家有花一些时间使用动作，例如侦查(Seeking)或互动(Interacting)。如果他们想做采取特定的动作，你可以选择就让他们这样作，或是转入遭遇模式好获得更多细节。玩家可以在探索模式中使用有关的反应动作。</DIV>
+<H3>探索行动 Exploration Activities</H3>
+<DIV>探索模式里，不只想要旅行的玩家，可以挑一个探索行动来做。最常用的探索行动叫做掩人耳目(Avoid Notice)、侦测魔法(Detect 
+Magic)、急行(Hustle)、搜寻(Search)，但不只这些。虽然玩家通常会默认这些行动，但不需要让他们去记和精准使用这些行动。你反而要让每个玩家去描述他们的角色在做些什么。接着，做为GM，你可以决定哪些行动能做。这也代表你可以决定如果玩家的行动跟列表上的有出入，那这行动的效果究竟如何。 
+<BR>　　下面描述的探索行动，除了在第九章P.479-480给玩家的描述外，还有些需要你的调整。</DIV>
+<H4>侦测魔法 Detect Magic</H4>
+<DIV>这个行动不会让角色自动发现旅途中每一件魔法物品或灵气。有最低熟练度要求的危害，侦测魔法无法侦测，和侦测魔法相同或更高的幻术也不行。 
+<BR>　　当角色使用此行动发现魔法的迹象，告诉他们，并让他们选择是要停下脚步开始进一步探索，或是继续旅程。停下脚步会进入更偏重角色扮演的情景，让玩家可以探索整片区域、评估不同的物品或是各种去思考魔法来源与其功效的奇思妙想。继续旅程可能会错过有帮助的魔法物品或触发魔法陷阱。</DIV>
+<H4>跟随专家 Follow the Expert</H4>
+<DIV>在某项技巧老练的角色，能够帮助技术青涩，选择「跟随专家」行动的盟友。对于一个隐匿偏低，不擅长潜伏；运动不高，难攀峭壁等等的角色来说是个福音。通常使用跟随专家的角色，不能进行其他探索行动，或是同时跟二个人</DIV>
+<H4>调查 Investigate</H4>
+<DIV>跟搜寻或侦测魔法类似，调查最开始的结果通常会给调查员充足的线索引领更彻底的检查，但一般不会把所有可能的资讯都给出。举个例子，有个玩家把地城墙面的深渊文字抄了下来，但他需要停下好阅读这些文字，或判断他其实是用血书写的。</DIV>
+<H4>搜寻 Search</H4>
+<DIV>在搜寻时进行察觉检定成功，角色会注意到此区域是否有异常存在，但这项行动不会提供该区域所有事物的目录。但它能提供更深入的调查或遭遇的起点。举个例子，如果本区域同时有DC30的暗门和DC25的陷阱，进行搜寻的角色他的察觉检定是28，那妳可以告诉玩家，他的角色注意到这区域里有陷阱，然后你要给出陷阱大概的地点与性质。这团人需要进一步检察这个区域才能得知陷阱的具体情报，某人可能会想要再搜寻一次，好多一次寻找暗门的机会。 
+<BR>　　如果该区域有许多物体或某些需要花段时间进行搜寻的东西(像是装满文件的橱柜)，搜寻会透露有厨柜，但玩家想要检查文件就需要进行彻底的调查。通常，这需要团队停下，做一次全面的搜寻。 
+<BR>　　试图搜寻沿途经过之突兀处(例如门旁或在走廊转弯)是否藏有秘密的角色，你要为他做一次秘密察觉检定，但不会是那种不显眼的地方(例如一条长走廊随便某个点)，除非他们特别慢又特别仔细的搜查。</DIV>
+<H3>安排团队角色的队伍顺序 Setting A Party Order</H3>
+<DIV>在探索模式中，确定谁在队伍前还后是很重要的。让玩家决定他们的角色在探索中是在队伍哪个位置。这个顺序能判定当面对各种方向来袭的敌人或陷阱时，谁会首当其冲。当前情况中，具体上谁会被当成目标，取决于你。 
+<BR>　　当你离开探索模式后，队伍通常来说保持相同的队列。如果你要转换到方格地图上(通常是战斗遭遇要开始了)，跟他们一起决定角色准确位置。如果是玩家主动离开探索遭遇，他们可以自由决定队列。举个例子，如果玩家发现了陷阱，然后游荡者开始解除陷阱，其他角色可以移到他们觉得安全的地方。</DIV><BR>
+<DIV class=sidebar>
+<H1>探索行动 Exploration Activities</H1>
+<DIV>下列的探索行动详细内容请见第九章P.479-480。更多请见第四章：技能</DIV>
+<UL>
+  <LI>掩人耳目 
+  <LI>防御 
+  <LI>侦测魔法 
+  <LI>跟随专家 
+  <LI>急行 
+  <LI>调查 
+  <LI>重复施法 
+  <LI>巡查 
+  <LI>搜寻 </LI></UL>
+<H2>即兴创作探索行动 Improvising New Activities</H2>
+<DIV>如果有玩家想做不在规则内的行动，这些有些建议。如果该行动和在遭遇中可以使用动作类似，例如掩人耳目，那通常由一个动作组成，每分钟约重复10次(例如使用潜行动作10次)，或是可以运作方式类似，可以替换的动作(例如搜寻[Search]可以换成行走[Stride]和搜索[Seek])探索行动的步调较快，一分钟约20个动作的行动，应该要受到限制或会导致疲乏，因为它更需要专注。 
+<BR>　　可能会有玩家想要做跟每6秒花3个动作相通的行动，跟他们在战斗时做的事情一样。唯有当战斗会持续一小段时间，角色才可以用这种方式，而且这种方式无法在探索模是这种时间框架较长的模式维持。</DIV></DIV>
+<H3>有害的地形与气候 Adverse Terrain And Weather</H3>
+<DIV>当队伍遭遇茂密的丛林、深厚的雪堆、沙尘暴、极端研热或类似的困难环境时，探索模式的速度会变慢。你可以决定这些因素对角色的推进有什么影响。特定的地形和气候会有什么具体效果，详见P.512。 
+<BR>　　像是浓密的植被这种困难地形通常会让速度慢下来。除非队伍在特定时间内旅行多远很重要，不然可以简略描述削砍藤蔓穿越，或在泥塘中步履蹒跚。如果角色有时间死线，按照旅行速度(P.479)表格9-2进行调整，一般来说，如果整段路都是困难地形，那速度减半，如果都是艰困地形，那速度是正常的三分之一。 
+<BR>　　危害地形，例如活火山的破火山口，可能会在物理上伤害玩家。玩家队伍可能会走直线，或是花更多时间迂回。当玩家穿越有危害的地形并且想要使用法术或技能检定缓和前者带来的伤害时，你可以转换成更细致的场景。如果他们忍过了危害地形，可以考虑在探索结束时，给玩家们次级或中等的XP奖励，如果他们的机智的未雨绸缪避免受伤，可以稍微给多一点XP。 
+<BR>　　危险的裂缝、湿软的沼泽、流沙还有类似的危险都属于环境危害，在P.512开始有详细描述。</DIV>
+<H3>危害 Hazards</H3>
+<DIV>探索模式会因为陷阱或其他危害而中断(危害详见P.520)。单纯的危害只会威胁玩家们一次，也可以在探索模式中处理。复杂的危害会需要转到遭遇模式，直到解决危害为止。一般会在遭遇模式中解除陷阱或克服危害。如果玩家使用搜寻行动(Search 
+activity)就有更高的机会在探索模式中侦查到危害(如果是魔法陷阱的话，是使用侦测魔法行动[Detect Magic activity])</DIV>
+<H3>骰先攻 Rolling Initiative</H3>
+<DIV>探索模式转成遭遇模式，通常都会要求骰先攻。当触发陷阱、两个敌队团队互相接触，或是某方的生物决定对抗其他人而采取行动时，要求骰先攻。举个例子： 
+<UL>
+  <LI>一队玩家探索一个洞窟。他们踏进一处有着一队狗头人勇士巡逻的狭窄通道。现在两个队伍都在同一个地区，是时候骰先攻了。 
+  <LI>艾米丽跟一名狗头人勇士同意尽行一次友谊摔角比赛。他们在泥坑中摆好姿势，接着你让他们用运动技能进行先攻检定。梅芮希尔和凯拉正和一名狗头人国王谈判。进展不顺，所以梅芮希尔决定发动突袭当她说这是她的计划后，你要求进行先攻检定。 
+
+  <LI>哈斯克和艾兹伦想在穿越狭窄的横梁时保持平衡(Balance)，好抵达一处独立的狗头人藏宝所。在他们走到一半时，有头红龙躲在山后，从空中展开袭击!当龙出现后，你要求进行先攻检定。 
+  </LI></UL></DIV>
+<H4>反应动作后的先攻 Initiative After Reactions</H4>
+<DIV>某些时候，陷阱或敌人会有能让你要求进行先攻检定的反应动作。举个例子，复杂的陷阱被触发后，可能会在先攻顺序开始前，用反应动作进行一次攻击。在这种情况下，你要解决所有反应动作产生的结果后，再求进行先攻检定。</DIV>
+<H4>选择先攻检定的类别 Choosing The Type Of Roll</H4>
+<DIV>在选择要用什么进行先攻检定时，建议使用最明显的选择。一般都是察觉，这是在第一个例子中的狗头人会用的，也是第三个例子中凯拉和狗头人国王会用的。下一个最常用的技能是隐匿(最后一个例子的龙，用的就是潜行)以及欺瞒(例如第三个例子中的梅芮希尔，就是欺骗对手)。而社交接触，通常会用欺瞒、交涉、威吓、表演或社群。 
+<BR>　　如果你不确定用什么，就用察觉。如果对某个角色来说有其他合理的先攻检定类别，你应该给他们此类别或察觉然后让玩家自己选。如果某类的检定比察觉更合理那就不要给他们选，例如当玩家在敌人后方潜伏，这就应该用隐匿。 
+<BR>　　你可以让玩家去拿捏不用察觉的话要用怎样的技能，但这只有在他们已经预先设定好什么的情况下。举个例子，如果在攻击之前，梅芮希尔的玩家说：「我要从枝型吊灯下落到他们身上」你可以让他用特技技能进行先攻检定。如果他只说：「嗨，我想要攻击这些家伙。我可以使用特技技能吗?」也没有预设好什么理由，你可能不会允许这样的行为。</DIV>
+<H4>角色位置 Character Placement</H4>
+<DIV>在战斗遭遇要大家进行先攻检定时，你也需要决定此遭遇的参与者在战斗地图上的位置。你可以把P.497的队伍顺序当做基础。你可以推进那些使用隐密技能行动的角色，将他们放在被发现之前可以合理抵达的地点。.与每个玩家商讨，确保他们的位置对双方都合理。</DIV>
+<DIV class=sidebar>
+<H1>监督法术持续时间 Monitoring Spell Durations</H1>
+<DIV>法术持续时间是一种把对魔法的狂想以及古怪念头编撰成一个近似值。但这不代表你可以用持续时间1小时的法术当作计时的工具。原因之一是遭遇之外的时间流逝操之在你，并且时间在这时候不像遭遇中的轮那样精准。如果有法术是否消散的问题出现，你做裁决。不要用惩罚性的方式，但你也不能把角色的行动弄得跟钟表一样精准，算的跟在遭遇一样完美。 
+<BR>　　关于法术持续时间，有两个时机点可说最重要的：当玩家想要在一个法术的持续时间内进行多场遭遇，还有当它们想要在战前使用法术接着在遭遇中保有法术的效果。</DIV>
+<H2>多个遭遇 Multiple Encounters</H2>
+<DIV>要想让一分钟的法术持续在多个遭遇中生效，仅当遭遇发生的非常紧密(通常是比邻的两间房间)，并且玩家直接在遭遇模式下从一场战斗到另一场战斗。如果他们想要停下进行治疗，或如果队伍在争吵往哪走，这个过程够让法术结束了。 
+<BR>　　如果法术持续时间有10分钟或更长，那可以慷慨一点。一个10分钟的法术能轻松持续一场遭遇，并且如果地点靠近，还可以多持续一场。一个1小时的法术往往可以持续数个遭遇。</DIV>
+<H2>战斗之前 Before a Fight</H2>
+<DIV>在战斗前施放有利的法术(有时我们称之为「pre-buffing」)能够给予角色巨大的优势，因为这让他们可以在战斗中使用更多进攻性质的行动，而不是准备战斗等等。如果玩家有对付敌人的优势，你通常可以让每个角色施放一个法术或以类似的方式进行准备，然后进行先攻检定。 
+<BR>　　当在战斗前施放备战法术已经变成机械性的行为，并且玩家假设这些东西都可以生效，那问题就出来了─这些计划不可能适用每种况状。很多时候，这些施法的行动会暴露玩家的存在。如果玩家的准备会导致他们暴露，你可以在所有人完成准备之前就进行先攻检定。</DIV></DIV>
+<H3>休息 Resting</H3>
+<DIV>角色每天都需要8小时的睡眠。虽然一般都是晚上睡觉，但白天睡觉的效果跟晚上一样。不管哪个时段睡，24小时内靠休息获得的好处只有一次。休息8小时的角色其恢复的方式如下： 
+
+<UL>
+  <LI>角色重获生命值，其数值等于体质调整值(最小为1)乘该角色等级。如果他们休息的地方不是避难所或舒适的环境，你可以将治疗量减半(最少1点生命值)。 
+  <LI>角色失去疲乏状态。 
+  <LI>角色绝望状态和流失状态的严重程度减1。 
+  <LI>大部分的施法者想要重获每日的法术都需要休息。 
+</LI></UL>　　处于探索模式的队伍可以休息，但他们并不安全无虞，而他们的休息也可能被打断。但8小时的休息不需要连续不断，就算在被打断后，角色也可以回去继续睡觉。 
+<BR>　　着甲睡眠会让休息品质降低，会导致角色醒来时承受疲乏状态。如果有角色会在这次休息时从疲劳状态中恢复，著甲睡眠也会让此事功败垂成。 
+<BR>　　如果有角色超过16个小时没有睡觉，他会承受疲乏状态。 
+<BR>　　想借由长期休息好快速复原，这是休整期的事，不能在探索模式使用。详细规则请见P.502。</DIV>
+<H4>监视和突袭 Watches and Surprise Attacks</H4>
+<DIV>冒险队伍通常会让一些人进行守卫，监视危险，而其他人则休息。花时间监视也会打断睡眠，所以晚上的时间表需要考虑每个人的守夜时间。下页的表10-3：守夜与休息只出团队要为休息留出多少时间，假设每个人轮流守夜，守夜的时长也相同。 
+<BR>　　如果休息时发生突袭遭遇，你可以掷骰随机判定是哪个角色在守夜。所有的角色都要进行先攻检定，睡着的角色通常会因为昏迷，所以在察觉检定中承受-4状态罚值。他们不会在进行先攻检定时自动醒来，但他们会因为噪音，在他们回合开始时进行一次察觉检定好清醒。如果有机智的敌人，在开始攻击前想蹲守一个特别脆弱的角色，这次攻击会自动在该角色的监视中开始。但是，你或许会让埋伏者进行隐匿检定，对抗所有角色的察觉DC，好确定是某有人注意到埋伏者的靠进。</DIV>
+<TABLE class=regular>
+  <CAPTION>表10-3：守夜与休息</CAPTION>
+  <TBODY>
+  <TR>
+    <TH>团队大小</TH>
+    <TH>总时长</TH>
+    <TH>每人守夜时长</TH></TR>
+  <TR>
+    <TD>2</TD>
+    <TD>16小时</TD>
+    <TD>8小时</TD></TR>
+  <TR>
+    <TD>3</TD>
+    <TD>12小时</TD>
+    <TD>4小时</TD></TR>
+  <TR>
+    <TD>4</TD>
+    <TD>10小时40分钟</TD>
+    <TD>2小时40分钟</TD></TR>
+  <TR>
+    <TD>5</TD>
+    <TD>10小时</TD>
+    <TD>2小时</TD></TR>
+  <TR>
+    <TD>6</TD>
+    <TD>9小时36分钟</TD>
+    <TD>1小时36分钟</TD></TR>
+  <TR></TR></TBODY></TABLE></TBODY>
+<H3>日常准备 Daily Preparations</H3>
+<DIV>在准备出发之前，或是休息了一晚后，玩家要花上一些时间为冒险作准备。这通常会在早上花30分钟到一小时，但必须在8小时完整的休息之后。日常准备包含以下内容： 
+
+<UL>
+  <LI>要准被法术的施法者们，要为今天能用什么法术作出选择。 
+  <LI>聚能点还有其他会因为每日准备而更新的能力恢复初始状态。这也包含那些每天只能使用一定次数的能力。 
+  <LI>每位角色可以整理装备。这包含披尚自己的盔甲，并且捆紧自己的武器。 
+  <LI>角色每天最多能享受10件穿戴在身魔法物品的好处。 </LI></UL></DIV>
+<H3>饥饿与口渴 Starvation and Thirst</H3>
+<DIV>一般来说角色会吃饱喝足，舒服的活着。但如果不行，他们会疲乏，直到又能吃饱喝足为止。经过1+生物体值调整值的天数都没有水可以喝后，你每小时都会受到1d4点伤害并且不能被治好，直到解决口渴的问题。经过1+生物体值调整值的天数都没有食物可以吃后，你每天都会受到1点伤害并且不能被治好，直到解决饥饿的问题。</DIV>
+<HR style="COLOR: #5e0000">
+
+<H2>休整期 Downtime</H2>
+<DIV>在休整期，你可以把一整天重要的事情，只需骰一次，就作个总结。在角色回家或因为其他原因不在冒险中时使用此模式。 
+<BR>　　一般来说，休整期是一次团期开始的头几分钟，或出现在冒险的主要章节之间的休憩。和探索模式一样，你可以用角色扮演或遭遇去强调休整期，顺其自然即可。 
+<BR>　　此章会阐述掌握休整期的方法，并详述一些行动与一些在休整期需要考虑的东西，例如生活开销、买卖货品、长休息和重训。多数其他休整期活动为技能动作，以下是一些一般的休整期活动还有它们的相关技能。在第四章可以找到这些技能的详述。 
+
+<UL>
+  <LI>制造（手艺） 
+  <LI>赚取收入（手艺, 学识, 表演） 
+  <LI>治疗疾病（医疗） 
+  <LI>伪造文书（社群） 
+  <LI>求生（社群, 生存） </LI></UL>　　<B>赌注：</B>从没有到低度。休整期是相对于冒险的产物，有着一些低度威胁的行动。 
+<BR>　　<B>时标：</B>在现实世界的短短几分钟内，休整期可以持续游戏世界的几天、几周、几个月或几年。 
+<BR>　　<B>动作与反应动作：</B>如果你需要使用动作和反应动作，就切换成探索模式或遭遇模式。一个无法行动的生物就不能从是大部分的休整期行动，但他可以进行长休息。</DIV>
+<H3>渡过休整期 Playing Out a Downtime Day</H3>
+<DIV>在有特定日数的休整期开始时，让所有玩家宣告他们在这段日子里想要试着完成什么。接着你可以一次解决一名角色的努力(或是把几名角色聚在一起，如果他们协力完成一件计划的话)。有些行动，像是赚取收入，只需要一次简单的掷骰，以及你跟玩家的润色。其他行动则更加复杂，会连带到遭遇或探索。你可以随意决定玩家渡过他们休整期行动的顺序，虽然从最简单的那个开始会最好。而不参与复杂行动的玩家，会有时间在更复杂的行动进行时休息一会。 
+<BR>　　如果他们想，角色可以从事日常准备，如同他们在探索的一日般。向玩家确定好一套标准的准备，接着就可以假设这是该角色的每天例行公事，直到玩家改变主意。</DIV>
+<H4>合作 Cooperation</H4>
+<DIV>数名角色可以合作完成同一个休整期任务。如果这只是需要一次简定的简单任务，例如一队人在沙漠岛屿等待营救前的求生(Subsisting)，让一位角色主骰，其他所有人可以使用援助(Aids)。如果这是个复杂的任务，假社同一时间他们在进行这个任务的不同部分，所以他们所有的努力都是为了完成这项任务。举个例子，一队玩家在合作建造一座剧院，一位角色绘制建筑方案、一个下场劳动而另一个则去和地方政党人士与工会交涉。</DIV>
+<H4>检定 Checks</H4>
+<DIV>有些休整期行动会需要掷骰，通常是技能检定。因为这些检定代表着长时间中一系列任务的最高潮，所以玩家不能在多种掷骰中使用大部分的能力或法术，例如启动魔法物品获取加值，或是施放幸运法术骰两次。但能持续的增益可以应用上去，所以玩家可能会投资无需启动就能给予加值的魔法物品。你可以为这项规则设定某些例外。如果有东西能够持续生效，或是能常常用，几乎可说是持续不断，那这东西很可能可以在休整期检定中生效，例如驾轻就熟Assurance专长。</DIV>
+<H3>更长的休整期 Longer Periods of Downtime</H3>
+<DIV>要想进行极长的休整期会是一个很大的挑战(像是几周、几个月或甚至几年)。但是，这对玩家也是一个机会，让他们可以进行长期计划，而不是要整天烦恼每天的行动。因为时间太长，角色不用每天都进行检定。取而代之是他们要处理一些特别的事件，平均剩下的休整期日数，支付这段时间的生活开销。</DIV>
+<H4>事件 Events</H4>
+<DIV>在玩家确定他们在休整期想要实现的目标后，为每个人选择一些特殊的事件─持续一周或一个月通常是一个事件，如果是持续一年以上的会有四个事件。这些事件应该为每位角色和他们的目标量身订做，并且这些事件能够成为冒险的引子或继续发展的情节。 
+<BR>　　虽然下面休整期事件的例子都涉及赚取收入(Earning 
+Income)，但你可以把它们当作其他行动的灵感火花。角色可以使用表演（Perform）给前来的贵族上演一出御用新戏来赚取收入(Earn 
+Income)。使用手艺(Crafting)的人可以接取合算的委讬制造特殊物品。拥有学识的角色可以研究急需回应的困难问题。 
+<BR>　　那些想要做些什么但当前却没有相符的休整期活动可以参考的玩家，还是要体验休整期事件，你可以挑选一些相关的技能和DC。举个例子，如果有位角色想要造个自己的图书馆，来存在有关魔法的书籍，你可以将位图书馆设定地基以及组织图书馆作为建物完工的大事件。第一个检定可以是造物(Crafting)检定，其次的检定可以是奥术(Arcana)或图书馆学识(Library 
+Lore)检定。</DIV>
+<H4>平均发展速度 Average Progress</H4>
+<DIV>对于一段很长的休整期，你或许不会想要每周甚至每月都骰一次。取而代之，你可以为一个任务设置对该角色来说能确实完成的最低等级，好让他们使用休整期(有关设置任务等级的资讯请见P.503的难度等级)。如果该角色在这检定中失败，你可以让他们在下星期再试一次(或下个月，如果你的休整期以年为单位)。如果他们成功但却想要继续尝试到大成功，不要让他们这么做，除非他们在游戏故事中作了什么，让你觉得重骰是合情合理的。 
+<BR>　　你在漫长休整期中囊括的事件，一般来说应该是更加高等的任务。举个例子，有位使用水手学识(Sailing Lore)进行四个月赚取收入(Earning 
+Income)的角色，可能大部分的时间都在港口作1级任务，但会有一周是3级任务，原因是旺季。一般来说，你可以让玩家为1级任务骰一次，而3级任务骰另一次。</DIV>
+<H3>生活开销 Cost of Living</H3>
+<DIV>对于短暂的休整期，角色通常只会穿过定居地或只花上一点点时间。他们要为食宿支付的价格写在P.294。进行长时间的休整期，可以使用本页的表6-16来决定生活开销的数字。 
+<BR>　　在角色从其他所有休整期活动获取金钱后，从角色的财产中扣除相应的生活开销。角色可以靠天地吃饭，但除了其他休整期行动外，通常每天他们都需要使用求生行动(P.240)。</DIV>
+<H3>买卖 Buying and Selling</H3>
+<DIV>冒险之后的横财，角色可能会想要卖些什么东西。同样地，当他们口袋买买时，他们会想要买些装备。想贩售些许货物或逐店购买物资，通常要1天的休整期。如果要卖的东西很多、很昂贵，或不那么抢手的货物，会花更长的时间。 
+<BR>　　以上都是假设角色休整期时人在一个规模可观的定居点。某些情况下，他们会花些时间前往更大的城市。跟之前一样，你对是否有哪些商店或是否有哪些物品拥有最终决定权。 
+<BR>　　买东西通常来说是全价买，半价卖。补给或需求品有时后会做些调整，但不常发生。</DIV>
+<H3>长期休息 Long-term Rest</H3>
+<DIV>角色在休整期间完整休息24小时的话，可以恢复正常休息8小时双倍的量(请见P.499)。他们必须在舒适且安全的地方休息，通常是床上。 
+<BR>　　如果他们长时间在床上休息(通常是好几天到一周的休整期)，那他们会恢复所有的伤害，以及大部分非永久性的状态。受疾病、长时间的毒素或类似苦难影响的角色们，可能需要在休整期间持续尝试豁免检定。有些诅咒、永久性伤害和其他需要魔法或特殊照顾才能移除的情形，并不会在长休息中自动痊癒。</DIV>
+<H3>重训 Retraining</H3>
+<DIV>P.481的重训规则能让一个玩家改变角色的一些选择，但重训是否需要老师、需要多久、是否需要相关花费以及这个能力是否能重训都取决于妳。角色大部分的能力都可以合理重训，而妳也应该让他们重训。但那些攸关一个角色真实本质的东西，例如术士的血脉，在没有极为特殊的环境下，就不可以重训。 
+<BR>　　试着把重训融入故事中。使用角色早已认识的NPC们做为老师、在神秘的古代图书馆进行紧张的研究，或是借由玩家过去跑团时曾发生在他身上的事情，将重训揉碎在游戏叙述里。</DIV>
+<H4>时间 Time</H4>
+<DIV>重训一个专长或技能提升通常需要一周。需要进行选择的职业特性也可以重训，但时间更长：至少一个月，甚至更久。如果重训需要特别高的体力要求、或旅行、长期实验或深入研究，那可能要花更多时间，可一般来说你不会希望看到一个专长或技能需要的时间超过一个月，职业特性是四个月。 
+<BR>　　角色可能会想一次重训好几个东西。举个例子，重训一个技能提升可能代表他们有个技能专长再也不能用了，所以他们也想把那个专长一起重训掉。你可以把所有重训时间加在一起，然后将总数减少一些，以显示重训的凝聚性本质。</DIV>
+<H4>受教与开销 Instruction And Costs</H4>
+<DIV>在你升级时，规则将学习新事物的做了提炼(你是做中学)，但重训则暗示角色与老师一同学习，或忍受特定的训练好重训。如果你想，你可以完全忽略重训这件事，但它能提供机会让你介绍NPC，以及之后的故事剧情。你甚至可以让玩家互相拜师，特别是要重训技能时。 
+<BR>　　重训的花费不应该高，大约是一位角色在跟重训一样长的时间中去做赚取收入(Earning 
+Income)赚得的钱相当。在此，重训的花费应是为了让这个行为符合游戏的故事，而不是要大量消耗角色的收入。老师可能会因为角色作的事情，出于奖励，就义务帮忙不收费，或只是要角色欠它一个人情。</DIV>
+<H4>不可重训的选项 Disallowed Options</H4>
+<DIV>虽然有些角色选项一般来说不能重训，但你可以发明一些方式让角色可以重训这些选项，例如特殊的仪式、不可思义的任务或完美的老师。举个例子，属性值一般来说不能重训，因为这会让游戏不平衡。但不是所有玩家都会竭尽全力挖掘数值系统，或许玩家只是想要在两个低属性间交换属性提升。在这种情况下，你可以花几个月的时间训练或研究，重新分配属性提升。</DIV></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div></div></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div>
+</div>
+
+</body></HTML>
