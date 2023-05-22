@@ -1,0 +1,425 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0014)about:internet -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>规则元素的格式</title>
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<META name=robots content=index><LINK rel=stylesheet type=text/css 
+href="Materials/4E.css">
+<META name=GENERATOR content="MSHTML 11.00.9600.19355">
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+</head>
+<body><script language="JavaScript" type="text/JavaScript">
+function syn(){
+if(parent.nav.tree){
+ if(parent.nav.tree.loaded){
+  parent.nav.tree.selectNode(7);
+ }else{
+  setTimeout("syn()",500);
+}
+  }else{
+  setTimeout("syn()",500);
+  }}
+if(parent!=self){
+  setTimeout("syn()",100);
+}else{
+  parent.location.href = "../../index.htm?page=基本/page_232.html";
+}
+originalOnload = window.onload;
+if(originalOnload==null){
+window.onload = function(){parent.contentLoaded = true;};
+}else{
+window.onload = function(){originalOnload();parent.contentLoaded = true;};
+}
+</script> 
+
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="page_231.html" title="Previous topic"><img id="winchm_template_prev" alt="Previous topic" src="../template2/btn_prev_n.gif" border="0"></a><A href="page_233.html" title="Next topic"><img id="winchm_template_next" alt="Next topic" src="../template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation">Help &gt; 
+<A href="首页.html">核心规则书</A> &gt; <A href="page_27.html">第一章：引言</A> &gt; </div>
+	<div id="winchm_template_title">规则元素的格式</div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><div id="winchm_template_container">
+	<div id="winchm_template_content">
+<H3>理解动作 Understanding Actions</H3>
+<H4><IMG style="HEIGHT: 24px; VERTICAL-ALIGN: middle" src="Materials/OneAction.png"> 单动作 Single Actions</H4>
+<DIV>单动作使用这个符号：<IMG style="HEIGHT: 24px; VERTICAL-ALIGN: middle" src="Materials/OneAction.png">。单动作是作为简单、常见的动作类型。在遭遇中，你可以在自己的回合里，按照你认为合适的顺序使用3个单动作。</DIV>
+<H4><IMG style="HEIGHT: 24px; VERTICAL-ALIGN: middle" src="Materials/Reaction.png"> 反应动作 Reactions</H4>
+<DIV>反应动作使用这个符号：<IMG style="HEIGHT: 24px; VERTICAL-ALIGN: middle" src="Materials/Reaction.png" width=24>。即便不是你的回合，你也可以使用该动作。遭遇中的每1轮你只能使用1个反应动作，而且只能在满足特定触发的情况下才能使用反应动作。通常来说，触发的条件是其他生物的动作。</DIV>
+<H4><IMG style="HEIGHT: 24px; VERTICAL-ALIGN: middle" src="Materials/FreeAction.png"> 自由动作 Free Actions</H4>
+<DIV>自由动作使用这个符号：<IMG style="HEIGHT: 24px; VERTICAL-ALIGN: middle" src="Materials/FreeAction.png">。自由动作不会消耗你的3个单动作或反应动作。自由动作可能会像反应动作那样需要触发使用。如果需要触发的话，你能够像使用反应动作那样使用自由动作——即便不是你的回合也可以。但对于每个触发来说，你只能使用1个自由动作来应对，因此当同1个触发满足了你的多个自由动作时，你必须决定使用其中哪1个自由动作。若自由动作不需要触发，那你便可以像使用单动作那样使用它，而这并不会消耗你在该回合的任何动作。</DIV>
+<H4>行动 Activities</H4>
+<DIV>行动是一种特殊指令，这需要你同时消耗1个或更多动作来完成。通常来说，行动会使用2个或更多的动作，而它能让你完成远超单动作能够允许做到的事情。为了让行动产生效果，你必须消耗该行动需求的所有动作。施法是最为常见的行动，大多数法术在施放时所需要使用的动作都多于1个单动作。 
+<BR>　　使用2个动作的行动使用这个符号：<IMG style="HEIGHT: 24px; VERTICAL-ALIGN: middle" src="Materials/TwoActions.png">。使用3个动作的行动使用这个符号：<IMG style="HEIGHT: 24px; VERTICAL-ALIGN: middle" src="Materials/ThreeActions.png">。少数特殊的行动——比如瞬间便能完成施法的法术——可以通过消耗自由动作或反应动作来执行。 
+<BR>　　所有耗时大于1个回合的任务都是行动。若1个行动要在探索中执行，那么它具有探索特征。若1个行动要耗费1日或更多的付出，且只能在休整期间执行的话，那么它具有休整特征。</DIV>
+<H3>阅读规则 Reading Rules</H3>
+<DIV>本书中记述了大量规则，为角色提供了多种崭新且有趣的方式来应对游戏中遭遇的情况。所有角色都可以使用第九章（Chapter 
+9）中记述的基础动作（basic 
+actions），但角色通常都会掌握一些特殊规则，让他们做到大多数角色无法做到的事情。大多数此类选项来源于专长（feats）——你能够在创建角色或角色提升等级时获取专长。 
+<BR>　　无论游戏机制的表达方式是什么样的，规则元素总是会以数据模块来表现，这是因为归纳性的规则能使游戏中对怪物、角色、物品或其他规则的理解变得清晰。本书会在合适的位置记述对于数据模块的解释以及相关格式的介绍。举例说明：第二章（Chapter 
+2）族裔（Ancestry）部分的介绍了游戏中六种核心族裔的规则，对于这些规则条目的详细说明会罗列在该章节的开头（即族裔的生命值、体型、语言等等条目所代表的含义）。 
+<BR>　　数据模块的一般格式如下所示。当某些条目不适用于某个数据模块时，这些条目便会被省略，因此并非所有的规则都会像下面的数据模块那样罗列出所有条目。动作、反应动作和自由动作会相应的标志来表示，并标注在名称旁边来表示它的类别。能够在1个回合内完成的行动旁边会标示出完成它所需要的使用的动作；而需要更长时间来执行的行动通常会忽略这些动作标志。若角色必须达到某个等级才能够有权获取某个能力的话，该等级要求也会被标注在数据模块的名称一栏内。规则通常还会标注出与其相关的特征（特征详见628页的术语及索引）。 
+<BR>　　法术（Spells）、炼金物品（alchemical items）和魔法物品（magic 
+items）也会使用类似的格式，但它们的数据模块还会包含许多独特的条目（法术相关内容详见第七章，炼金及魔法物品的内容详见第十一章）。</DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>动作或专长名称&nbsp;&nbsp;<IMG src="Materials/OneAction.png"></SPAN><SPAN class=level>等级</SPAN></DIV>
+<DIV class=trait><SPAN>特征</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>先决条件</TH>
+    <TD>此处列出了你在选择此规则元素之前必须满足的先决条件，比如最低属性（minimum ability 
+      scores）、专长（feats）、熟练度（proficiency ranks）、或其他任何条件。专长也有等级先决条件，它出现在这上方</TD></TR>
+  <TR>
+    <TH>频率</TH>
+    <TD>此处列出的是在一段特定时间内能够使用该能力的次数限定。</TD></TR>
+  <TR>
+    <TH>触发</TH>
+    <TD>在触发并使用反应动作或自由动作前必须满足的先决条件。</TD></TR>
+  <TR>
+    <TH>要求</TH>
+    <TD>有时在使用能力之前必须拥有某种物品或置身于某种环境之中，若有该限制的话，则会在此条目中列出。</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>此处描述了规则元素所带来的效果或好处。若该规则描述的是1个动作，那么此处的描述会解释它产生的效果以及为了确定效果所必须投掷的检定。若该规则描述的是能够调整已有动作的专长、或者提供了1个持续性的效果，那么此处会说明它所带来的好处。<BR>　　<B>特殊</B>此条目会列出此规则的特殊性质。此条目通常会出现在专长里，说明您能够多次选取它，或者说明在使用它的时候会发生什么。</DIV></DIV></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div></div></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div>
+</div>
+
+</body></HTML>

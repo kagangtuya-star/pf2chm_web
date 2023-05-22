@@ -1,0 +1,479 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>制作替代规则</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+</head>
+
+<body><script language="JavaScript" type="text/JavaScript">
+function syn(){
+if(parent.nav.tree){
+ if(parent.nav.tree.loaded){
+  parent.nav.tree.selectNode(732);
+ }else{
+  setTimeout("syn()",500);
+}
+  }else{
+  setTimeout("syn()",500);
+  }}
+if(parent!=self){
+  setTimeout("syn()",100);
+}else{
+  parent.location.href = "../../index.htm?page=基本/制作替代规则.htm";
+}
+originalOnload = window.onload;
+if(originalOnload==null){
+window.onload = function(){parent.contentLoaded = true;};
+}else{
+window.onload = function(){originalOnload();parent.contentLoaded = true;};
+}
+</script> 
+
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="穿戴物品.htm" title="Previous topic"><img id="winchm_template_prev" alt="Previous topic" src="../template2/btn_prev_n.gif" border="0"></a><A href="神器.htm" title="Next topic"><img id="winchm_template_next" alt="Next topic" src="../template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation">Help &gt; 
+<A href="$$unsavedpage2.htm">珍宝密库</A> &gt; <A href="$$unsavedpage7.htm">造物之秘</A> &gt; </div>
+	<div id="winchm_template_title">制作替代规则</div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><BLOCKQUOTE 
+  class=bbc_standard_quote>创造新事物需要花费时间与耐心。其需要苦心孤诣与竭尽心力。若无献纳，则无价值，无论进献的是时间、财富还是个人能力。对于大多数凡胎，其所需过甚；相较于创造，他们更乐意于追求其他乐趣。然而，那些投身于扩张当下事物的人永不该被忽视或遗忘。未来由那些为了永恒而短暂牺牲的人所创造。<BR>——瓦拉希娜丝，宝库之主<BR></BLOCKQUOTE>
+<DIV class=quotefooter>
+<DIV class=botslice_quote></DIV></DIV><BR><STRONG><SPAN class=bbc_size 
+style="FONT-SIZE: 16pt"><SPAN class=bbc_color style="COLOR: blue">复杂制作 Complex 
+Crafting</SPAN></SPAN></STRONG><BR><BR>核心规则书中提出的制作（Craft）动作以一种简易的速度运作：你可以制作任何物品，无论它的等级，用恰好4天时间，花费额外时间可以获得物品最终价格的折扣。纵然在桌面上可以轻松实现，但这一系统更侧重于简易性并留下了一些可供探索的途径。例如，尽可能高等级（你自身等级）的物品在这4天中会提供给你远比低等级物品更多的价值。此外，系统提供给玩家们较少的选项来尝试快速制作物品，即使这样做会带来一些失败风险。此次的复杂制作变体更适用于那些将制作物品视作游玩体验核心部分的团队。对于大多数团队，更简易的制作系统大概足够完成一些临时的物品了。<BR>变体提供了一个制作系统的选择，得以让玩家们决定他们想要处理任务的方式，选择一种缓慢并有条不紊的方式、或者加快进程并冒着材料缺失的风险，甚至创造一件受诅咒的物品！依据物品等级以及其属于消耗品（consumable 
+item）还是永久物品（permanent 
+item），这一系统体现出了时间上的变化。<BR>首先，你必须满足列在手艺技能（核心书224页）中制作动作的所有需求。而在制作过程开始，你必须决定制作时间（setup 
+time），其基于物品类型和相较于你等级的等级，随后取决于你完成任务的方式，你的熟练度会限制你的方式。GM依据物品等级、稀有度和其他情况来决定基础DC。<BR>为了决定安装时间，检查物品等级和其是否为消耗品还是永久物品。将物品等级与你的等级做比较，并且根据表5-1查找对应天数。此处的制作时间是制作物品所需花费的基础天数。如果你决定采取缓慢并有条不紊的方式，你花费对应天数，随后进行一次手艺检定确定你是否成功（见“完成物品 
+Finishing the 
+item”）。<BR>你可以取而代之加快进程，在引入一次较大的失败风险同时减少安装物品所需的时间。如果你在手艺上具有专家熟练度（Expert），你可以通过将 
+DC 增加 5 来减少 1 天制作时间。如果你具有大师熟练度，你可以通过将 DC 增加 10 来减少 2 天制作时间。如果你具有传奇熟练度，你可以通过将 DC 
+增加 15 来减少 3 天制作时间。如果你在制作一件消耗品，则这种降低方式会将天数减到 0 或更少，制作时间则取而代之减为 4 小时。<BR><BR>
+<DIV class=quoteheader>
+<DIV class=topslice_quote>&nbsp;</DIV></DIV>
+<BLOCKQUOTE class=bbc_standard_quote><STRONG>表格 5–1:&nbsp; 制作时间天数 DAYS OF 
+  SETUP TIME </STRONG><BR>
+  <TABLE class=bbc_table>
+    
+    <TR>
+      <TD><STRONG>物品相对等级</STRONG>
+      <TD><STRONG>消耗品</STRONG>
+      <TD><STRONG>永久物品</STRONG></TD>
+    <TR>
+      <TD>与你等级相同
+      <TD>4
+      <TD>6</TD>
+    <TR>
+      <TD>你的等级 -1 或 -2
+      <TD>3
+      <TD>5</TD>
+    <TR>
+      <TD>你的等级 -3 或更低
+      <TD>2
+      <TD>4</TD></TR></TABLE></BLOCKQUOTE>
+<DIV class=quotefooter>
+<DIV class=botslice_quote></DIV></DIV><BR><STRONG><SPAN class=bbc_size 
+style="FONT-SIZE: 12pt"><SPAN class=bbc_color style="COLOR: brown">完成物品 
+FINISHING THE 
+ITEM</SPAN></SPAN></STRONG><BR><BR>在完成制作时间后，你必须进行一次手艺检定来觉得你的造物最终成果。如果你的检定是成功，你将原材料（raw 
+materials）消耗掉并可以通过花费物品材料价格（Price in 
+materials）的剩余部分来立刻完成物品。另外，你可以花费额外的休整期时间来制作物品。<BR>你每花费的额外天数，会降低你完成物品需要消耗的材料价格。价格的降低使用“表4-2：赚取的收入（Table 
+4–2: Income Earned 核心书236）”来确定，基于你的手艺技能熟练等级并使用你自身等级而非任务等级（task 
+level）。在所有休整期时间结束后，你可以通过花费物品材料价格的剩余部分来完成物品。如果时间被打断，你可以在之后返回以完成物品，继续你剩下的工作。<BR>你也可以决定加速这一过程。如果你在手艺上具有至少专家熟练度，你可以加速完成的过程，以列在核心书 
+236 
+面“表4-2：赚取的收入”双倍的金额降低你完成物品必须花费的材料价格。这样做伴随着一些风险；在造物过程结束，一旦物品完成，你必须进行一次纯骰检定。此次纯骰检定 
+DC 为 10 + 物品等级 - 你手艺技能熟练加值。如果检定结果为成功或大成功，物品完成并完美运作。如果检定失败，物品依旧得以完成，但是其获得怪癖（quirk 
+游戏主持人指南 86 Gamemastery Guide 86）。如果检定大失败，物品破坏（ruined）或者可能变为一件与你绑定的诅咒物品（cursed 
+item attached to you）（由 GM 决定）<BR><BR><STRONG><SPAN class=bbc_color 
+style="COLOR: brown">制作物品并调整 Crafting Items with Adjustments 
+</SPAN></STRONG><BR>调整（Adjustment 11页）是可以对特定装备类型（particular type of 
+equipment）提供特定特殊能力（specific special abilities）的物品改装。并非独立于一套护甲（suit of 
+armor）的制作调整（crafting adjustments），你可以简单地制作出已经调整的护甲，适当地通过将调整价格添加到基础护甲（base 
+armor）的总制作花费中并如常计算剩余的制作过程。<BR><BR><STRONG><SPAN class=bbc_color 
+style="COLOR: brown">技能专长 Skill Feats 
+</SPAN></STRONG><BR>当使用本变体规则时，考虑允许以下技能专长来使玩家得以更快地制造等级极低的物品。此技能专长被列为稀有（rare），并且除非使用本变体，否则其对玩家永远不可用。这种快速的制作方式可能会导致你的玩家们最终获得比冒险所期望的更高价值的财宝或更多道具，所以在已经提供大量休整期时间的战役中使用此专长要慎重。<BR><BR><SPAN 
+class=bbc_size style="FONT-SIZE: 10pt"><STRONG>快速安装 QUICK SETUP 专长 7 
+</STRONG></SPAN><BR>
+<HR>
+<STRONG><SPAN class=bbc_color style="COLOR: blue">稀有</SPAN> <SPAN 
+class=bbc_color style="COLOR: brown">通用 技能（RARE GENERAL 
+SKILL）</SPAN></STRONG><BR><STRONG>先决条件</STRONG> 手艺技能具有大师熟练度<BR>
+<HR>
+你已然学会如何轻松地安装简单的手工品。如果物品等级至少小于你等级 6 级，则你的消耗品制作时间为1天，并且低于你等级 6 级（6 levels 
+lower）的永久物品制作时间为3天。<BR>如果你加快安装并对于至少低于你等级 6 级的物品减少制作时间到 1 天以内（less than 1 
+day），你便可以取而代之的在2小时内将他们安装完成（如果你自己拥有工具和原材料，你便可以在冒险的一天内完成这些事情）。如果你加快安装比你低至少6级的永久物品，并将制作时间缩短到1天以内，你可以在4小时内完成安装。<BR><BR><STRONG><SPAN 
+class=bbc_size style="FONT-SIZE: 16pt"><SPAN class=bbc_color 
+style="COLOR: blue">手艺的休整期事件 Crafting Downtime 
+Events</SPAN></SPAN></STRONG><BR><BR>在休整期时间可能发生许多事情，有的或许让你的努力付之一炬，有的则会打乱你的所有计划。在制作物品时，也许放下手头的制作事宜并解决问题轻而易举，但有时这些事件则威胁到了项目本身。游戏主持人指南提供了三个与手艺相关的休整期事件示例：重要材料的发货延迟（a 
+delayed shipment of materials）、顶级作品吸引了收藏家的注意（a superlative work drawing 
+attention from collectors）、发现了一种能更有效处理材料的技术（discovery of a new and efficient 
+crafting 
+technique）。即使将这些与赚取收入相关（一般情况下合适）的事件加入其中，一个花费大量时间在制造物品上的队伍可能会发现这些多次出现。下列休整期事件与制作物品进程直接相关，可被用作游戏主持人指南 
+25 面的补充材料。<BR><BR>
+<DIV class=quoteheader>
+<DIV class=topslice_quote>&nbsp;</DIV></DIV>
+<BLOCKQUOTE class=bbc_standard_quote><STRONG>表 5–2: 手艺休整期 CRAFTING DOWNTIME 
+  </STRONG><BR>
+  <TABLE class=bbc_table>
+    
+    <TR>
+      <TD><STRONG>事件 EVENTS </STRONG>
+      <TD><STRONG>d20 </STRONG>
+      <TD></TD>
+    <TR>
+      <TD>1–3
+      <TD>选择游戏主持人指南中的一个事件 Select an event from the Gamemastery Guide</TD>
+    <TR>
+      <TD>4
+      <TD>令人生厌的闯入者 Annoying interloper </TD>
+    <TR>
+      <TD>5
+      <TD>禁用成分 Banned ingredient </TD>
+    <TR>
+      <TD>6
+      <TD>易碎部分 Delicate components </TD>
+    <TR>
+      <TD>7
+      <TD>公式矛盾 Formula contradiction </TD>
+    <TR>
+      <TD>8
+      <TD>危害污染 Infestation </TD>
+    <TR>
+      <TD>9
+      <TD>内在不稳定 Instability within </TD>
+    <TR>
+      <TD>10
+      <TD>突变 Mutation </TD>
+    <TR>
+      <TD>11
+      <TD>真名所需 Name dependence </TD>
+    <TR>
+      <TD>12
+      <TD>自然灾害 Natural disaster </TD>
+    <TR>
+      <TD>13
+      <TD>异界干扰 Otherworldly interference </TD>
+    <TR>
+      <TD>14
+      <TD>能量超载 Overwhelming energy </TD>
+    <TR>
+      <TD>15
+      <TD>位面会聚 Planar convergence </TD>
+    <TR>
+      <TD>16
+      <TD>魔法共鸣 Resonant magic&nbsp; </TD>
+    <TR>
+      <TD>17
+      <TD>灵魂磁石 Spirit magnet </TD>
+    <TR>
+      <TD>18
+      <TD>可疑的提议 Suspicious offer </TD>
+    <TR>
+      <TD>19
+      <TD>技术挑战 Technical challenge</TD>
+    <TR>
+      <TD>20
+      <TD>意想不到的缺陷 Unexpected flaw</TD></TR></TABLE></BLOCKQUOTE>
+<DIV class=quotefooter>
+<DIV class=botslice_quote></DIV></DIV><BR><STRONG>令人生厌的闯入者 Annoying 
+Interloper：</STRONG>无论是爱管闲事的亲戚，八卦的朋友，挑剔的安全检查员，还是任何其他类型的客人，工匠工房已经吸引到了一个令人讨厌的闯入者注意。工匠也不能随随便便就把它赶走。这种情况可能需要角色扮演，以及交涉（Diplomacy）、威吓（Intimidating）或其他技能，然后工匠才能回到工作中。<BR><STRONG>禁用成分 
+Banned 
+Ingredient：</STRONG>工匠意识到他们正在制作的物品需要一种在当地被禁止或被严格限制使用的成分。如果他们之前已经在制作了同样的物品没遇到任何问题，则这也许是一个新的禁令，或者他们必须重新补充他们的库存中的棘手成分——或者你可以重骰这个事件，并将其保存到他们制造新东西时。为了处理违禁成分，工匠可能不得不在黑市上进行非法交易，游说取消对该成分的禁令（特别是当禁令可疑或阻止公众制作治疗药水等重要物品时），游历到不存在限制的地方，或尝试设计替代品。<BR><STRONG>易碎部分 
+Delicate 
+Components：</STRONG>无论是组成这件物品的一个或多个部分的性质，还是工匠刚刚收到了一批脆弱的货物，工匠正在处理的部分令人难以置信的易碎。工匠可能需要使用贼活（Thievery 
+或找一个会的人）来处理易碎部分，或者找到一些方法来强化这部分或设备，以备以后使用。 <BR><STRONG>公式矛盾 Formula 
+Contradiction：</STRONG>工匠在公式薄（formula 
+book）中发现了一个问题。该公式包含两个（或多个）相互矛盾的指令，因此，他们必须暂停工作，试图找出矛盾之处。哪一个是正确的？都不对吗？它们是否都具有相应功能，而工匠则必须完善他们对过程的理解？这一事件可能涉及研究或危险实验。<BR><STRONG>危害污染 
+Infestation：</STRONG>某种害虫、孢子或其他有害物的污染威胁着制作工程，也许还有工匠工坊的其他部分。除了保护他们正在进行的项目不受感染之外，他们最终还需要找到感染源并阻止它们。这是巧合，还是有人用凡人或魔法的手段故意把它带到这里？<BR><STRONG>内在不稳定 
+Instability 
+Within：</STRONG>物品内部的魔法或机制变得越来越强大和不稳定，而工匠不确定原因。原因可能是一个简单的错误、工匠自身法术并不稳定、甚至只是一个意外。无论是哪种情况，工匠都必须调查不稳定的根源以修复，或者可能利用它。<BR><STRONG>突变 
+Mutation：</STRONG>物品发生了突变，而现在正在转变为一件截然不同的物品——甚至可能是一件比工匠通常可以制造的物品更高等级的物品，或者是罕见（uncommon）、稀有（rare）、智能物品（intelligent），或其他超出工匠正常创造能力的物品。选择这一事件时要非常小心；理想情况下，你作为游戏主持人希望变异的物品是一件你专门挑选的有趣物品，而不是随机物品，因为工匠大概率会选择制造他们所能想到的最好物品。尽管如此，工匠能找到一种方法来停止突变过程或者加快过程来看看物品变成什么！<BR><STRONG>真名所需 
+Name 
+Dependence：</STRONG>物品的进程会停滞，因为其中的法力让其需要获得一个真名——并且不能是任何工匠脑海出现的随机昵称！工匠必须认真考虑选择一个适合物品的真名，因为它将永远附着在其上。一旦选定，如果物品接受真名，制作过程方可继续。真名的选择可能还有其他含义；例如，如果物品具有命令激活（command 
+activation），则可能需要喊出物品的真名。<BR><STRONG>自然灾害 Natural 
+Disaster：</STRONG>一场巨大的自然灾害即将袭击工坊。无论是海啸、龙卷风、地震、火山爆发还是其他什么，它都意味着制作过程具有巨大风险，甚至可能危及工匠的生命。另一方面，这也可能是一个机会，去驾驭自然灾害的力量灌注于物品中！考虑让工匠尝试一次回忆知识（Recall 
+Knowledge）检定，以记住一些关于利用灾难特殊收益的公式（formulas），并为他们提供奖励（在物品上的额外进度，改进的物品或别的什么），以吸引他们留在这条险径上。<BR><STRONG>异界干扰 
+Otherworldly 
+Interference：</STRONG>无论是神祇、天族、魔族、观察者，还是其他外位面实体，格拉利昂满是这些来自其他世界的生物，数量惊人，他们试图播种灾祸，制造混乱，或为原住民提供帮助。工匠就是这样一个幸运或不幸的凡人，现在不得不处理这种异界干扰。即使这位异界生物试图提供帮助，但它也可能不太了解人类，无法有效地帮助人类。这可能会比一个试图破坏制作过程的实体制造更多的麻烦，因为一个工匠至少可以根除作恶者，并果断地阻止他们。<BR><STRONG>能量超载 
+Overwhelming 
+Energy：</STRONG>物品中含有太多魔法或机械能量。这可能是一件好事，因为它最终可以赋予道具更多的能量或提供额外的进度，但这也是非常危险的，因为能量可能会过载并导致物品爆炸，浪费工匠的初始投资（initial 
+investment）。他们必须小心地找出一种方法来使用能量（或至少无害地释放它）以保护物品。<BR><STRONG>位面会聚 Planar 
+Convergence：</STRONG>许多位面在特定点位存在与物质位面交叠的重合处。有时，这些交汇点会随着位面的移动与变换而漂移，导致位面会聚，位面之间的帷幕变得格外稀薄。对于这位不幸的（或者也许是幸运的）工匠，这样一个位面会聚经过他们的工坊。如果他们正在制作一件相关的物品，他们可能会利用这种会聚，但除此之外，他们需要将物品从会聚中隔离出来，或者收拾打包并前往足够远的地方以远离会聚点。从会聚点中提取能量可能甚至需要他们找到一个与相对位面会聚的位置。<BR><STRONG>魔法共鸣 
+Resonant 
+Magic：</STRONG>当多个法力源聚集在一起时，无论是好是坏，它们之间都会产生魔法共鸣。制作过程会被工坊中正在制作的物品与其他魔法物品或咒语之间的魔法共鸣打断。工匠可以尝试清除导致共鸣的魔法来源或将其安置别处，或者他们可以探索共鸣，试图解锁物品中的新力量，这种力量只在物品受到其他引起共鸣的物品或法术影响时才会出现；在这种情况下，考虑使用第200页的物品套装（item 
+sets）规则或者别的类似内容。<BR><STRONG>灵魂磁石 Spirit 
+Magnet：</STRONG>该物品成为了吸引小型无实体存在的磁石，要么是魂魄（spirit，由精魂要素形成的存在）要么是精命（vitae，由自然生命力形成的存在，有时被称为“自然精魂 
+spirits of 
+nature”）。这未必是件坏事，但肯定会让人分心，因为魂魄会干扰工作，最终可能会占据或与物品融为一体。工匠需要找到一种与魂魄沟通的方法，警告他们离开，或者与他们合作，使物品成为更佳的灵魂导体。在最坏的情况下，则可能会破坏物品的创造，但在最好的情况下，魂魄可以赋予物品特殊的力量或智能。<BR><STRONG>可疑的提议 
+Suspicious 
+Offer：</STRONG>一个可疑的家伙向工匠提供特殊的原料或技术，声称其可以缩短物品的制作过程，同时在必要材料上提供大量折扣。但是这份工作的某些方面——不，也许是一切——都似乎好得令人难以置信。工匠可能会直接拒绝或接受这个提议，但他们也可能会试图通过理解人物的动机或进行测试来确定此人请求的真相。不管怎样，如果工匠决定接受神秘人物的提议，你可以决定它可能会产生什么样的效果。谁知道呢？也许就是天降馅饼。<BR><STRONG>技术挑战 
+Technical 
+Challenge：</STRONG>在物品制作的过程中出现了不同寻常的作用将带来重大的技术挑战。工匠将不得不停下手，并在继续工作前决定如何处理。解决这个问题可能有几种潜在的方法，每种方法都有不同的优点或缺点。<BR><STRONG>意想不到的缺陷 
+Unexpected 
+Flaw：</STRONG>物品内部的某些东西无法正常工作，工匠需要首先找出问题所在和原因。是不是有些部件有问题？有人动过东西吗？是工匠犯了一个小错误导致了连锁反应吗？一旦他们找到了缺陷，并想出了如何在未来防止错误，他们就需要确定最合适的方法来修复它，并使物品运作重回正常。<BR><BR><STRONG><SPAN 
+class=bbc_size style="FONT-SIZE: 16pt"><SPAN class=bbc_color 
+style="COLOR: blue">制作关键 Critical 
+Crafting</SPAN></SPAN></STRONG><BR><BR>制作活动的大成功和大失败效果是安全、合理的，在玩家想要制作的任何时候都适用：在大成功的情况下，他们每天手艺技能可以获得更多的钱，而在大失败的情况下，他们会破坏10%的物品原材料。然而，这些金钱奖励和惩罚并不是手艺关键时刻的唯一可能结果。在这种情况下，你会偶尔考虑针对特定的情况提供自定义的大成功奖励和大失败惩罚。然而，你不会想要经常这样做，特别是当一个高等级工匠制造大量低级物品时，他会经常获得大成功。如果制作是你游戏的重要组成部分，你可以考虑将特殊效果仅限于自然 
+20 和自然1 
+上，而且只有在制作特殊物品时才可以使用。<BR>通常情况下，特殊的大成功或大失败效果将是独特的，并且适合于战役中的特定情况。例如，如果一位玩家为一名着迷于英雄先祖的高傲统治者制作一把长剑，也许在一次大成功中，这件物品会召唤出先祖的灵魂，他会在认可长剑的同时严肃地点点头。在一次大失败中，玩家完成了长剑，但意外地刻上了一枚谋杀先祖的叛国贵族的家族纹章，这会激怒君主。正如你从这个例子中所看到的，有时在失败的情况下，大失败效果会倾向于依旧成功创造物品的可能，但它的完成会产生一个必须解决的严重问题。在使用这一系统时，你可以考虑对制作物品（Craft 
+an 
+item）进行秘密检定，以防止玩家的知识影响他们的决定。<BR>虽然通常最好是创造独属自己的大成功或大失败效果，但以下是一些可以在各种情况下使用的可能性示例：<BR><BR><STRONG>大成功 
+CRITICAL SUCCESS</STRONG><BR>
+<UL class=bbc_list>
+  <LI>工匠那夺目的成功和激情将他们自身的某些部分注入到了物品中，使其成为智能物品（intelligent item）。
+  <LI>如果工匠正在制作一个最高等级的物品，他们可以支付更多的钱来制作一件通常无法制造的高于他们等级的物品。例如，当试图制作一根火球术魔杖（wand of 
+  fireball，一件7级物品）时，7级的法师可能能够制作一根4环火球术魔杖（一件9级物品）。
+  <LI>该物品相比于其他同类物品，具有一项小型增益特殊能力。这可以由你选择，但通常是每天一次（daily 
+  frequency）的小型激活能力。此项增益应该比一个怪癖要略好（quirk 因为怪癖是中性的）。
+  <LI>该物品制作精良，几乎无法被破坏，其硬度翻倍或总生命值大幅提高。该物品也可以抵御污垢、暗淡、或其他外形变化。
+  <LI>该物品制作精美，当作为检定的一部分进行出示或是使用时，它会给予交涉（Diplomacy）和威吓（Intimidation）检定加值。或者，它仅仅只是一件艺术品，而比普通物品更值钱。
+  <LI>该物品制作华丽，在战斗中使用时可以吸引对手的注意力，在将其作为检定的一部分进行虚招（Feint）或分神（Create a 
+  Diversion）检定时给予加值。
+  <LI>工匠与物品、其力量、其潜力达到物我合一的状态，将其转变成一件圣物（relic）。除了物品基础能力，随着时间的推移（见游戏主持人指南第94页）工匠可以指定其在成长中获得了其他能力（other 
+  abilities）。</LI></UL><BR><STRONG>大失败 CRITICAL 
+FAILURE<STRONG><BR></STRONG></STRONG>
+<UL class=bbc_list>
+  <LI>工匠制作出物品，但是物品被暗中诅咒了（secretly cursed）。
+  <LI>工匠制作出物品，但是物品永久吸食了工匠的部分生命力，并且抵挡破坏它的企图，永久降低工匠的生命值（Hit 
+  Points），知道工匠们完成了一次彻底摧毁物品的任务。
+  <LI>制作过程中发生爆炸，或者让工匠受到某种长期效果的显著伤害，而移除效果需要一些有趣互动。在休整期中受到生命值伤害并无大碍，因为在冒险前将其恢复通常微不足道。
+  <LI>制作过程中存在一些缺陷，引来了一位恶意满满的智能（malevolent 
+  intelligence），它完成了物品并寄宿其中。物品智能与工匠对立并且总是在尝试秘密地阻挠他们。
+  <LI>物品看起来完全正常并功能健全，但是当有人试图用它达成预期目的时，它就失效了（it 
+  fails）。例如，护甲脱落、武器可能破损，或者魔杖可能仅发射出刺鼻的烧焦味而不是预期的法术。
+  <LI>物品因自身的缺陷而被诅咒，并在其后手艺检定（Crafting check）中具有罚值，直到一次大成功或施放移除诅咒（remove 
+  curse）来终止效果。
+  <LI>制作过程有些不足导致污染了附近的环境。这可能意味着工坊需要额外清洁才能再次被使用，或者其可能更加糟糕，污染了当地的水源并导致生活在附近的人染上了严重的疾病。</LI></UL><BR><STRONG><SPAN 
+class=bbc_size style="FONT-SIZE: 16pt"><SPAN class=bbc_color 
+style="COLOR: blue">改装魔法物品 Converting Magic 
+Items</SPAN></SPAN></STRONG><BR><BR>许多较高等级角色找到的魔法物品可能从未被看到使用，它们注定呆在背包的底部，被遗忘，被弃置。其他魔法物品很快就被卖出作为资金以购买更加合适的物品。 
+还有一些魔法物品却如此不可救药的邪恶，以至于贩卖它们都是有违良心的举动，所以这些物品最终只能被摧毁掉。所有这些情况都使得GM难以正确计算并均衡团队财富，这会导致遭遇失衡以及其他问题。<BR>对于那些玩家们不打算使用的魔法物品时，这一变体规则允许玩家们拆解物品（break 
+an item 
+down）并回收一些部分用于其他物品的制作来让问题简化。<BR>当拆解物品时，你可以选择如何进行这一过程。你可以立刻使用这些组件（components）来制作与你拆解的物品具有相似主题（similar 
+theme）的物品，或者你可以将组件留下用于以后的任一物品制作。如果你制作了相似物品，例如拆解了一把魔法武器（magic 
+weapon）以制作一把不同但同类型（similar 
+type）的魔法武器，你可以收集到更多的组件与残余法力用于新的物品，这会给予你比只是简单收集物品最好部分要更多的回报。<BR>GM 
+来决定新物品是否足够相似来获取这种增益，但是新物品必须在能力或通用主题（general theme）上具有相似性。例如，拆解一件蝙蝠披风（cloak of 
+bat）来制作风之靴（winged boots）当然符合要求，拆解攀爬戒指（ring of climbing）来制作蛛行便鞋（spider 
+climb）也是如此。具有相似通用类型（general type）的物品可能符合要求，但是只有当他们的能力在主题上相似。<BR>通用组件（Generic 
+components）可以留到以后使用，但它们不能与另一件物品解构获得的其他组件组合。如果在制作一件新物品后有额外价值（excess 
+value）剩余，那么额外价值便会丧失，因为余下的部分仅仅只是残存的碎屑，最好的部分会被用于新的造物。被解构的物品与原物品的负载（Bulk）相同。GM 
+可能会想要为被拆解的物品设置一个保质期（expiration 
+date），以防止它们堆积在角色库存中，但除非玩家一直在拆解物品，否则这应该不是问题。<BR><BR><SPAN class=bbc_size 
+style="FONT-SIZE: 10pt"><STRONG>拆解 DECONSTRUCT </STRONG></SPAN><BR>
+<HR>
+<STRONG><SPAN class=bbc_color style="COLOR: blue">稀有</SPAN> <SPAN 
+class=bbc_color 
+style="COLOR: brown">休整期（downtime）</SPAN></STRONG><BR>你拆解一件物品，将其作为改装成新物品的基础。你需要制作炼金物品（Alchemical 
+Crafting）技能专长以拆解炼金物品，以及需要制作魔导具（Magical 
+Crafting）技能专长来拆解魔法物品。<BR>为了拆解一件物品，你必须满足以下需求。<BR>
+<UL class=bbc_list>
+  <LI>物品等级与你相同或更低。未列出等级的物品其等级为 0。如果物品为 9 级甚至更高，你必须在手艺技能上具有大师熟练度（master in 
+  Crafting），并且如果其等级为 16 级甚至更高，你必须具有传奇熟练度。
+  <LI>物品不能是一件诅咒物品、神器（cursed item、artifact），或是其他同样难以被摧毁的物品。物品不能是消耗品（consumable 
+  item）。
+  <LI>物品列出了价格（Price）。
+  <LI>你必须具有一套适合的工具（appropriate set of 
+  tools），并且在大多数时候，需要一间工坊（workshop）。例如，你需要一间铁匠铺来拆解一面金属盾牌或者炼金实验室（alchemist's 
+  lab）来分离炼金物品。</LI></UL><BR>在这一过程开始时，你必须决定是否使用被拆解的物品来制作一件新的相似物品，或者你单纯将其拆解以获取可以用作未来任意物品的原材料。在任何一种情况下，这项行动都需要花费1天来进行，但是如果你用物品来制作一件新的相似物品，这一天可以被算入新物品的制作天数之中。<BR>在行动结束时，你必须尝试一次手艺检定（Crafting）。GM 
+基于你尝试拆解的物品的等级、稀有度和其他环境条件来设定这次检定的 DC，<BR>
+<UL class=bbc_list>
+  <LI><STRONG>大成功</STRONG> 如果你要拆解物品以制作一件新的类似物品，你可以将拆解物品的 80% 花费（80% of the 
+  cost）用于新物品上。如果你只是为了获取原材料而拆解物品，你可以将拆解物品的 55% 
+  花费用于一件新物品上。在任何一种情况下，如果这超过了新物品的花费，剩余部分则会丧失。
+  <LI><STRONG>成功</STRONG> 如同大成功，但你只能将被拆解物品的 75% 花费应用到新的相似物品上，将被拆解物品的 50% 
+  花费应用到任何一件物品上。
+  <LI><STRONG>失败</STRONG> 你没能拆解物品，这浪费了你的时间。你可以再次尝试。
+  <LI><STRONG>大失败</STRONG> 你拆解物品失败了，并在此过程中损坏了它。你必须在再次尝试前修复它（repair 
+  it），或者你可以再次尝试拆解它，但会损失 5% 的物品价值。</LI></UL><BR>
+<DIV class=quoteheader>
+<DIV class=topslice_quote>&nbsp;</DIV></DIV>
+<BLOCKQUOTE class=bbc_standard_quote><STRONG>创造新的未来 CRAFTING A NEW FUTURE 
+  </STRONG><BR>在这里为老板工作真是太好了。真的，就是这样。她确保我们得到照顾，为我们提供在格拉利昂其他地方做能找到的最好教育，并保护我们免受冒险者和怪物的伤害。但即便如此，我有时也在想，我们是否真的能永远待在这里。如果不出意外的话，最终会有更多的狗头人舒舒服服地生活在宝库里，但老板的工作并未确保我们都有事情可做。我想，也许有一天，当有了新的管家，老板不再需要我的帮助时，我可能会制造自己的飞艇，并在里面装满专门为狗头人设计的武器和装甲。我会给每个想要的人一个机会去找一个新的地方住，一个属于我们的地方，在那里我们可以利用老板教我们的一切来打造我们自己的未来，一个不属于任何人只属于我们自己的地方。—— 
+  阿纯</BLOCKQUOTE></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,372 @@
+body{
+	background-color:#F4F2EE;
+	font-size:16px;
+	font-family:微软雅黑,楷体_GB2312,tahoma,sans_serif;
+	line-height:1.5;
+}
+
+h1{
+  color: #5E0000;
+  font-size: 32px;
+  font-style: normal;
+}
+
+h2{
+  color: #002664;
+  font-size: 25px;
+}
+
+h3{                                     
+  color: #5E0000;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+h4{
+  color: #A86753;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+ul,ol,li{
+  margin-top:0;
+  margin-bottom:0;
+  padding-bottom:0;
+  padding-top:0;
+}
+
+.apg{
+  font-size:18px;
+  font-weight:bold;
+  color:#B22222;
+}
+.som{
+  font-size:18px;
+  font-weight:bold;
+  color:#4F607A;
+}
+.apgcolor{
+  color:#B22222;
+}
+
+div span.rarity{
+  display: inline-block;
+  background-color: #98513D;
+  font-weight:bold;
+  color: #FFFFFF;
+  border: 2px solid #D9C484;
+  padding: 0 5px;
+  margin: 2px 0;
+}
+
+.check{
+  background-color: #eae4d8;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-top: #c99a89 1px solid;
+  border-bottom: #c99a89 1px solid;
+  text-align: center;
+}
+
+.info{
+  color: #5E0000;
+  font-style: italic;
+}
+
+.sidebar,.infoSidebar{
+  background-color:#CCC0AA;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar h1{
+  color: #000000;
+  font-size: 22px;
+}
+
+.sidebar h2{
+  color: #000000;
+  font-size: 20px;
+}
+
+.sidebar h3{
+  color: #000000;
+  font-size: 18px;
+}
+
+.infoSidebar{
+  color:#5E0000;
+}
+
+.infoSidebar h1{
+  font-size: 22px;
+}
+
+.infoSidebar h2{
+  color:#5E0000;
+  font-size: 20px;
+}
+
+table caption{
+  text-align:left;
+  font-size: 22px;
+  color:#000000;
+}
+
+table.regular{
+  width:400px;
+  margin:10px 0 10px 0;
+  border:1px solid grey;
+  border-collapse:collapse;
+}
+
+table.regular img{
+  vertical-align:middle;
+  height:24px;
+}
+
+table.regular tr{
+  background-color:expression((this.rowIndex%2==0)?"#F5EFE0":"#EDE3C8");
+}
+
+table.regular tr.note{
+  background-color:#E6D8B0;
+}
+
+table.regular th{
+  color:#ffffff;
+  background-color:#5E0000;
+}
+
+table.regular .whiteBg{
+  background-color:#ffffff;
+}
+
+table.regular td{
+  text-align:center;
+}
+
+table.regular .left{
+  text-align:left;
+}
+
+table.regular .right{
+  text-align:right;
+}
+
+table.alignment{
+  width:500px;
+  margin:10px 0 10px 0;
+  border:1px solid black;
+  border-collapse:collapse;
+}
+
+table.alignment th{
+  color:#D9C484;
+  background-color:#5E0000;
+  border: 1px solid black;
+}
+
+table.alignment td{
+  text-align:center;
+  color:#5E0000;
+  background-color:#EDE3C8;
+  border: 1px solid black;
+}
+
+.ancestry{
+  color:#5E0000;
+  background-color:#FAE7C0;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+}
+
+.ancestry dt{
+  font-weight:bold;
+}
+
+.ancestry dd{
+  margin-bottom:5px;
+}
+
+.class{
+  color:#FFFFFF;
+  background-color:#5E0000;
+  height: 160px;
+  padding: 10px 0;
+}
+
+.class div{
+  float:left;
+  width:45%;
+  height:98%;
+  padding: 0 20px;
+}
+
+.class .KeyAbility{
+  border-right:1px solid #B29E74;
+}
+
+.class h1{
+  color:#FFFFFF;
+  font-size:22px;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.class h2{
+  color:#FFFFFF;
+  font-size:20px;
+  padding: 0;
+  margin: 0;
+}
+
+.initialProficiencies{
+  color:#5E0000;
+  background-color:#FAE7C0;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  clear: both;
+}
+
+.initialProficiencies dl dt{
+  font-size:22px;
+}
+
+.initialProficiencies dl dl dt{
+  font-size:16px;
+}
+
+.initialProficiencies dl dd{
+  margin:0;
+}
+
+.initialProficiencies dl dl dd{
+  margin:0 40px;
+}
+
+.initialProficiencies dt{
+  font-weight:bold;
+}
+
+.initialProficiencies dd{
+  margin-bottom:5px;
+}
+
+
+.featLevel{
+  color: #ede3c8;
+  background-color: #002664;
+  font-size: 25px;
+  font-weight:bold;
+  width:650px;
+  padding: 5px 10px;
+  margin:20px 0;
+}
+
+.statBlock{
+  width:650px;
+  border-top:1px solid grey;
+  border-left:1px solid grey;
+  border-right:1px solid grey;
+  margin: 10px 0;
+}
+
+.statBlock b{
+  padding-right:5px;
+}
+
+.statBlock img{
+  vertical-align:middle;
+  height:24px;
+}
+
+.statBlock .title{
+  width:100%;
+  background:#fd9843;
+  color:#000000;
+  font-weight:bold;
+  font-size: 20px;
+  padding:0 10px;
+}
+
+.statBlock .title span.name{
+  float:left;
+  padding: 2px 0;
+}
+
+.statBlock .title span.level{
+  float:right;
+  padding: 2px 0;
+}
+
+.statBlock .trait{
+  clear:both;
+  font-weight:bold;
+  padding-left:10px;
+}
+
+.statBlock .trait span{
+  display: inline-block;
+  background-color: #5E0000;
+  color: #FFFFFF;
+  border: 2px solid #D9C484;
+  padding: 0 5px;
+  margin: 2px 0;
+}
+
+.statBlock .trait span.rarity{
+  background-color: #98513D;
+}
+
+.statBlock .trait span.rarityR{
+  background-color: #002664;
+}
+
+.statBlock .trait span.rarityU{
+  background-color: #54166D;
+}
+
+.statBlock .trait span.alignment{
+  background-color: #576293;
+}
+
+.statBlock .trait span.size{
+  background-color: #3B7B59;
+}
+
+.statBlock .details{
+  border-bottom:1px solid grey;
+  border-collapse:collapse;
+  width:100%;
+}
+
+.statBlock .details th{
+  text-align:left;
+  text-indent:10px;
+  width: 20%;
+  vertical-align:top;
+}
+
+.statBlock .details td{
+  text-align:left;
+  width: 80%;
+  vertical-align:top;
+}
+
+.statBlock .description{
+  padding-top:0;
+  padding-bottom:0;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
+  border-bottom:1px solid grey;
+}

@@ -1,0 +1,499 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0014)about:internet -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>手持物品</title>
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<META name=robots content=index><LINK rel=stylesheet type=text/css 
+href="Materials/4E.css">
+<META name=GENERATOR content="MSHTML 11.00.10570.1001">
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+
+
+
+<style>
+html,div { margin: 0; padding: 0;}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 100%;
+}
+
+#winchm_template_button{
+	float: right;
+	width: 93px;
+	top: 7px;
+	position: relative;
+	text-align: right;
+	right: 5px;
+	height: auto;
+}
+
+#winchm_template_top{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #9B9B9B;
+	background-color: #B1CEFE;
+}
+
+#winchm_template_navigation{
+	margin: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 0px;
+	font-size: 8.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #585858;
+}
+
+#winchm_template_title{
+	margin: 0px;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	font-size: 18px; 
+	font-family: Verdana, Geneva, sans-serif;
+	color: #363636;
+}
+
+#winchm_template_content{
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	width: auto  !important;
+	width: 100%;
+}
+
+#winchm_template_footer{
+	border-width: 1px;
+	border-color: #B1CEFE;
+	border-top-style: solid;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	padding-top: 7px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #696969;
+	width: auto;
+	text-align: left;
+}
+
+
+#winchm_template_container{
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	padding-bottom: 3px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+
+#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
+#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
+#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
+#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
+
+A:link	{text-decoration: underline; color:#0033CC}
+A:visited  {text-decoration: underline; color: #0033CC}
+A:active {text-decoration: underline; color: #0033CC }
+A:hover {text-decoration: underline;color: #FF0000;}
+</style>
+<script type="text/javascript">
+function isMobile(){
+Agent = window.navigator.userAgent;
+if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
+return true;
+}else{
+return false;	
+}
+
+}
+function d_onresize(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
+document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
+}
+document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
+}
+
+function d_onbeforeprint(){
+if (window.navigator.userAgent.indexOf("MSIE")>=1){
+document.getElementById('winchm_template_container').style.height = 'auto';
+}
+}
+
+function d_onafterprint(){
+d_onresize();
+}
+
+if(!isMobile()){
+
+window.onload = d_onresize;
+window.onresize = d_onresize;
+window.onbeforeprint = d_onbeforeprint;
+window.onafterprint = d_onafterprint;
+
+document.write("<style>\n");
+document.write("body {overflow: hidden;}\n");
+document.write("#winchm_template_container {position: absolute;overflow: auto;top : 0px;right: 0px;bottom: 0px;left: 0px;}\n");
+document.write("</style>\n");
+}
+
+</script>
+<style>
+@media print
+{
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+	height: auto;
+}
+#winchm_template_container{
+	position: static;	
+	margin: 0px;
+	padding: 5px;
+	
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+#winchm_template_button{
+visibility:hidden;
+}
+}
+</style>
+</head>
+<body><script language="JavaScript" type="text/JavaScript">
+function syn(){
+if(parent.nav.tree){
+ if(parent.nav.tree.loaded){
+  parent.nav.tree.selectNode(416);
+ }else{
+  setTimeout("syn()",500);
+}
+  }else{
+  setTimeout("syn()",500);
+  }}
+if(parent!=self){
+  setTimeout("syn()",100);
+}else{
+  parent.location.href = "../../index.htm?page=基本/page_340.html";
+}
+originalOnload = window.onload;
+if(originalOnload==null){
+window.onload = function(){parent.contentLoaded = true;};
+}else{
+window.onload = function(){originalOnload();parent.contentLoaded = true;};
+}
+</script> 
+
+
+<div id="winchm_template_top">
+	<div id="winchm_template_button"><A href="page_345.html" title="Previous topic"><img id="winchm_template_prev" alt="Previous topic" src="../template2/btn_prev_n.gif" border="0"></a><A href="page_343.html" title="Next topic"><img id="winchm_template_next" alt="Next topic" src="../template2/btn_next_n.gif" border="0"></a></div>
+	<div id="winchm_template_navigation">Help &gt; 
+<A href="page_236.html">进阶玩家指南</A> &gt; <A href="page_242.html">第六章：物品</A> &gt; 永久魔法物品和符文 &gt; </div>
+	<div id="winchm_template_title">手持物品</div>
+</div>
+<div id="winchm_template_container">
+	<div id="winchm_template_content"><div id="winchm_template_container">
+	<div id="winchm_template_content"><DIV class=statBlock><DIV class=title><SPAN class=name>观土魔盒 Earthsight Box</SPAN><SPAN 
+class=level>物品9</SPAN></DIV>
+<DIV class=trait><SPAN 
+class=rarity>罕见</SPAN><SPAN>预言系</SPAN><SPAN>魔法</SPAN><SPAN>探知</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>575gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手；<B>负载</B>L</TD></TR></TBODY></TABLE>
+<DIV class=description>这件做工精细的盒子镶嵌着矮人符文，有着铸铁制成的合叶和把手。魔盒内存放着一些细沙。 
+<BR><B>启动：</B>1分钟（想象，交互）；<B>频率：</B>每天1次；<B>效果：</B>你捧着合上的魔盒，想象着周围的土地，并将魔盒顺时针旋转三次，然后摇晃三次。当你打开魔盒，细沙会复刻你周围的60尺范围内的岩石地貌。这能展现路径、丘陵、堤岸、石砾的细节；甚至也能展现人造结构，例如城墙、沟渠和隧道，只要这些结构是由岩石和沙土制成的。 
+<BR>　　如果你在地底，它能揭示你当前深度60尺范围内的隧道和空间。沙子会维持复刻的形状，直到你闭上魔盒。 </DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>可预见的银币 Predictable Silver Piece</SPAN><SPAN 
+class=level>物品1</SPAN></DIV>
+<DIV class=trait><SPAN>预言系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>3gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手；<B>负载</B>-</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这枚古旧的银币十分普通，一面刻有不知名的帝王像，另一面则是威严的鸟类头像。你可以不启动而抛起银币，此时银币会按照正常的概率落下。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+交互；<B>效果：</B>你用大拇指摩擦了一下银币的其中一面，期望能略微的改变银币的命运，接着将银币抛向空中。无论银币如何落下――落到地上、落到手背上、用手掌抓住――它落下后的上面永远是你摩擦的那一面。 
+</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>抹消权杖 Rod of Cancellation</SPAN><SPAN 
+class=level>物品20</SPAN></DIV>
+<DIV class=trait><SPAN 
+class=rarityR>稀有</SPAN><SPAN>防护系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>75,000gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手；<B>负载</B>1</TD></TR></TBODY></TABLE>
+<DIV class=description>这根强大的魔法权杖是所有魔法的死敌。 <BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+交互；<B>效果：</B>你用权杖接触一个魔法效果或一个魔法物品，并尝试反制这个效果或物品。无论结果如何，抹消权杖不能在2d6小时内再次启动。如果反制成功，该效果或物品在同样的时长内无效化；如果该效果或物品存在持续时间，在无效化的时间内持续时间仍继续流逝。反制成功时，你也可以选择彻底消耗抹消权杖的魔力以完全消除目标效果或物品的魔力。如果你这么做了，两者都完全变得非魔法，而且被消耗的魔力无法复原，即使通过<I>回天再造Remake 
+</I>法术。 <BR>　　抹消权杖在反制大多数神器和同等强大的物品时都会自动失败，但在反制<I>毁灭黑洞Sphere of Annihilation 
+</I>（见GMG）的时候不需要反制检定，且反应非常剧烈。 </DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>攀爬绳 Rope of Climbing</SPAN><SPAN 
+class=level>物品3+</SPAN></DIV>
+<DIV class=trait><SPAN>魔法</SPAN><SPAN>变化系</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手；<B>负载</B>L</TD></TR></TBODY></TABLE>
+<DIV class=description>这根丝绳长50尺，能够承载3,000磅的重量。如果绳子被切断，只有较长的那部分还能维持魔力。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+交互；<B>频率：</B>每天1次；<B>效果：</B>你握着绳子的一端并指定一个目的地。绳子会在1分钟内活化，每轮移动10尺直到它到达目的地或长度耗尽。绳子可以穿过任何不造成伤害的水平表面或垂直表面，但无法在没有支撑表面的情况下竖直上升。在绳子活化期间的任意时点，你可以使用一个交互动作来扭动绳子，给它下达以下命令：停在原地、稳固地系在最近可用的物体上、从一个物体上解开、或自行打结或解开绳结。</DIV>
+<DIV class=description><B>类型：</B>次等攀爬绳；<B>等级：</B>3；<B><B>价格：</B></B>45gp</DIV>
+<DIV class=description><B>类型：</B>中等攀爬绳；<B>等级：</B>5；<B><B>价格：</B></B>125gp 
+<BR>你可以每小时一次启动攀爬绳。</DIV>
+<DIV class=description><B>类型：</B>高等攀爬绳；<B>等级：</B>7；<B><B>价格：</B></B>300gp 
+<BR>启动攀爬绳没有频率限制。 </DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>远信石板 Slates of Distant Letters</SPAN><SPAN 
+class=level>物品13</SPAN></DIV>
+<DIV class=trait><SPAN>预言系</SPAN><SPAN>魔法</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>2,450gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，2只手；<B>负载</B>L</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这对互相配对的石板，大概有手掌大小，有着完全一样的华丽框架。石板是成对制造的，且都只能和配对的石板相互作用。如果其中一块石板破损了，另一块则会变成无魔法的碎片。上面列出的价格是配对的两块石板的总价。 
+<BR><B>启动：</B><IMG src="Materials/TwoActions.png"> 
+交互；<B>频率：</B>每小时1次；<B>效果：</B>你用一根粉笔在石板上写下25个词语。在书写的时候，你写下的内容也会显现在配对的另一块石板上，无论两者相距多远，只要两者处于同一个位面。擦除一块石板的内容的同时另一块上的也会被擦除。每块石板都能每小时启动一次。 
+</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>骨灰魔瓮 Urn of Ashes</SPAN><SPAN 
+class=level>物品9</SPAN></DIV>
+<DIV class=trait><SPAN>魔法</SPAN><SPAN>死灵系</SPAN><SPAN>负能量</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>700gp</TD></TR>
+  <TR>
+    <TH>用法</TH>
+    <TD>持握，1只手；<B>负载</B>-</TD></TR></TBODY></TABLE>
+<DIV class=description>这个密封锡罐保存了一个乐善好施的先祖的骨灰，一个银色的在现世流连的灵魂努力保护着你。 
+<BR><B>启动：</B><IMG src="Materials/Reaction.png"> 
+想象；<B>触发：</B>你即将陷入毁灭状态，或你的毁灭状态数值即将增加；<B>要求：</B>骨灰没有陷入毁灭状态；<B>效果：</B>瓮中的骨灰介入，代替你获得了毁灭状态，因此你不会陷入毁灭，或者你的毁灭数值不会上升。每当你获得了一整晚的休息，你可以选择减少你自己的毁灭状态或骨灰的毁灭状态，二者只能选一。 
+<BR><B>启动：</B><IMG src="Materials/OneAction.png"> 
+想象，交互（攻击）；<B>频率：</B>每轮1次；<B>效果：</B>灰对30尺内的一个敌人射出一束负能量。进行一次对抗目标AC的法术攻击骰，使用+15或你自己的法术攻击骰调整值，两者取高。成功时，造成4d4点负能量伤害（重击时翻倍）。 
+</DIV></DIV>
+<DIV class=statBlock>
+<DIV class=title><SPAN class=name>步行坩埚 Walking Cauldron</SPAN><SPAN 
+class=level>物品1</SPAN></DIV>
+<DIV class=trait><SPAN>绑定</SPAN><SPAN>魔法</SPAN><SPAN>变化系</SPAN></DIV>
+<TABLE class=details>
+  <TBODY>
+  <TR>
+    <TH>价格</TH>
+    <TD>12gp</TD></TR>
+  <TR>
+    <TH>负载</TH>
+    <TD>4</TD></TR></TBODY></TABLE>
+<DIV 
+class=description>这口铁锅通过两只牢固的乌鸦铁爪站立。步行坩埚的陆地速度是25尺，可以作为制作毒素、油或其他液体的合适工具。使用一个具有听觉和专注特征的动作，你可以命令坩埚跟着你或停在原地。坩埚跟着你时，它会尽力保持在你的30尺范围内，但它笨拙的步伐让你无法在战斗中预知它的移动方向，也无法进行有精准地点和时间要求的移动。在跟随着你的同时，锅内可以携带最大2负载的材料用来制作毒素或其他液体，但如果超载，或你放入了任何其他东西，它会停在原地拒绝移动，直到你将多余的东西拿出来的10分钟后。</DIV></DIV></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div></div></div>	
+	<div id="winchm_template_footer">Copyright &copy; 2019. All rights 
+reserved. (To change the copyright info, just edit it in template.)</div>
+</div>
+
+</body></HTML>
